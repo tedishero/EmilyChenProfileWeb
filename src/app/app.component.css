@@ -1,0 +1,8 @@
+.app-side-nav-container {
+    background-color:#F9F9F9
+}
+
+.app-side-nav-container-mobile {
+    background-color:#F9F9F9;
+    min-height: 736px;
+}

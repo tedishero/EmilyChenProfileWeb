@@ -1,0 +1,7 @@
+<div class="navigation" >
+  <span id="autopagination_wrapper">
+      <div *ngFor="let navItem of navigationItems">
+        <a (click)="filter(navItem.filter)" [ngClass]="{'filter-active': isActive(navItem.filter)}">{{navItem.name}}</a>
+      </div>
+    </span>
+</div>

@@ -1,0 +1,30 @@
+<div class="header" *ngIf="!media.isActive('xs')">
+  <div fxLayout="row" class="toolbar-container">
+    <span fxFlex="8"></span>
+    <div fxFlex>
+      <a [routerLink]="['/projects']" class="toolbar-header-logo">
+        <img src="assets/index_name.png"/>
+      </a>
+    </div>
+    <span fxFlex="8"></span>
+  </div>
+
+  <!--TODO: email is going to go to the [contact] page -->
+  <!--<div fxLayout="row" class="toolbar-container" style="margin-top: -5px">
+    <span fxFlex="8"></span>
+    <div fxFlex>
+      <address class="toolbar-text toolbar-email">
+        <a href="mailto:chen.emily8339@gmail.com">chen.emily8339@gmail.com</a>
+      </address>
+    </div>
+    <span fxFlex="8"></span>
+  </div>-->
+</div>
+
+<md-toolbar class="header" *ngIf="media.isActive('xs')">
+  <button md-button (click)="toggleMenu()"><md-icon>dehaze</md-icon></button>
+  <span style="flex: 1 1 auto;"></span>
+  <a class="toolbar-header-logo-mb" [routerLink]="['/projects']">
+    <img src="assets/index_name.png"/>
+  </a>
+</md-toolbar>

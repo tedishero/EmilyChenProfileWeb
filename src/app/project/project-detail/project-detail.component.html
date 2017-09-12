@@ -1,0 +1,30 @@
+<div fxLayout="row" [ngClass]="{'projects-detail-container': !media.isActive('xs'), 'projects-detail-container-mobile': media.isActive('xs')}">
+  <div fxFlex fxLayout="column" style="margin-top: 15px">
+    <div fxLayout="column">
+      <div class="project-detail-content" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"><b>{{project.chineseName}}</b></div>
+      <div class="project-detail-content project-detail-width" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"><b>{{project.englishName}}</b></div>
+    </div>
+    <div fxLayout="column" class="project-detail-sub-text" style="margin-top:15px; margin-bottom:55px">
+
+     <div class="project-detail-content project-detail-width"
+        *ngFor="let description of project.descriptions"
+        [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}">
+        {{description}}
+      </div>
+
+      <a class="project-detail-content project-detail-width" target="_blank"
+        *ngIf="project.link" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}" [href]='project.link'>Official Website</a>
+
+    </div>
+    <div fxLayout="column">
+      <!--<div  class="project-detail-content">-->
+        <img *ngFor="let projectDetail of project.projectDetails;let i = index;"
+          class="project-detail-content"
+          [defaultImage]="compressedDetailImage(i+1)" [lazyLoad]="detailImage(i+1)" (click)="openImagePopUp(i)" [offset]="100"
+          [attr.id]="'project-detail-img-' + i" (load)="load(i)" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"/>
+      <!--</div>-->
+    <div>
+
+  </div>
+  <span fxFlex="8"></span>
+</div>

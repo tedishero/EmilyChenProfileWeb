@@ -1,0 +1,11 @@
+<div class="projects-container" fxLayout="row" >
+  <span fxFlex="8"></span>
+  <div fxFlex >
+    <ul class="flex-container wrap">
+      <li *ngFor="let project of projects; let i = index;" [ngClass]="{'flex-item': !media.isActive('xs')}">
+        <app-thumbnail [project]="project" [showTitle]="!media.isActive('xs')"></app-thumbnail>
+      </li>
+    </ul>
+  </div>
+  <span fxFlex="8"></span>
+</div>

@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 .thumb {
     cursor: pointer;
     width: 240px;

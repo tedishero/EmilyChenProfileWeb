@@ -2,7 +2,6 @@ import { Component, OnInit, AfterViewChecked } from '@angular/core';
 import { ProjectLite, Categories, ProjectService, ProjectFilterService } from '../index';
 import { ObservableMedia } from '@angular/flex-layout';
 import { ActivatedRoute } from '@angular/router';
-import { AppInsightsService } from '@markpieszak/ng-application-insights';
 
 @Component({
   selector: 'app-gallery',
@@ -17,11 +16,9 @@ export class ProjectListComponent implements OnInit, AfterViewChecked {
 
   constructor(
     public media: ObservableMedia,
-    private appInsightsService: AppInsightsService,
     private projectService: ProjectService,
     private projectFilterService: ProjectFilterService,
     private route: ActivatedRoute) {
-      this.appInsightsService.trackPageView(this.pageName);
   }
 
   public ngAfterViewChecked() {

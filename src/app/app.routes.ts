@@ -12,7 +12,7 @@ const routes: Routes = [
         pathMatch: 'full'
     },
     {
-        path: 'projects/:id',
+        path: 'projects/:name',
         component: ProjectDetailComponent,
         resolve: { project: ProjectResolver }
     },
@@ -30,4 +30,4 @@ export const appRoutingProviders: any[] = [
 
 ];
 
-export const appRoutes: any = RouterModule.forRoot(routes, { useHash: true });
+export const appRoutes: any = RouterModule.forRoot(routes, { useHash: false });

@@ -1,6 +1,5 @@
 import { BrowserModule, } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ApplicationInsightsModule, AppInsightsService } from '@markpieszak/ng-application-insights';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular/material';
@@ -38,9 +37,6 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    ApplicationInsightsModule.forRoot({
-      instrumentationKey: 'c813e4a4-dab4-4e00-9a7a-fd7368e917dd'
-    }),
     MaterialModule,
     LazyLoadImageModule,
     FlexLayoutModule,

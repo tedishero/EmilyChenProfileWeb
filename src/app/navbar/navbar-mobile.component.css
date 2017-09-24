@@ -4,4 +4,6 @@ button {
 
 md-list {
   background-color: white;
+  height: 100%;
+  overflow: auto;
 }

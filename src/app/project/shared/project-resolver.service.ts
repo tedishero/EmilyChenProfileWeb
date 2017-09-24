@@ -6,9 +6,9 @@ import { ProjectService } from '../index'
 export class ProjectResolver implements Resolve<any> {
     constructor(private projectService: ProjectService) { }
     resolve(route: ActivatedRouteSnapshot) {
-        var projectId = +route.params['id'];
-        if (!isNaN(projectId)) {
-            return this.projectService.get(projectId);
+        var projectName = route.params['name'];
+        if (projectName) {
+            return this.projectService.get(projectName);
         }
         else {
             return undefined;

@@ -13,6 +13,7 @@ export class AppComponent {
    *
    */
   constructor(public media: ObservableMedia) {
+    console.info('app started');
   }
 
   navItems: Navigation[] = [

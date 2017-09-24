@@ -1,11 +1,13 @@
-<div [ngClass]="{'thumb': !media.isActive('xs'), 'thumb-mobile': media.isActive('xs')}" [@thumbTrigger]='state' (mouseover)="mouseOver()"
-  (mouseleave)="mouseLeave()" style="outline: none;" [routerLink]="'/projects/'+project.id">
-  <div [ngClass]="{'thumb-image': !media.isActive('xs'), 'thumb-image-mobile': media.isActive('xs')}">
-    <img [defaultImage]="compressedIndexImage()" [lazyLoad]="indexImage()" [offset]="100">
-  </div>
+<a [routerLink]="'/projects/'+project.name">
+  <div [ngClass]="{'thumb': !media.isActive('xs'), 'thumb-mobile': media.isActive('xs')}" [@thumbTrigger]='state' (mouseover)="mouseOver()"
+    (mouseleave)="mouseLeave()" style="outline: none;">
+    <div [ngClass]="{'thumb-image': !media.isActive('xs'), 'thumb-image-mobile': media.isActive('xs')}">
+      <img [defaultImage]="compressedIndexImage()" [lazyLoad]="indexImage()" [offset]="100">
+    </div>
 
-  <div *ngIf="showTitle" class="thumb-title">
-    <div class="project-chinese-name">{{project.chineseName}}</div>
-    <div>{{project.englishName}}</div>
+    <div *ngIf="showTitle" class="thumb-title">
+      <div class="project-chinese-name">{{project.chineseName}}</div>
+      <div>{{project.englishName}}</div>
+    </div>
   </div>
-</div>
+</a>

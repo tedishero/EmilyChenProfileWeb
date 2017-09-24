@@ -10,8 +10,8 @@ export class ProjectService {
 
   constructor() { }
 
-  get(id: number): ProjectLite {
-    return Projects.find(x => x.id === id);
+  get(name: string): ProjectLite {
+    return Projects.find(x => x.name === name);
   }
 
   query(): ProjectLite[] {
@@ -21,7 +21,6 @@ export class ProjectService {
 
 const Projects: ProjectLite[] = [
   {
-    id: 2,
     chineseName: '高鐵馬年主視覺',
     englishName: 'Taiwan High Speed Rail 2013 New Year',
     name: 'high_speed_rail_2013',
@@ -43,7 +42,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 1,
     chineseName: '光寶產品簡介',
     englishName: 'Lite-On Brochure & Flyers',
     name: 'lite_on',
@@ -63,7 +61,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 7,
     chineseName: '大台北當代藝術雙年展',
     englishName: 'Greater Taipei Biennial of Contemporary Arts',
     descriptions: [
@@ -86,7 +83,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 16,
     chineseName: '紀州庵文學森林-紅樓夢講座視覺',
     englishName: 'Dream of The Red Chamber',
     descriptions: [
@@ -104,7 +100,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 6,
     chineseName: '甜蜜蜜-到臺南找甜頭',
     englishName: 'The Stories of Tainan Sugar Factory',
     descriptions: [
@@ -129,7 +124,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 13,
     chineseName: '2014華膳中秋禮盒',
     englishName: '2014 Moon Festival gift box',
     descriptions: [
@@ -148,7 +142,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 5,
     chineseName: '2015金點概念設計獎',
     englishName: '2015 Golden Pin Concept Design Award',
     name: 'golden_pin',
@@ -168,7 +161,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 3,
     chineseName: '郭林喜帖',
     englishName: 'Yan&Yu Wedding Invitation',
     name: 'yan_yu',
@@ -187,7 +179,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 15,
     chineseName: '蘇吳喜帖',
     englishName: 'Chris & Grace Wedding Invitation',
     descriptions: [
@@ -208,7 +199,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 20,
     chineseName: '臺灣戲曲中心',
     englishName: 'Taiwan Traditional Theatre Center',
     descriptions: [
@@ -237,7 +227,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 4,
     chineseName: '陳郭喜帖',
     englishName: 'Mo&Wei Wedding Invitation',
     name: 'chen_ku',
@@ -259,7 +248,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 11,
     chineseName: '華航聯名卡 | 提案',
     englishName: 'China Airline Co-Brander Card',
     descriptions: [
@@ -278,7 +266,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 12,
     chineseName: '來自天方的仙工-南亞美玉特展',
     englishName: 'Heavenly Crafted- A Special Exhibition of Exquisite South Asian Jades',
     descriptions: [
@@ -303,7 +290,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 9,
     chineseName: 'UPackaging 彩盒印刷',
     englishName: 'UPackaging',
     descriptions: [
@@ -326,7 +312,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 19,
     chineseName: '2016臺灣文博會',
     englishName: '2016 CREATIVE EXPO TAIWAN',
     descriptions: [
@@ -360,7 +345,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 10,
     chineseName: '十八～二十世紀日本服飾特展',
     englishName: 'KIMONO- 18th-20th Century Japanese Apparel Special Exhibition',
     descriptions: [
@@ -381,7 +365,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 14,
     chineseName: '臺華窯35週年 Logo',
     englishName: 'Tai-Hwa Pottery 35th Anniversary Logo',
     descriptions: [
@@ -403,7 +386,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 8,
     chineseName: '大台北藝術節',
     englishName: 'Greater Taipei Arts Festival',
     descriptions: [
@@ -423,7 +405,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 17,
     chineseName: '華航新世代客艙計畫',
     englishName: 'China Airlines NexGen program',
     descriptions: [
@@ -452,7 +433,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    id: 18,
     chineseName: 'WRENCHit多功能扳手組',
     englishName: 'WRENCHit',
     descriptions: [

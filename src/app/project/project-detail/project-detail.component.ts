@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ObservableMedia } from '@angular/flex-layout';
 import { ProjectLite, ProjectFilterService } from '../index';
-import { AppInsightsService } from '@markpieszak/ng-application-insights';
 import PhotoSwipe from 'photoswipe';
 
 @Component({
@@ -18,12 +17,10 @@ export class ProjectDetailComponent implements OnInit {
   popupImages: any[] = [];
   constructor(
     public media: ObservableMedia,
-    private appInsightsService: AppInsightsService,
     private route: ActivatedRoute,
     private projectFilterService: ProjectFilterService) {
     this.project = this.route.snapshot.data['project'];
     this.pageName += this.project.name;
-    this.appInsightsService.trackPageView(this.pageName);
   }
 
   ngOnInit() {
@@ -53,7 +50,6 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   openImagePopUp(imgIndex: number) {
-    this.appInsightsService.trackEvent(this.pageName + ': Open', { 'imgIndex': imgIndex.toString()});
     let pswpElement = document.querySelectorAll('.pswp')[0];
 
     // define options (if needed)

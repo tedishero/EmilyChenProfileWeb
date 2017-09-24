@@ -161,6 +161,65 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
+    chineseName: '華膳空廚品牌整合',
+    englishName: 'China Pacific Catering Service',
+    name: '華膳空廚品牌整合',
+    descriptions: [
+      'Client – China Pacific Catering Service', 
+      'Design Agency –FREEIMAGE design',
+      'Calligrapher – Tong Yang-tze',
+      'Photographer - Cheng Ting',
+      'Responsibility- LOGO / Main Packaging Design'
+    ],
+    projectDetails: [
+      'China Pacific Catering Service – Logo',
+      'China Pacific Catering Service – Chinese Cuisine Packaging Design',
+      'China Pacific Catering Service - Chinese Cuisine Packaging Design',
+      'China Pacific Catering Service - Chinese Cuisine Packaging Design',
+      'China Pacific Catering Service – Souvenir Packaging Design',
+      'China Pacific Catering Service – Souvenir Packaging Design',
+      'China Pacific Catering Service – Cake Packaging Design',
+      'China Pacific Catering Service – Cake Packaging Design',
+      'China Pacific Catering Service – Menu Layout',
+      'China Pacific Catering Service – Menu Layout',
+      'China Pacific Catering Service – Menu Layout'
+    ],
+    categories: [
+      Categories.Editorial,
+      Categories.Graphic,
+      Categories.Identity,
+      Categories.Package,
+    ]
+  },
+  {
+    chineseName: '臺灣戲曲中心',
+    englishName: 'Taiwan Traditional Theatre Center',
+    descriptions: [
+      'Client –Taiwan Traditional Theatre Center',
+      'Design Agency –FREEIMAGE design',
+      'Responsibility- LOGO / Branding'
+    ],
+    link: 'http://xiqucenter.culture.tw/Xiqu/index.aspx',
+    name: '戲曲中心',
+    projectDetails: [
+      'Taiwan Traditional Theatre Center- Logo Design',
+      'Taiwan Traditional Theatre Center- Logo Design',
+      'Taiwan Traditional Theatre Center- Pattern',
+      'Taiwan Traditional Theatre Center- Bussiness Card',
+      'Taiwan Traditional Theatre Center- Envelope',
+      'Taiwan Traditional Theatre Center- Postcard',
+      'Taiwan Traditional Theatre Center- Bag',
+      'Taiwan Traditional Theatre Center- Website',
+      'Taiwan Traditional Theatre Center',
+      'Taiwan Traditional Theatre Center- Event',
+    ],
+    categories: [
+      Categories.Editorial,
+      Categories.Graphic,
+      Categories.Identity,
+    ]
+  },
+  {
     chineseName: '郭林喜帖',
     englishName: 'Yan&Yu Wedding Invitation',
     name: 'yan_yu',
@@ -196,34 +255,6 @@ const Projects: ProjectLite[] = [
     categories: [
       Categories.Editorial,
       Categories.Graphic,
-    ]
-  },
-  {
-    chineseName: '臺灣戲曲中心',
-    englishName: 'Taiwan Traditional Theatre Center',
-    descriptions: [
-      'Client –Taiwan Traditional Theatre Center',
-      'Design Agency –FREEIMAGE design',
-      'Responsibility- LOGO / Branding'
-    ],
-    link: 'http://xiqucenter.culture.tw/Xiqu/index.aspx',
-    name: '戲曲中心',
-    projectDetails: [
-      'Taiwan Traditional Theatre Center- Logo Design',
-      'Taiwan Traditional Theatre Center- Logo Design',
-      'Taiwan Traditional Theatre Center- Pattern',
-      'Taiwan Traditional Theatre Center- Bussiness Card',
-      'Taiwan Traditional Theatre Center- Envelope',
-      'Taiwan Traditional Theatre Center- Postcard',
-      'Taiwan Traditional Theatre Center- Bag',
-      'Taiwan Traditional Theatre Center- Website',
-      'Taiwan Traditional Theatre Center',
-      'Taiwan Traditional Theatre Center- Event',
-    ],
-    categories: [
-      Categories.Editorial,
-      Categories.Graphic,
-      Categories.Identity,
     ]
   },
   {
@@ -286,6 +317,49 @@ const Projects: ProjectLite[] = [
     ],
     categories: [
       Categories.Exhibition,
+      Categories.Graphic,
+    ]
+  },
+  {
+    chineseName: '2013華膳中秋禮盒',
+    englishName: '2013 Moon Festival gift box',
+    descriptions: [
+      'Client – China Pacific Catering Service', 
+      'Design Agency –FREEIMAGE design', 
+      'Photographer - Cheng Ting'
+    ],
+    name: '2013中秋禮盒',
+    projectDetails: [
+      '2013 Moon Festival gift box – Chinese Moon Cake',
+      '2013 Moon Festival gift box – Cheese Cake',
+      '2013 Moon Festival gift box – Chinese Moon Cake',
+      '2013 Moon Festival gift box – Combo'
+    ],
+    categories: [
+      Categories.Exhibition,
+      Categories.Graphic,
+      Categories.Graphic,
+    ]
+  },
+  {
+    chineseName: '福樺建設賀卡',
+    englishName: 'Fu-Hua Construction Greeting Cards',
+    descriptions: [
+      'Client –Fu-Hua Construction',
+      'Design Agency –FREEIMAGE design',
+      'Calligrapher – Kuo Bor-Jou'
+    ],
+    name: '福樺建設賀卡',
+    projectDetails: [
+      'Fu-Hua Construction Greeting Cards- 2015 Greeting Card Design',
+      'Fu-Hua Construction Greeting Cards- 2015 Greeting Card Detail',
+      'Fu-Hua Construction Greeting Cards- 2014 Greeting Card Design',
+      'Fu-Hua Construction Greeting Cards- 2014 Greeting Card Detail',
+      'Fu-Hua Construction Greeting Cards- 2014 Greeting Card Detail',
+      'Fu-Hua Construction Greeting Cards- 2014 Greeting Card Envelope'
+    ],
+    categories: [
+      Categories.Editorial,
       Categories.Graphic,
     ]
   },
@@ -460,4 +534,42 @@ const Projects: ProjectLite[] = [
       Categories.Package
     ]
   },
+  {
+    chineseName: '2014台灣設計展',
+    englishName: '2014 Taiwan Design Expo',
+    descriptions: [
+      'Client - Taiwan Design Center',
+      'Design Agency –FREEIMAGE design',
+      'Photographer - Cheng Ting',
+      'Illustration –Huang Ching Yi',
+      'Responsibility- Event KEY VISION Design' 
+    ],
+    name: '2014台灣設計展',
+    projectDetails: [
+      '2014 Taiwan Design Expo – Poster',
+      '2014 Taiwan Design Expo – Invitation',
+      '2014 Taiwan Design Expo – Badge',
+      '2014 Taiwan Design Expo – Icon',
+      '2014 Taiwan Design Expo – Exhibition Entrance',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Sign',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Workshop',
+      '2014 Taiwan Design Expo – Food Court',
+      '2014 Taiwan Design Expo – Commemorative Stamps Stop',
+      '2014 Taiwan Design Expo – Commemorative Stamps Stop',
+      '2014 Taiwan Design Expo – Cool Ice Shop',
+      '2014 Taiwan Design Expo – Bike'
+    ],
+    categories: [
+      Categories.Identity,
+      Categories.Graphic,
+      Categories.Editorial,
+      Categories.Exhibition
+    ]
+  }
 ];

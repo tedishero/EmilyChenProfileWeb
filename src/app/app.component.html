@@ -8,4 +8,13 @@
     </md-sidenav>
 
     <router-outlet></router-outlet>
+    <div fxLayout="row" class="share-container">
+        <span fxFlex="auto"></span>
+        <share-container
+            [platforms]="['reddit','twitter','facebook','googlePlus','stumbleUpon','tumblr','linkedin','pinterest','mail']"
+            [textEnabled]="false"
+            [expandable]="false">
+        </share-container>
+        <span fxFlex="auto"></span>
+    </div>
 </md-sidenav-container>

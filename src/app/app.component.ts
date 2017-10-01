@@ -9,11 +9,13 @@ import { ObservableMedia } from "@angular/flex-layout";
 })
 export class AppComponent {
 
-  /**
-   *
-   */
+  public mobileMenuVisible: boolean;
+
   constructor(public media: ObservableMedia) {
-    console.info('app started');
+  }
+
+  public onMenuToggled($event: boolean) {
+    this.mobileMenuVisible = $event;
   }
 
   navItems: Navigation[] = [

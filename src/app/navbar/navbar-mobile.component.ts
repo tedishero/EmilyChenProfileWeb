@@ -1,14 +1,15 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Categories, Navigation } from '../project/index';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar-mobile',
   templateUrl: './navbar-mobile.component.html',
-  styleUrls: ['./navbar-mobile.component.css']
+  styleUrls: ['./navbar-mobile.component.scss']
 })
 export class NavbarMobileComponent {
   @Input() navigationItems: Navigation;
+  @Output() navItemSelected: EventEmitter<any> = new EventEmitter();
 
   constructor(private router: Router) { }
 
@@ -18,5 +19,7 @@ export class NavbarMobileComponent {
     } else {
       this.router.navigate(['/projects', { category: category }]);
     }
+
+    this.navItemSelected.emit();
   }
 }

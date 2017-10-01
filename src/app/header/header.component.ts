@@ -7,7 +7,10 @@ import { ObservableMedia } from '@angular/flex-layout';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  @Output() menuToggled = new EventEmitter();
+  @Output() menuToggled = new EventEmitter<boolean>();
+
+  private mobileMenuShown: boolean;
+
   constructor(public media: ObservableMedia, ) {
   }
 
@@ -15,13 +18,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  /**
-   *
-   *
-   *
-   * @memberOf HeaderComponent
-   */
   toggleMenu() {
-    this.menuToggled.emit();
+    this.mobileMenuShown = !this.mobileMenuShown;
+    this.menuToggled.emit(this.mobileMenuShown);
   }
 }

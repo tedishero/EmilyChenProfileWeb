@@ -2,10 +2,9 @@
 <app-header (menuToggled)="sidenav.toggle()"></app-header>
 <app-navbar *ngIf="!media.isActive('xs')" [navigationItems]="navItems"></app-navbar>
 
-<md-sidenav-container [ngClass]="{'app-side-nav-container': !media.isActive('xs'), 'app-side-nav-container-mobile': media.isActive('xs')}">
-    <md-sidenav #sidenav mode="over">
-       <app-navbar-mobile [navigationItems]="navItems"></app-navbar-mobile>
+<md-sidenav-container [ngClass]="{'app-side-nav-container': !media.isActive('xs'), 'app-side-nav-container-mobile': media.isActive('xs'), 'app-fixed': sidenav.opened}">
+    <md-sidenav #sidenav mode="side">
+       <app-navbar-mobile [navigationItems]="navItems" (navItemSelected)="sidenav.toggle()"></app-navbar-mobile>
     </md-sidenav>
-
-    <router-outlet></router-outlet>
+    <router-outlet ></router-outlet>
 </md-sidenav-container>

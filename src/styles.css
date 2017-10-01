@@ -45,6 +45,10 @@ b {
     font-size: 12px;
 }
 
+md-sidenav {
+  width: 100% !important;
+}
+
 .spinner {
   width: 32px;
   height: 32px;

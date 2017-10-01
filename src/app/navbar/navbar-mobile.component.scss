@@ -5,29 +5,6 @@ div.panel#full-screen-nav{
   background-color: #F9F9F9;
   opacity: 1;
   transition: all 800ms;
-	&.active{
-		opacity: 1;
-		pointer-events: auto;
-		nav#nav{
-			ul li{
-				opacity: 1;
-				transform:translateY(0px);
-				transition: all .5s ease;
-				&:nth-child(2){
-					transition-delay: .2s;
-				}
-				&:nth-child(3){
-					transition-delay: .4s;
-				}
-				&:nth-child(4){
-					transition-delay: .6s;
-				}
-				&:nth-child(5){
-					transition-delay: .8s;
-				}
-			}
-		}
-	}
 }
 
 nav#nav{
@@ -51,7 +28,7 @@ nav#nav{
 			a{
 				color: #444;
 				font-weight: 700;
-				font-size: 32px;
+				font-size: 26px;
 				span{
 					display: block;
 					font-size: 16px;

@@ -5,7 +5,7 @@
   </md-list-item>
 </md-list> -->
 
-<div id="full-screen-nav" class="panel" [class.active]="navToggle === true">
+<div id="full-screen-nav" class="panel">
     <nav id="nav">
       <ul>
         <li *ngFor="let navItem of navigationItems" (click)="filter(navItem.filter)">

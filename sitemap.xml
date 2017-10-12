@@ -17,10 +17,10 @@
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <image xmlns="image">
-      <image xmlns="loc">http://emilygph.com/assets/emily.png</image>
-      <image xmlns="title">Emily Chen Graphic Designer</image>
-      <image xmlns="caption">Graphic designer based in Taiwan. Focus on graphic design, brand identity design, art and cultural performance.</image>
+    <image:image>
+      <image:loc>http://emilygph.com/assets/emily.png</image>
+      <image:title>Emily Chen Graphic Designer</image>
+      <image:caption>Graphic designer based in Taiwan. Focus on graphic design, brand identity design, art and cultural performance.</image>
     </image>
   </url>
   <url>

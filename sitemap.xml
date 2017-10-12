@@ -1,955 +1,929 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://emilygph.com</loc>
-    <lastmod>2017-10-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://emilygph.com/projects</loc>
-    <lastmod>2017-10-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-    <url>
-    <loc>http://emilygph.com/contact</loc>
-    <lastmod>2017-10-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image xmlns="image">
-      <image xmlns="loc">http://emilygph.com/assets/emily.png</image>
-      <image xmlns="title">Emily Chen Graphic Designer</image>
-      <image xmlns="caption">Graphic designer based in Taiwan. Focus on graphic design, brand identity design, art and cultural performance.</image>
-    </image>
-  </url>
-  <url>
-  <loc>http://emilyghp.com/projects/high_speed_rail_2013</loc>
+<url>
+  <loc>http://emilygp.com/projects/high_speed_rail_2013</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/high_speed_rail_2013/detail0.png</image>
-    <image xmlns="title">THSR 2013 New Year Logo Design</image>
-    <image xmlns="caption">THSR 2013 New Year Logo Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/high_speed_rail_2013/detail0.png</image>
+    <image:title>THSR 2013 New Year Logo Design</image>
+    <image:caption>THSR 2013 New Year Logo Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/high_speed_rail_2013/detail1.png</image>
-    <image xmlns="title">Website</image>
-    <image xmlns="caption">Website</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/high_speed_rail_2013/detail1.png</image>
+    <image:title>Website</image>
+    <image:caption>Website</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/high_speed_rail_2013/detail2.png</image>
-    <image xmlns="title">Train Cabin</image>
-    <image xmlns="caption">Train Cabin</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/high_speed_rail_2013/detail2.png</image>
+    <image:title>Train Cabin</image>
+    <image:caption>Train Cabin</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/high_speed_rail_2013/detail3.png</image>
-    <image xmlns="title">Entrance</image>
-    <image xmlns="caption">Entrance</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/high_speed_rail_2013/detail3.png</image>
+    <image:title>Entrance</image>
+    <image:caption>Entrance</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/high_speed_rail_2013/detail4.png</image>
-    <image xmlns="title">Ticketing</image>
-    <image xmlns="caption">Ticketing</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/high_speed_rail_2013/detail4.png</image>
+    <image:title>Ticketing</image>
+    <image:caption>Ticketing</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/high_speed_rail_2013/detail5.png</image>
-    <image xmlns="title">Timetable</image>
-    <image xmlns="caption">Timetable</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/high_speed_rail_2013/detail5.png</image>
+    <image:title>Timetable</image>
+    <image:caption>Timetable</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/lite_on</loc>
+  <loc>http://emilygp.com/projects/lite_on</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/lite_on/detail0.png</image>
-    <image xmlns="title">Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
-    <image xmlns="caption">Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/lite_on/detail0.png</image>
+    <image:title>Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
+    <image:caption>Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/lite_on/detail1.png</image>
-    <image xmlns="title">Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
-    <image xmlns="caption">Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/lite_on/detail1.png</image>
+    <image:title>Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
+    <image:caption>Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/lite_on/detail2.png</image>
-    <image xmlns="title">Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
-    <image xmlns="caption">Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/lite_on/detail2.png</image>
+    <image:title>Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
+    <image:caption>Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/lite_on/detail3.png</image>
-    <image xmlns="title">Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
-    <image xmlns="caption">Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/lite_on/detail3.png</image>
+    <image:title>Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
+    <image:caption>Brochure - AC Drive EVO8000 Series/ EVO6000 Series</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/lite_on/detail4.png</image>
-    <image xmlns="title">Flyer - AC Drive EVO8000 Series/ EVO6000 Series</image>
-    <image xmlns="caption">Flyer - AC Drive EVO8000 Series/ EVO6000 Series</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/lite_on/detail4.png</image>
+    <image:title>Flyer - AC Drive EVO8000 Series/ EVO6000 Series</image>
+    <image:caption>Flyer - AC Drive EVO8000 Series/ EVO6000 Series</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/biennial</loc>
+  <loc>http://emilygp.com/projects/biennial</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/biennial/detail0.png</image>
-    <image xmlns="title">Logo Design</image>
-    <image xmlns="caption">Logo Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/biennial/detail0.png</image>
+    <image:title>Logo Design</image>
+    <image:caption>Logo Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/biennial/detail1.png</image>
-    <image xmlns="title">Poster</image>
-    <image xmlns="caption">Poster</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/biennial/detail1.png</image>
+    <image:title>Poster</image>
+    <image:caption>Poster</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/biennial/detail2.png</image>
-    <image xmlns="title">Brochure</image>
-    <image xmlns="caption">Brochure</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/biennial/detail2.png</image>
+    <image:title>Brochure</image>
+    <image:caption>Brochure</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/biennial/detail3.png</image>
-    <image xmlns="title">Brochure</image>
-    <image xmlns="caption">Brochure</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/biennial/detail3.png</image>
+    <image:title>Brochure</image>
+    <image:caption>Brochure</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/紅樓夢</loc>
+  <loc>http://emilygp.com/projects/紅樓夢</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/紅樓夢/detail0.png</image>
-    <image xmlns="title">Dream of The Red Chamber – Flyer</image>
-    <image xmlns="caption">Dream of The Red Chamber – Flyer</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/紅樓夢/detail0.png</image>
+    <image:title>Dream of The Red Chamber – Flyer</image>
+    <image:caption>Dream of The Red Chamber – Flyer</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/紅樓夢/detail1.png</image>
-    <image xmlns="title">Dream of The Red Chamber – Front</image>
-    <image xmlns="caption">Dream of The Red Chamber – Front</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/紅樓夢/detail1.png</image>
+    <image:title>Dream of The Red Chamber – Front</image>
+    <image:caption>Dream of The Red Chamber – Front</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/紅樓夢/detail2.png</image>
-    <image xmlns="title">Dream of The Red Chamber – Back</image>
-    <image xmlns="caption">Dream of The Red Chamber – Back</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/紅樓夢/detail2.png</image>
+    <image:title>Dream of The Red Chamber – Back</image>
+    <image:caption>Dream of The Red Chamber – Back</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/sweet_sweet</loc>
+  <loc>http://emilygp.com/projects/sweet_sweet</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/sweet_sweet/detail0.png</image>
-    <image xmlns="title">Title Typography</image>
-    <image xmlns="caption">Title Typography</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/sweet_sweet/detail0.png</image>
+    <image:title>Title Typography</image>
+    <image:caption>Title Typography</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/sweet_sweet/detail1.png</image>
-    <image xmlns="title">Cover with dust jacket</image>
-    <image xmlns="caption">Cover with dust jacket</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/sweet_sweet/detail1.png</image>
+    <image:title>Cover with dust jacket</image>
+    <image:caption>Cover with dust jacket</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/sweet_sweet/detail2.png</image>
-    <image xmlns="title">Cover</image>
-    <image xmlns="caption">Cover</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/sweet_sweet/detail2.png</image>
+    <image:title>Cover</image>
+    <image:caption>Cover</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/sweet_sweet/detail3.png</image>
-    <image xmlns="title">Layout-1</image>
-    <image xmlns="caption">Layout-1</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/sweet_sweet/detail3.png</image>
+    <image:title>Layout-1</image>
+    <image:caption>Layout-1</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/sweet_sweet/detail4.png</image>
-    <image xmlns="title">Layout-2</image>
-    <image xmlns="caption">Layout-2</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/sweet_sweet/detail4.png</image>
+    <image:title>Layout-2</image>
+    <image:caption>Layout-2</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/sweet_sweet/detail5.png</image>
-    <image xmlns="title">Layout-3</image>
-    <image xmlns="caption">Layout-3</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/sweet_sweet/detail5.png</image>
+    <image:title>Layout-3</image>
+    <image:caption>Layout-3</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/sweet_sweet/detail6.png</image>
-    <image xmlns="title">Layout-4</image>
-    <image xmlns="caption">Layout-4</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/sweet_sweet/detail6.png</image>
+    <image:title>Layout-4</image>
+    <image:caption>Layout-4</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/moon</loc>
+  <loc>http://emilygp.com/projects/moon</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/moon/detail0.png</image>
-    <image xmlns="title">Moon Festival gift box – Packaging Design</image>
-    <image xmlns="caption">Moon Festival gift box – Packaging Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/moon/detail0.png</image>
+    <image:title>Moon Festival gift box – Packaging Design</image>
+    <image:caption>Moon Festival gift box – Packaging Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/moon/detail1.png</image>
-    <image xmlns="title">Moon Festival gift box – Packaging Design</image>
-    <image xmlns="caption">Moon Festival gift box – Packaging Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/moon/detail1.png</image>
+    <image:title>Moon Festival gift box – Packaging Design</image>
+    <image:caption>Moon Festival gift box – Packaging Design</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/golden_pin</loc>
+  <loc>http://emilygp.com/projects/golden_pin</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/golden_pin/detail0.png</image>
-    <image xmlns="title">Poster</image>
-    <image xmlns="caption">Poster</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/golden_pin/detail0.png</image>
+    <image:title>Poster</image>
+    <image:caption>Poster</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/golden_pin/detail1.png</image>
-    <image xmlns="title">Free postcard</image>
-    <image xmlns="caption">Free postcard</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/golden_pin/detail1.png</image>
+    <image:title>Free postcard</image>
+    <image:caption>Free postcard</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/golden_pin/detail2.png</image>
-    <image xmlns="title">Foreign reports</image>
-    <image xmlns="caption">Foreign reports</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/golden_pin/detail2.png</image>
+    <image:title>Foreign reports</image>
+    <image:caption>Foreign reports</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/華膳空廚品牌整合</loc>
+  <loc>http://emilygp.com/projects/華膳空廚品牌整合</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail0.png</image>
-    <image xmlns="title">China Pacific Catering Service – Logo</image>
-    <image xmlns="caption">China Pacific Catering Service – Logo</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail0.png</image>
+    <image:title>China Pacific Catering Service – Logo</image>
+    <image:caption>China Pacific Catering Service – Logo</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail1.png</image>
-    <image xmlns="title">China Pacific Catering Service – Chinese Cuisine Packaging Design</image>
-    <image xmlns="caption">China Pacific Catering Service – Chinese Cuisine Packaging Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail1.png</image>
+    <image:title>China Pacific Catering Service – Chinese Cuisine Packaging Design</image>
+    <image:caption>China Pacific Catering Service – Chinese Cuisine Packaging Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail2.png</image>
-    <image xmlns="title">China Pacific Catering Service - Chinese Cuisine Packaging Design</image>
-    <image xmlns="caption">China Pacific Catering Service - Chinese Cuisine Packaging Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail2.png</image>
+    <image:title>China Pacific Catering Service - Chinese Cuisine Packaging Design</image>
+    <image:caption>China Pacific Catering Service - Chinese Cuisine Packaging Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail3.png</image>
-    <image xmlns="title">China Pacific Catering Service - Chinese Cuisine Packaging Design</image>
-    <image xmlns="caption">China Pacific Catering Service - Chinese Cuisine Packaging Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail3.png</image>
+    <image:title>China Pacific Catering Service - Chinese Cuisine Packaging Design</image>
+    <image:caption>China Pacific Catering Service - Chinese Cuisine Packaging Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail4.png</image>
-    <image xmlns="title">China Pacific Catering Service – Souvenir Packaging Design</image>
-    <image xmlns="caption">China Pacific Catering Service – Souvenir Packaging Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail4.png</image>
+    <image:title>China Pacific Catering Service – Souvenir Packaging Design</image>
+    <image:caption>China Pacific Catering Service – Souvenir Packaging Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail5.png</image>
-    <image xmlns="title">China Pacific Catering Service – Souvenir Packaging Design</image>
-    <image xmlns="caption">China Pacific Catering Service – Souvenir Packaging Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail5.png</image>
+    <image:title>China Pacific Catering Service – Souvenir Packaging Design</image>
+    <image:caption>China Pacific Catering Service – Souvenir Packaging Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail6.png</image>
-    <image xmlns="title">China Pacific Catering Service – Cake Packaging Design</image>
-    <image xmlns="caption">China Pacific Catering Service – Cake Packaging Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail6.png</image>
+    <image:title>China Pacific Catering Service – Cake Packaging Design</image>
+    <image:caption>China Pacific Catering Service – Cake Packaging Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail7.png</image>
-    <image xmlns="title">China Pacific Catering Service – Cake Packaging Design</image>
-    <image xmlns="caption">China Pacific Catering Service – Cake Packaging Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail7.png</image>
+    <image:title>China Pacific Catering Service – Cake Packaging Design</image>
+    <image:caption>China Pacific Catering Service – Cake Packaging Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail8.png</image>
-    <image xmlns="title">China Pacific Catering Service – Menu Layout</image>
-    <image xmlns="caption">China Pacific Catering Service – Menu Layout</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail8.png</image>
+    <image:title>China Pacific Catering Service – Menu Layout</image>
+    <image:caption>China Pacific Catering Service – Menu Layout</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail9.png</image>
-    <image xmlns="title">China Pacific Catering Service – Menu Layout</image>
-    <image xmlns="caption">China Pacific Catering Service – Menu Layout</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail9.png</image>
+    <image:title>China Pacific Catering Service – Menu Layout</image>
+    <image:caption>China Pacific Catering Service – Menu Layout</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華膳空廚品牌整合/detail10.png</image>
-    <image xmlns="title">China Pacific Catering Service – Menu Layout</image>
-    <image xmlns="caption">China Pacific Catering Service – Menu Layout</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華膳空廚品牌整合/detail10.png</image>
+    <image:title>China Pacific Catering Service – Menu Layout</image>
+    <image:caption>China Pacific Catering Service – Menu Layout</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/戲曲中心</loc>
+  <loc>http://emilygp.com/projects/戲曲中心</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/戲曲中心/detail0.png</image>
-    <image xmlns="title">Taiwan Traditional Theatre Center- Logo Design</image>
-    <image xmlns="caption">Taiwan Traditional Theatre Center- Logo Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/戲曲中心/detail0.png</image>
+    <image:title>Taiwan Traditional Theatre Center- Logo Design</image>
+    <image:caption>Taiwan Traditional Theatre Center- Logo Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/戲曲中心/detail1.png</image>
-    <image xmlns="title">Taiwan Traditional Theatre Center- Logo Design</image>
-    <image xmlns="caption">Taiwan Traditional Theatre Center- Logo Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/戲曲中心/detail1.png</image>
+    <image:title>Taiwan Traditional Theatre Center- Logo Design</image>
+    <image:caption>Taiwan Traditional Theatre Center- Logo Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/戲曲中心/detail2.png</image>
-    <image xmlns="title">Taiwan Traditional Theatre Center- Pattern</image>
-    <image xmlns="caption">Taiwan Traditional Theatre Center- Pattern</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/戲曲中心/detail2.png</image>
+    <image:title>Taiwan Traditional Theatre Center- Pattern</image>
+    <image:caption>Taiwan Traditional Theatre Center- Pattern</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/戲曲中心/detail3.png</image>
-    <image xmlns="title">Taiwan Traditional Theatre Center- Bussiness Card</image>
-    <image xmlns="caption">Taiwan Traditional Theatre Center- Bussiness Card</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/戲曲中心/detail3.png</image>
+    <image:title>Taiwan Traditional Theatre Center- Bussiness Card</image>
+    <image:caption>Taiwan Traditional Theatre Center- Bussiness Card</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/戲曲中心/detail4.png</image>
-    <image xmlns="title">Taiwan Traditional Theatre Center- Envelope</image>
-    <image xmlns="caption">Taiwan Traditional Theatre Center- Envelope</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/戲曲中心/detail4.png</image>
+    <image:title>Taiwan Traditional Theatre Center- Envelope</image>
+    <image:caption>Taiwan Traditional Theatre Center- Envelope</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/戲曲中心/detail5.png</image>
-    <image xmlns="title">Taiwan Traditional Theatre Center- Postcard</image>
-    <image xmlns="caption">Taiwan Traditional Theatre Center- Postcard</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/戲曲中心/detail5.png</image>
+    <image:title>Taiwan Traditional Theatre Center- Postcard</image>
+    <image:caption>Taiwan Traditional Theatre Center- Postcard</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/戲曲中心/detail6.png</image>
-    <image xmlns="title">Taiwan Traditional Theatre Center- Bag</image>
-    <image xmlns="caption">Taiwan Traditional Theatre Center- Bag</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/戲曲中心/detail6.png</image>
+    <image:title>Taiwan Traditional Theatre Center- Bag</image>
+    <image:caption>Taiwan Traditional Theatre Center- Bag</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/戲曲中心/detail7.png</image>
-    <image xmlns="title">Taiwan Traditional Theatre Center- Website</image>
-    <image xmlns="caption">Taiwan Traditional Theatre Center- Website</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/戲曲中心/detail7.png</image>
+    <image:title>Taiwan Traditional Theatre Center- Website</image>
+    <image:caption>Taiwan Traditional Theatre Center- Website</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/戲曲中心/detail8.png</image>
-    <image xmlns="title">Taiwan Traditional Theatre Center</image>
-    <image xmlns="caption">Taiwan Traditional Theatre Center</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/戲曲中心/detail8.png</image>
+    <image:title>Taiwan Traditional Theatre Center</image>
+    <image:caption>Taiwan Traditional Theatre Center</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/戲曲中心/detail9.png</image>
-    <image xmlns="title">Taiwan Traditional Theatre Center- Event</image>
-    <image xmlns="caption">Taiwan Traditional Theatre Center- Event</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/戲曲中心/detail9.png</image>
+    <image:title>Taiwan Traditional Theatre Center- Event</image>
+    <image:caption>Taiwan Traditional Theatre Center- Event</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/yan_yu</loc>
+  <loc>http://emilygp.com/projects/yan_yu</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/yan_yu/detail0.png</image>
-    <image xmlns="title">Front</image>
-    <image xmlns="caption">Front</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/yan_yu/detail0.png</image>
+    <image:title>Front</image>
+    <image:caption>Front</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/yan_yu/detail1.png</image>
-    <image xmlns="title">Card details</image>
-    <image xmlns="caption">Card details</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/yan_yu/detail1.png</image>
+    <image:title>Card details</image>
+    <image:caption>Card details</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/yan_yu/detail2.png</image>
-    <image xmlns="title">Hot Stamping details</image>
-    <image xmlns="caption">Hot Stamping details</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/yan_yu/detail2.png</image>
+    <image:title>Hot Stamping details</image>
+    <image:caption>Hot Stamping details</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/Chris&amp;Grace</loc>
+  <loc>http://emilygp.com/projects/Chris&amp;Grace</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/Chris&amp;Grace/detail0.png</image>
-    <image xmlns="title">Chris &amp; Grace Wedding Invitation-Front</image>
-    <image xmlns="caption">Chris &amp; Grace Wedding Invitation-Front</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/Chris&amp;Grace/detail0.png</image>
+    <image:title>Chris &amp; Grace Wedding Invitation-Front</image>
+    <image:caption>Chris &amp; Grace Wedding Invitation-Front</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/Chris&amp;Grace/detail1.png</image>
-    <image xmlns="title">Chris &amp; Grace Wedding Invitation-Hot Stamping details</image>
-    <image xmlns="caption">Chris &amp; Grace Wedding Invitation-Hot Stamping details</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/Chris&amp;Grace/detail1.png</image>
+    <image:title>Chris &amp; Grace Wedding Invitation-Hot Stamping details</image>
+    <image:caption>Chris &amp; Grace Wedding Invitation-Hot Stamping details</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/Chris&amp;Grace/detail2.png</image>
-    <image xmlns="title">Chris &amp; Grace Wedding Invitation-Pop Up Card</image>
-    <image xmlns="caption">Chris &amp; Grace Wedding Invitation-Pop Up Card</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/Chris&amp;Grace/detail2.png</image>
+    <image:title>Chris &amp; Grace Wedding Invitation-Pop Up Card</image>
+    <image:caption>Chris &amp; Grace Wedding Invitation-Pop Up Card</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/Chris&amp;Grace/detail3.png</image>
-    <image xmlns="title">Chris &amp; Grace Wedding Invitation-Inside</image>
-    <image xmlns="caption">Chris &amp; Grace Wedding Invitation-Inside</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/Chris&amp;Grace/detail3.png</image>
+    <image:title>Chris &amp; Grace Wedding Invitation-Inside</image>
+    <image:caption>Chris &amp; Grace Wedding Invitation-Inside</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/Chris&amp;Grace/detail4.png</image>
-    <image xmlns="title">Chris &amp; Grace Wedding Invitation-Envelope</image>
-    <image xmlns="caption">Chris &amp; Grace Wedding Invitation-Envelope</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/Chris&amp;Grace/detail4.png</image>
+    <image:title>Chris &amp; Grace Wedding Invitation-Envelope</image>
+    <image:caption>Chris &amp; Grace Wedding Invitation-Envelope</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/chen_ku</loc>
+  <loc>http://emilygp.com/projects/chen_ku</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/chen_ku/detail0.png</image>
-    <image xmlns="title">Wedding party of bridegroom's family</image>
-    <image xmlns="caption">Wedding party of bridegroom's family</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/chen_ku/detail0.png</image>
+    <image:title>Wedding party of bridegroom's family</image>
+    <image:caption>Wedding party of bridegroom's family</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/chen_ku/detail1.png</image>
-    <image xmlns="title">Wedding party of bride's family</image>
-    <image xmlns="caption">Wedding party of bride's family</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/chen_ku/detail1.png</image>
+    <image:title>Wedding party of bride's family</image>
+    <image:caption>Wedding party of bride's family</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/chen_ku/detail2.png</image>
-    <image xmlns="title">Card details</image>
-    <image xmlns="caption">Card details</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/chen_ku/detail2.png</image>
+    <image:title>Card details</image>
+    <image:caption>Card details</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/chen_ku/detail3.png</image>
-    <image xmlns="title">Card details</image>
-    <image xmlns="caption">Card details</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/chen_ku/detail3.png</image>
+    <image:title>Card details</image>
+    <image:caption>Card details</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/chen_ku/detail4.png</image>
-    <image xmlns="title">Envelope Design</image>
-    <image xmlns="caption">Envelope Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/chen_ku/detail4.png</image>
+    <image:title>Envelope Design</image>
+    <image:caption>Envelope Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/chen_ku/detail5.png</image>
-    <image xmlns="title">Envelope Design</image>
-    <image xmlns="caption">Envelope Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/chen_ku/detail5.png</image>
+    <image:title>Envelope Design</image>
+    <image:caption>Envelope Design</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/card</loc>
+  <loc>http://emilygp.com/projects/card</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/card/detail0.png</image>
-    <image xmlns="title">China Airline Co-Brander Card - PLATINUM</image>
-    <image xmlns="caption">China Airline Co-Brander Card - PLATINUM</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/card/detail0.png</image>
+    <image:title>China Airline Co-Brander Card - PLATINUM</image>
+    <image:caption>China Airline Co-Brander Card - PLATINUM</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/card/detail1.png</image>
-    <image xmlns="title">China Airline Co-Brander Card - SIGNATURE</image>
-    <image xmlns="caption">China Airline Co-Brander Card - SIGNATURE</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/card/detail1.png</image>
+    <image:title>China Airline Co-Brander Card - SIGNATURE</image>
+    <image:caption>China Airline Co-Brander Card - SIGNATURE</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/card/detail2.png</image>
-    <image xmlns="title">China Airline Co-Brander Card - INFINITE</image>
-    <image xmlns="caption">China Airline Co-Brander Card - INFINITE</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/card/detail2.png</image>
+    <image:title>China Airline Co-Brander Card - INFINITE</image>
+    <image:caption>China Airline Co-Brander Card - INFINITE</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/card/detail3.png</image>
-    <image xmlns="title">China Airline Co-Brander Card</image>
-    <image xmlns="caption">China Airline Co-Brander Card</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/card/detail3.png</image>
+    <image:title>China Airline Co-Brander Card</image>
+    <image:caption>China Airline Co-Brander Card</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/jade</loc>
+  <loc>http://emilygp.com/projects/jade</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/jade/detail0.png</image>
-    <image xmlns="title">Heavenly Crafted- Poster</image>
-    <image xmlns="caption">Heavenly Crafted- Poster</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/jade/detail0.png</image>
+    <image:title>Heavenly Crafted- Poster</image>
+    <image:caption>Heavenly Crafted- Poster</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/jade/detail1.png</image>
-    <image xmlns="title">Heavenly Crafted- Brochure</image>
-    <image xmlns="caption">Heavenly Crafted- Brochure</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/jade/detail1.png</image>
+    <image:title>Heavenly Crafted- Brochure</image>
+    <image:caption>Heavenly Crafted- Brochure</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/jade/detail2.png</image>
-    <image xmlns="title">Heavenly Crafted- Brochure</image>
-    <image xmlns="caption">Heavenly Crafted- Brochure</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/jade/detail2.png</image>
+    <image:title>Heavenly Crafted- Brochure</image>
+    <image:caption>Heavenly Crafted- Brochure</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/jade/detail3.png</image>
-    <image xmlns="title">Heavenly Crafted- Exhibition</image>
-    <image xmlns="caption">Heavenly Crafted- Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/jade/detail3.png</image>
+    <image:title>Heavenly Crafted- Exhibition</image>
+    <image:caption>Heavenly Crafted- Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/jade/detail4.png</image>
-    <image xmlns="title">Heavenly Crafted- Exhibition</image>
-    <image xmlns="caption">Heavenly Crafted- Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/jade/detail4.png</image>
+    <image:title>Heavenly Crafted- Exhibition</image>
+    <image:caption>Heavenly Crafted- Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/jade/detail5.png</image>
-    <image xmlns="title">Heavenly Crafted- Exhibition</image>
-    <image xmlns="caption">Heavenly Crafted- Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/jade/detail5.png</image>
+    <image:title>Heavenly Crafted- Exhibition</image>
+    <image:caption>Heavenly Crafted- Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/jade/detail6.png</image>
-    <image xmlns="title">Heavenly Crafted- Exhibition</image>
-    <image xmlns="caption">Heavenly Crafted- Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/jade/detail6.png</image>
+    <image:title>Heavenly Crafted- Exhibition</image>
+    <image:caption>Heavenly Crafted- Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/jade/detail7.png</image>
-    <image xmlns="title">Heavenly Crafted- Exhibition</image>
-    <image xmlns="caption">Heavenly Crafted- Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/jade/detail7.png</image>
+    <image:title>Heavenly Crafted- Exhibition</image>
+    <image:caption>Heavenly Crafted- Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/jade/detail8.png</image>
-    <image xmlns="title">Heavenly Crafted-THSR advertisement</image>
-    <image xmlns="caption">Heavenly Crafted-THSR advertisement</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/jade/detail8.png</image>
+    <image:title>Heavenly Crafted-THSR advertisement</image>
+    <image:caption>Heavenly Crafted-THSR advertisement</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/2013中秋禮盒</loc>
+  <loc>http://emilygp.com/projects/2013中秋禮盒</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2013中秋禮盒/detail0.png</image>
-    <image xmlns="title">2013 Moon Festival gift box – Chinese Moon Cake</image>
-    <image xmlns="caption">2013 Moon Festival gift box – Chinese Moon Cake</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2013中秋禮盒/detail0.png</image>
+    <image:title>2013 Moon Festival gift box – Chinese Moon Cake</image>
+    <image:caption>2013 Moon Festival gift box – Chinese Moon Cake</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2013中秋禮盒/detail1.png</image>
-    <image xmlns="title">2013 Moon Festival gift box – Cheese Cake</image>
-    <image xmlns="caption">2013 Moon Festival gift box – Cheese Cake</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2013中秋禮盒/detail1.png</image>
+    <image:title>2013 Moon Festival gift box – Cheese Cake</image>
+    <image:caption>2013 Moon Festival gift box – Cheese Cake</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2013中秋禮盒/detail2.png</image>
-    <image xmlns="title">2013 Moon Festival gift box – Chinese Moon Cake</image>
-    <image xmlns="caption">2013 Moon Festival gift box – Chinese Moon Cake</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2013中秋禮盒/detail2.png</image>
+    <image:title>2013 Moon Festival gift box – Chinese Moon Cake</image>
+    <image:caption>2013 Moon Festival gift box – Chinese Moon Cake</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2013中秋禮盒/detail3.png</image>
-    <image xmlns="title">2013 Moon Festival gift box – Combo</image>
-    <image xmlns="caption">2013 Moon Festival gift box – Combo</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2013中秋禮盒/detail3.png</image>
+    <image:title>2013 Moon Festival gift box – Combo</image>
+    <image:caption>2013 Moon Festival gift box – Combo</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/福樺建設賀卡</loc>
+  <loc>http://emilygp.com/projects/福樺建設賀卡</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/福樺建設賀卡/detail0.png</image>
-    <image xmlns="title">Fu-Hua Construction Greeting Cards- 2015 Greeting Card Design</image>
-    <image xmlns="caption">Fu-Hua Construction Greeting Cards- 2015 Greeting Card Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/福樺建設賀卡/detail0.png</image>
+    <image:title>Fu-Hua Construction Greeting Cards- 2015 Greeting Card Design</image>
+    <image:caption>Fu-Hua Construction Greeting Cards- 2015 Greeting Card Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/福樺建設賀卡/detail1.png</image>
-    <image xmlns="title">Fu-Hua Construction Greeting Cards- 2015 Greeting Card Detail</image>
-    <image xmlns="caption">Fu-Hua Construction Greeting Cards- 2015 Greeting Card Detail</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/福樺建設賀卡/detail1.png</image>
+    <image:title>Fu-Hua Construction Greeting Cards- 2015 Greeting Card Detail</image>
+    <image:caption>Fu-Hua Construction Greeting Cards- 2015 Greeting Card Detail</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/福樺建設賀卡/detail2.png</image>
-    <image xmlns="title">Fu-Hua Construction Greeting Cards- 2014 Greeting Card Design</image>
-    <image xmlns="caption">Fu-Hua Construction Greeting Cards- 2014 Greeting Card Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/福樺建設賀卡/detail2.png</image>
+    <image:title>Fu-Hua Construction Greeting Cards- 2014 Greeting Card Design</image>
+    <image:caption>Fu-Hua Construction Greeting Cards- 2014 Greeting Card Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/福樺建設賀卡/detail3.png</image>
-    <image xmlns="title">Fu-Hua Construction Greeting Cards- 2014 Greeting Card Detail</image>
-    <image xmlns="caption">Fu-Hua Construction Greeting Cards- 2014 Greeting Card Detail</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/福樺建設賀卡/detail3.png</image>
+    <image:title>Fu-Hua Construction Greeting Cards- 2014 Greeting Card Detail</image>
+    <image:caption>Fu-Hua Construction Greeting Cards- 2014 Greeting Card Detail</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/福樺建設賀卡/detail4.png</image>
-    <image xmlns="title">Fu-Hua Construction Greeting Cards- 2014 Greeting Card Detail</image>
-    <image xmlns="caption">Fu-Hua Construction Greeting Cards- 2014 Greeting Card Detail</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/福樺建設賀卡/detail4.png</image>
+    <image:title>Fu-Hua Construction Greeting Cards- 2014 Greeting Card Detail</image>
+    <image:caption>Fu-Hua Construction Greeting Cards- 2014 Greeting Card Detail</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/福樺建設賀卡/detail5.png</image>
-    <image xmlns="title">Fu-Hua Construction Greeting Cards- 2014 Greeting Card Envelope</image>
-    <image xmlns="caption">Fu-Hua Construction Greeting Cards- 2014 Greeting Card Envelope</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/福樺建設賀卡/detail5.png</image>
+    <image:title>Fu-Hua Construction Greeting Cards- 2014 Greeting Card Envelope</image>
+    <image:caption>Fu-Hua Construction Greeting Cards- 2014 Greeting Card Envelope</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/upackaging</loc>
+  <loc>http://emilygp.com/projects/upackaging</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/upackaging/detail0.png</image>
-    <image xmlns="title">Logo Design</image>
-    <image xmlns="caption">Logo Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/upackaging/detail0.png</image>
+    <image:title>Logo Design</image>
+    <image:caption>Logo Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/upackaging/detail1.png</image>
-    <image xmlns="title">Website</image>
-    <image xmlns="caption">Website</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/upackaging/detail1.png</image>
+    <image:title>Website</image>
+    <image:caption>Website</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/upackaging/detail2.png</image>
-    <image xmlns="title">Website</image>
-    <image xmlns="caption">Website</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/upackaging/detail2.png</image>
+    <image:title>Website</image>
+    <image:caption>Website</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/upackaging/detail3.png</image>
-    <image xmlns="title">Bussiness Card</image>
-    <image xmlns="caption">Bussiness Card</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/upackaging/detail3.png</image>
+    <image:title>Bussiness Card</image>
+    <image:caption>Bussiness Card</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/upackaging/detail4.png</image>
-    <image xmlns="title">Bussiness Card</image>
-    <image xmlns="caption">Bussiness Card</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/upackaging/detail4.png</image>
+    <image:title>Bussiness Card</image>
+    <image:caption>Bussiness Card</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/2016文博會</loc>
+  <loc>http://emilygp.com/projects/2016文博會</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail0.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN – Poster</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN – Poster</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail0.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN – Poster</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN – Poster</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail1.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN – Bag</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN – Bag</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail1.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN – Bag</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN – Bag</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail2.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN – Exhibition Entrance</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN – Exhibition Entrance</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail2.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN – Exhibition Entrance</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN – Exhibition Entrance</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail3.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN – Invitation</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN – Invitation</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail3.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN – Invitation</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN – Invitation</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail4.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN – Invitation</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN – Invitation</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail4.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN – Invitation</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN – Invitation</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail5.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN – Bottle Label</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN – Bottle Label</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail5.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN – Bottle Label</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN – Bottle Label</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail6.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN – Airport Advertisement</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN – Airport Advertisement</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail6.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN – Airport Advertisement</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN – Airport Advertisement</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail7.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN – APP</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN – APP</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail7.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN – APP</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN – APP</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail8.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN – Gala Dinner</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN – Gala Dinner</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail8.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN – Gala Dinner</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN – Gala Dinner</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail9.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN –Gala Dinner</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN –Gala Dinner</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail9.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN –Gala Dinner</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN –Gala Dinner</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail10.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN –Gala Dinner Menu</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN –Gala Dinner Menu</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail10.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN –Gala Dinner Menu</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN –Gala Dinner Menu</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail11.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN –Gala Dinner Menu</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN –Gala Dinner Menu</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail11.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN –Gala Dinner Menu</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN –Gala Dinner Menu</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail12.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN – Taiwan Pavilion Key Vision</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN – Taiwan Pavilion Key Vision</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail12.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN – Taiwan Pavilion Key Vision</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN – Taiwan Pavilion Key Vision</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail13.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN –Taiwan Pavilion</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN –Taiwan Pavilion</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail13.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN –Taiwan Pavilion</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN –Taiwan Pavilion</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2016文博會/detail14.png</image>
-    <image xmlns="title">2016 CREATIVE EXPO TAIWAN –Taiwan Pavilion</image>
-    <image xmlns="caption">2016 CREATIVE EXPO TAIWAN –Taiwan Pavilion</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2016文博會/detail14.png</image>
+    <image:title>2016 CREATIVE EXPO TAIWAN –Taiwan Pavilion</image>
+    <image:caption>2016 CREATIVE EXPO TAIWAN –Taiwan Pavilion</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/kimono</loc>
+  <loc>http://emilygp.com/projects/kimono</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/kimono/detail0.png</image>
-    <image xmlns="title">Poster</image>
-    <image xmlns="caption">Poster</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/kimono/detail0.png</image>
+    <image:title>Poster</image>
+    <image:caption>Poster</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/kimono/detail1.png</image>
-    <image xmlns="title">Brochure</image>
-    <image xmlns="caption">Brochure</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/kimono/detail1.png</image>
+    <image:title>Brochure</image>
+    <image:caption>Brochure</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/kimono/detail2.png</image>
-    <image xmlns="title">Brochure</image>
-    <image xmlns="caption">Brochure</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/kimono/detail2.png</image>
+    <image:title>Brochure</image>
+    <image:caption>Brochure</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/kimono/detail3.png</image>
-    <image xmlns="title">Exhibition</image>
-    <image xmlns="caption">Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/kimono/detail3.png</image>
+    <image:title>Exhibition</image>
+    <image:caption>Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/kimono/detail4.png</image>
-    <image xmlns="title">Exhibition</image>
-    <image xmlns="caption">Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/kimono/detail4.png</image>
+    <image:title>Exhibition</image>
+    <image:caption>Exhibition</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/taihwa35</loc>
+  <loc>http://emilygp.com/projects/taihwa35</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/taihwa35/detail0.png</image>
-    <image xmlns="title">Tai-Hwa Pottery 35th Anniversary Logo Design</image>
-    <image xmlns="caption">Tai-Hwa Pottery 35th Anniversary Logo Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/taihwa35/detail0.png</image>
+    <image:title>Tai-Hwa Pottery 35th Anniversary Logo Design</image>
+    <image:caption>Tai-Hwa Pottery 35th Anniversary Logo Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/taihwa35/detail1.png</image>
-    <image xmlns="title">Tai-Hwa Pottery 35th Anniversary Logo -Inspiration</image>
-    <image xmlns="caption">Tai-Hwa Pottery 35th Anniversary Logo -Inspiration</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/taihwa35/detail1.png</image>
+    <image:title>Tai-Hwa Pottery 35th Anniversary Logo -Inspiration</image>
+    <image:caption>Tai-Hwa Pottery 35th Anniversary Logo -Inspiration</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/taihwa35/detail2.png</image>
-    <image xmlns="title">Tai-Hwa Pottery 35th Anniversary Logo –Packaging</image>
-    <image xmlns="caption">Tai-Hwa Pottery 35th Anniversary Logo –Packaging</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/taihwa35/detail2.png</image>
+    <image:title>Tai-Hwa Pottery 35th Anniversary Logo –Packaging</image>
+    <image:caption>Tai-Hwa Pottery 35th Anniversary Logo –Packaging</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/taihwa35/detail3.png</image>
-    <image xmlns="title">Tai-Hwa Pottery 35th Anniversary Logo – Umbrella</image>
-    <image xmlns="caption">Tai-Hwa Pottery 35th Anniversary Logo – Umbrella</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/taihwa35/detail3.png</image>
+    <image:title>Tai-Hwa Pottery 35th Anniversary Logo – Umbrella</image>
+    <image:caption>Tai-Hwa Pottery 35th Anniversary Logo – Umbrella</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/artfestival</loc>
+  <loc>http://emilygp.com/projects/artfestival</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/artfestival/detail0.png</image>
-    <image xmlns="title">Logo Design</image>
-    <image xmlns="caption">Logo Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/artfestival/detail0.png</image>
+    <image:title>Logo Design</image>
+    <image:caption>Logo Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/artfestival/detail1.png</image>
-    <image xmlns="title">Event Program</image>
-    <image xmlns="caption">Event Program</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/artfestival/detail1.png</image>
+    <image:title>Event Program</image>
+    <image:caption>Event Program</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/華航新世代客艙計畫</loc>
+  <loc>http://emilygp.com/projects/華航新世代客艙計畫</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail0.png</image>
-    <image xmlns="title">China Airlines NexGen program – GUI index</image>
-    <image xmlns="caption">China Airlines NexGen program – GUI index</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail0.png</image>
+    <image:title>China Airlines NexGen program – GUI index</image>
+    <image:caption>China Airlines NexGen program – GUI index</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail1.png</image>
-    <image xmlns="title">China Airlines NexGen program – icon revised suggestion</image>
-    <image xmlns="caption">China Airlines NexGen program – icon revised suggestion</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail1.png</image>
+    <image:title>China Airlines NexGen program – icon revised suggestion</image>
+    <image:caption>China Airlines NexGen program – icon revised suggestion</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail2.png</image>
-    <image xmlns="title">China Airlines NexGen program – icon revised suggestion</image>
-    <image xmlns="caption">China Airlines NexGen program – icon revised suggestion</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail2.png</image>
+    <image:title>China Airlines NexGen program – icon revised suggestion</image>
+    <image:caption>China Airlines NexGen program – icon revised suggestion</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail3.png</image>
-    <image xmlns="title">China Airlines NexGen program – icon revised suggestion</image>
-    <image xmlns="caption">China Airlines NexGen program – icon revised suggestion</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail3.png</image>
+    <image:title>China Airlines NexGen program – icon revised suggestion</image>
+    <image:caption>China Airlines NexGen program – icon revised suggestion</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail4.png</image>
-    <image xmlns="title">China Airlines NexGen program – cabin simulation</image>
-    <image xmlns="caption">China Airlines NexGen program – cabin simulation</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail4.png</image>
+    <image:title>China Airlines NexGen program – cabin simulation</image>
+    <image:caption>China Airlines NexGen program – cabin simulation</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail5.png</image>
-    <image xmlns="title">China Airlines NexGen program – cabin simulation</image>
-    <image xmlns="caption">China Airlines NexGen program – cabin simulation</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail5.png</image>
+    <image:title>China Airlines NexGen program – cabin simulation</image>
+    <image:caption>China Airlines NexGen program – cabin simulation</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail6.png</image>
-    <image xmlns="title">China Airlines NexGen program – cabin actual circumstances</image>
-    <image xmlns="caption">China Airlines NexGen program – cabin actual circumstances</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail6.png</image>
+    <image:title>China Airlines NexGen program – cabin actual circumstances</image>
+    <image:caption>China Airlines NexGen program – cabin actual circumstances</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail7.png</image>
-    <image xmlns="title">China Airlines NexGen program – cabin actual circumstances</image>
-    <image xmlns="caption">China Airlines NexGen program – cabin actual circumstances</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail7.png</image>
+    <image:title>China Airlines NexGen program – cabin actual circumstances</image>
+    <image:caption>China Airlines NexGen program – cabin actual circumstances</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail8.png</image>
-    <image xmlns="title">China Airlines NexGen program – Wi-Fi onboard icon</image>
-    <image xmlns="caption">China Airlines NexGen program – Wi-Fi onboard icon</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail8.png</image>
+    <image:title>China Airlines NexGen program – Wi-Fi onboard icon</image>
+    <image:caption>China Airlines NexGen program – Wi-Fi onboard icon</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail9.png</image>
-    <image xmlns="title">China Airlines NexGen program – Aircraft door</image>
-    <image xmlns="caption">China Airlines NexGen program – Aircraft door</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail9.png</image>
+    <image:title>China Airlines NexGen program – Aircraft door</image>
+    <image:caption>China Airlines NexGen program – Aircraft door</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/華航新世代客艙計畫/detail10.png</image>
-    <image xmlns="title">China Airlines NexGen program – Wi-Fi setting instruction</image>
-    <image xmlns="caption">China Airlines NexGen program – Wi-Fi setting instruction</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/華航新世代客艙計畫/detail10.png</image>
+    <image:title>China Airlines NexGen program – Wi-Fi setting instruction</image>
+    <image:caption>China Airlines NexGen program – Wi-Fi setting instruction</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/wrenchit</loc>
+  <loc>http://emilygp.com/projects/wrenchit</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/wrenchit/detail0.png</image>
-    <image xmlns="title">WRENCHit – LOGO</image>
-    <image xmlns="caption">WRENCHit – LOGO</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/wrenchit/detail0.png</image>
+    <image:title>WRENCHit – LOGO</image>
+    <image:caption>WRENCHit – LOGO</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/wrenchit/detail1.png</image>
-    <image xmlns="title">WRENCHit – Kickstarter Compaign Page</image>
-    <image xmlns="caption">WRENCHit – Kickstarter Compaign Page</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/wrenchit/detail1.png</image>
+    <image:title>WRENCHit – Kickstarter Compaign Page</image>
+    <image:caption>WRENCHit – Kickstarter Compaign Page</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/wrenchit/detail2.png</image>
-    <image xmlns="title">WRENCHit – Assembly Picture</image>
-    <image xmlns="caption">WRENCHit – Assembly Picture</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/wrenchit/detail2.png</image>
+    <image:title>WRENCHit – Assembly Picture</image>
+    <image:caption>WRENCHit – Assembly Picture</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/wrenchit/detail3.png</image>
-    <image xmlns="title">WRENCHit – Details</image>
-    <image xmlns="caption">WRENCHit – Details</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/wrenchit/detail3.png</image>
+    <image:title>WRENCHit – Details</image>
+    <image:caption>WRENCHit – Details</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/wrenchit/detail4.png</image>
-    <image xmlns="title">WRENCHit – Details</image>
-    <image xmlns="caption">WRENCHit – Details</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/wrenchit/detail4.png</image>
+    <image:title>WRENCHit – Details</image>
+    <image:caption>WRENCHit – Details</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/wrenchit/detail5.png</image>
-    <image xmlns="title">WRENCHit – Details</image>
-    <image xmlns="caption">WRENCHit – Details</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/wrenchit/detail5.png</image>
+    <image:title>WRENCHit – Details</image>
+    <image:caption>WRENCHit – Details</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/wrenchit/detail6.png</image>
-    <image xmlns="title">WRENCHit – Packaging Design (via Tecsetter‏)</image>
-    <image xmlns="caption">WRENCHit – Packaging Design (via Tecsetter‏)</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/wrenchit/detail6.png</image>
+    <image:title>WRENCHit – Packaging Design (via Tecsetter‏)</image>
+    <image:caption>WRENCHit – Packaging Design (via Tecsetter‏)</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/wrenchit/detail7.png</image>
-    <image xmlns="title">WRENCHit – Packaging Design</image>
-    <image xmlns="caption">WRENCHit – Packaging Design</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/wrenchit/detail7.png</image>
+    <image:title>WRENCHit – Packaging Design</image>
+    <image:caption>WRENCHit – Packaging Design</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/wrenchit/detail8.png</image>
-    <image xmlns="title">WRENCHit – User Instructions</image>
-    <image xmlns="caption">WRENCHit – User Instructions</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/wrenchit/detail8.png</image>
+    <image:title>WRENCHit – User Instructions</image>
+    <image:caption>WRENCHit – User Instructions</image>
   </image>
 </url>
 <url>
-  <loc>http://emilyghp.com/projects/2014台灣設計展</loc>
+  <loc>http://emilygp.com/projects/2014台灣設計展</loc>
   <lastmod>2017-10-11</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail0.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Poster</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Poster</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail0.png</image>
+    <image:title>2014 Taiwan Design Expo – Poster</image>
+    <image:caption>2014 Taiwan Design Expo – Poster</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail1.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Invitation</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Invitation</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail1.png</image>
+    <image:title>2014 Taiwan Design Expo – Invitation</image>
+    <image:caption>2014 Taiwan Design Expo – Invitation</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail2.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Badge</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Badge</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail2.png</image>
+    <image:title>2014 Taiwan Design Expo – Badge</image>
+    <image:caption>2014 Taiwan Design Expo – Badge</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail3.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Icon</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Icon</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail3.png</image>
+    <image:title>2014 Taiwan Design Expo – Icon</image>
+    <image:caption>2014 Taiwan Design Expo – Icon</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail4.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Exhibition Entrance</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Exhibition Entrance</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail4.png</image>
+    <image:title>2014 Taiwan Design Expo – Exhibition Entrance</image>
+    <image:caption>2014 Taiwan Design Expo – Exhibition Entrance</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail5.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Exhibition</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail5.png</image>
+    <image:title>2014 Taiwan Design Expo – Exhibition</image>
+    <image:caption>2014 Taiwan Design Expo – Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail6.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Exhibition</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail6.png</image>
+    <image:title>2014 Taiwan Design Expo – Exhibition</image>
+    <image:caption>2014 Taiwan Design Expo – Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail7.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Exhibition</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail7.png</image>
+    <image:title>2014 Taiwan Design Expo – Exhibition</image>
+    <image:caption>2014 Taiwan Design Expo – Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail8.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Exhibition</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail8.png</image>
+    <image:title>2014 Taiwan Design Expo – Exhibition</image>
+    <image:caption>2014 Taiwan Design Expo – Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail9.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Exhibition</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail9.png</image>
+    <image:title>2014 Taiwan Design Expo – Exhibition</image>
+    <image:caption>2014 Taiwan Design Expo – Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail10.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Sign</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Sign</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail10.png</image>
+    <image:title>2014 Taiwan Design Expo – Sign</image>
+    <image:caption>2014 Taiwan Design Expo – Sign</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail11.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Exhibition</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Exhibition</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail11.png</image>
+    <image:title>2014 Taiwan Design Expo – Exhibition</image>
+    <image:caption>2014 Taiwan Design Expo – Exhibition</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail12.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Workshop</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Workshop</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail12.png</image>
+    <image:title>2014 Taiwan Design Expo – Workshop</image>
+    <image:caption>2014 Taiwan Design Expo – Workshop</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail13.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Food Court</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Food Court</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail13.png</image>
+    <image:title>2014 Taiwan Design Expo – Food Court</image>
+    <image:caption>2014 Taiwan Design Expo – Food Court</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail14.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Commemorative Stamps Stop</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Commemorative Stamps Stop</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail14.png</image>
+    <image:title>2014 Taiwan Design Expo – Commemorative Stamps Stop</image>
+    <image:caption>2014 Taiwan Design Expo – Commemorative Stamps Stop</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail15.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Commemorative Stamps Stop</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Commemorative Stamps Stop</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail15.png</image>
+    <image:title>2014 Taiwan Design Expo – Commemorative Stamps Stop</image>
+    <image:caption>2014 Taiwan Design Expo – Commemorative Stamps Stop</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail16.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Cool Ice Shop</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Cool Ice Shop</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail16.png</image>
+    <image:title>2014 Taiwan Design Expo – Cool Ice Shop</image>
+    <image:caption>2014 Taiwan Design Expo – Cool Ice Shop</image>
   </image>
-  <image xmlns="image">
-    <image xmlns="loc">http://emilygph.com/assets/projects/2014台灣設計展/detail17.png</image>
-    <image xmlns="title">2014 Taiwan Design Expo – Bike</image>
-    <image xmlns="caption">2014 Taiwan Design Expo – Bike</image>
+  <image:image>
+    <image:loc>http://emilygph.com/assets/projects/2014台灣設計展/detail17.png</image>
+    <image:title>2014 Taiwan Design Expo – Bike</image>
+    <image:caption>2014 Taiwan Design Expo – Bike</image>
   </image>
 </url>
-</urlset>

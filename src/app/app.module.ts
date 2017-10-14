@@ -45,7 +45,7 @@ import { ContactComponent } from './contact/contact.component';
     ProjectService,
     ProjectFilterService,
     ProjectResolver,
-    appRoutingProviders
+    appRoutingProviders,
   ],
   bootstrap: [AppComponent]
 })

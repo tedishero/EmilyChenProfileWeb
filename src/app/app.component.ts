@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Navigation, Categories } from './project/index';
+import { GoogleAnalyticsEventsService } from './google-analytic/google-analytic.service';
 import { ObservableMedia } from "@angular/flex-layout";
+import { Router, NavigationEnd } from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -11,7 +13,13 @@ export class AppComponent {
 
   public mobileMenuVisible: boolean;
 
-  constructor(public media: ObservableMedia) {
+  constructor(public media: ObservableMedia, private router: Router) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        ga('set', 'page', event.urlAfterRedirects);
+        ga('send', 'pageview');
+      }
+    });
   }
 
   public onMenuToggled($event: boolean) {

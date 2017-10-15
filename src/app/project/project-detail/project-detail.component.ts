@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ObservableMedia } from '@angular/flex-layout';
+import { MetaService } from '@ngx-meta/core';
 import { ProjectLite, ProjectFilterService } from '../index';
 import PhotoSwipe from 'photoswipe';
 
@@ -12,15 +13,33 @@ import PhotoSwipe from 'photoswipe';
 
 export class ProjectDetailComponent implements OnInit {
 
-  private pageName = 'Project-Detail-';
   project: ProjectLite;
   popupImages: any[] = [];
   constructor(
     public media: ObservableMedia,
     private route: ActivatedRoute,
-    private projectFilterService: ProjectFilterService) {
+    private projectFilterService: ProjectFilterService,
+    private metaService: MetaService) {
     this.project = this.route.snapshot.data['project'];
-    this.pageName += this.project.name;
+    this.setMetaTags();
+  }
+
+  private setMetaTags() {
+    // sets the title.
+    this.metaService.setTitle(`Emily Chen | Graphic Design | ${this.project.englishName} | ${this.project.chineseName}`, true);
+
+    // generate some meaningful description
+    let description = `${this.project.englishName} (${this.project.chineseName}).`;
+    for(let i = 0; i < this.project.descriptions.length - 1; i++) {
+      description += this.project.descriptions[i] + ", ";
+    }
+    description += 'and ' + this.project.descriptions[this.project.descriptions.length - 1] + ".";
+    this.metaService.setTag('og:description', description);
+
+    // sets thumbnail.
+    let thumbNailPath = this.detailImage(1);
+    thumbNailPath = thumbNailPath.substring(2, thumbNailPath.length);
+    this.metaService.setTag('og:image', `http://emilygph.com/${thumbNailPath}`);
   }
 
   ngOnInit() {

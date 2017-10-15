@@ -10,7 +10,6 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ProjectListComponent implements OnInit, AfterViewChecked {
 
-  private pageName = 'Project-List';
   public projects: ProjectLite[];
   public projectsMaster: ProjectLite[];
 

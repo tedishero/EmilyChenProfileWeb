@@ -6,7 +6,7 @@ import { MaterialModule } from '@angular/material';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { AppComponent } from './app.component';
 import { NavbarComponent, NavbarMobileComponent } from './navbar/index';
-
+import { MetaModule } from '@ngx-meta/core';
 import { appRoutes, appRoutingProviders } from './app.routes';
 
 import {
@@ -39,6 +39,7 @@ import { ContactComponent } from './contact/contact.component';
     MaterialModule,
     LazyLoadImageModule,
     FlexLayoutModule,
+    MetaModule.forRoot(),
     appRoutes
   ],
   providers: [

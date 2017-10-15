@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Navigation, Categories } from './project/index';
-import { GoogleAnalyticsEventsService } from './google-analytic/google-analytic.service';
 import { ObservableMedia } from "@angular/flex-layout";
 import { Router, NavigationEnd } from "@angular/router";
 

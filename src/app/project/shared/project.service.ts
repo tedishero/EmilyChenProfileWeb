@@ -342,6 +342,44 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
+    chineseName: '2014台灣設計展',
+    englishName: '2014 Taiwan Design Expo',
+    descriptions: [
+      'Client - Taiwan Design Center',
+      'Design Agency –FREEIMAGE design',
+      'Photographer - Cheng Ting',
+      'Illustration –Huang Ching Yi',
+      'Responsibility- Event KEY VISION Design' 
+    ],
+    name: '2014台灣設計展',
+    projectDetails: [
+      '2014 Taiwan Design Expo – Poster',
+      '2014 Taiwan Design Expo – Invitation',
+      '2014 Taiwan Design Expo – Badge',
+      '2014 Taiwan Design Expo – Icon',
+      '2014 Taiwan Design Expo – Exhibition Entrance',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Sign',
+      '2014 Taiwan Design Expo – Exhibition',
+      '2014 Taiwan Design Expo – Workshop',
+      '2014 Taiwan Design Expo – Food Court',
+      '2014 Taiwan Design Expo – Commemorative Stamps Stop',
+      '2014 Taiwan Design Expo – Commemorative Stamps Stop',
+      '2014 Taiwan Design Expo – Cool Ice Shop',
+      '2014 Taiwan Design Expo – Bike'
+    ],
+    categories: [
+      Categories.Identity,
+      Categories.Graphic,
+      Categories.Editorial,
+      Categories.Exhibition
+    ]
+  },
+  {
     chineseName: '福樺建設賀卡',
     englishName: 'Fu-Hua Construction Greeting Cards',
     descriptions: [
@@ -415,6 +453,34 @@ const Projects: ProjectLite[] = [
       Categories.Identity,
       Categories.Graphic,
       Categories.Editorial,
+      Categories.Exhibition
+    ]
+  },
+  {
+    chineseName: '台灣美食展-小吃大器｜惜物時代',
+    englishName: 'Taiwan Culinary Exhibition',
+    descriptions: [
+      'Client –Taiwan Visitors Association',
+      'Design Agency –FREEIMAGE design',
+      'Photographer - Cheng Ting',
+      'Responsibility- Typography',
+    ],
+    name: '美食展',
+    projectDetails: [
+      'Stylish Small Eats Utensils- Logo Design',
+      'Stylish Small Eats Utensils - 2015 Taiwan Culinary Exhibition',
+      'Stylish Small Eats Utensils - 2016 Taiwan Culinary Exhibition',
+      'Stylish Small Eats Utensils - 2016 Taiwan Culinary Exhibition',
+      'Stylish Small Eats Utensils - 2017 Taiwan Culinary Exhibition',
+      'Stylish Small Eats Utensils - 2017 Taiwan Culinary Exhibition',
+      'Stylish Small Eats Utensils - 2017 Taiwan Culinary Exhibition',
+      'The Era to Cherish - Logo Design',
+      'The Era to Cherish - 2015 Taiwan Culinary Exhibition',
+      'The Era to Cherish - 2015 Taiwan Culinary Exhibition',
+    ],
+    categories: [
+      Categories.Identity,
+      Categories.Graphic,
       Categories.Exhibition
     ]
   },
@@ -535,41 +601,35 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    chineseName: '2014台灣設計展',
-    englishName: '2014 Taiwan Design Expo',
+    chineseName: '部落行銷',
+    englishName: 'Taiwan Indigenous Culture & Creative Center',
     descriptions: [
-      'Client - Taiwan Design Center',
+      'Client –Taiwan Indigenous Culture & Creative Center',
       'Design Agency –FREEIMAGE design',
+      'Calligrapher – Tong Yang-tze',
       'Photographer - Cheng Ting',
-      'Illustration –Huang Ching Yi',
-      'Responsibility- Event KEY VISION Design' 
+      'Responsibility- LOGO/ Packaging Design'
     ],
-    name: '2014台灣設計展',
+    name: '部落行銷',
     projectDetails: [
-      '2014 Taiwan Design Expo – Poster',
-      '2014 Taiwan Design Expo – Invitation',
-      '2014 Taiwan Design Expo – Badge',
-      '2014 Taiwan Design Expo – Icon',
-      '2014 Taiwan Design Expo – Exhibition Entrance',
-      '2014 Taiwan Design Expo – Exhibition',
-      '2014 Taiwan Design Expo – Exhibition',
-      '2014 Taiwan Design Expo – Exhibition',
-      '2014 Taiwan Design Expo – Exhibition',
-      '2014 Taiwan Design Expo – Exhibition',
-      '2014 Taiwan Design Expo – Sign',
-      '2014 Taiwan Design Expo – Exhibition',
-      '2014 Taiwan Design Expo – Workshop',
-      '2014 Taiwan Design Expo – Food Court',
-      '2014 Taiwan Design Expo – Commemorative Stamps Stop',
-      '2014 Taiwan Design Expo – Commemorative Stamps Stop',
-      '2014 Taiwan Design Expo – Cool Ice Shop',
-      '2014 Taiwan Design Expo – Bike'
+      'Taiwan Indigenous Culture & Creative Center - Logo Design',
+      'Taiwan Indigenous Culture & Creative Center – Business Card', 
+      'Taiwan Indigenous Culture & Creative Center – Concert Program',
+      'Taiwan Indigenous Culture & Creative Center - Invitation',
+      'Taiwan Indigenous Culture & Creative Center - Invitation',
+      'Taiwan Indigenous Culture & Creative Center – Sign',
+      'Taiwan Indigenous Culture & Creative Center – Music Concert',
+      'Taiwan Indigenous Culture & Creative Center - Music Concert',
+      'Taiwan Indigenous Culture & Creative Center - Sign',
+      'Taiwan Indigenous Culture & Creative Center – Gift Box Packaging Design',
+      'Taiwan Indigenous Culture & Creative Center - Gift Box Packaging Design',
+      'Taiwan Indigenous Culture & Creative Center - Gift Box Packaging Design'
     ],
     categories: [
       Categories.Identity,
       Categories.Graphic,
       Categories.Editorial,
-      Categories.Exhibition
+      Categories.Package
     ]
   }
 ];

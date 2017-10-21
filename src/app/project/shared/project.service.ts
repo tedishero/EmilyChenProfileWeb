@@ -159,6 +159,27 @@ const Projects: ProjectLite[] = [
       Categories.Graphic,
       Categories.Identity
     ]
+  }, 
+  {
+    chineseName: '星級旅館',
+    englishName: 'Star Hotel',
+    name: '星級旅館',
+    descriptions: [
+      'Client - Tourism Bureau, Rep. of China(Taiwan)',
+      'Design Agency –FREEIMAGE design',
+      'Responsibility- LOGO',
+    ],
+    link: 'http://taiwanstay.net.tw',
+    projectDetails: [
+      'Star Hotel – logo',
+      'Star Hotel – logo',
+      'Star Hotel – website',
+      'Star Hotel – website',
+    ],
+    categories: [
+      Categories.Graphic,
+      Categories.Identity
+    ]
   },
   {
     chineseName: '華膳空廚品牌整合',

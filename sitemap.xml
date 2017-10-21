@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>http://emilygph.com</loc>
     <lastmod>2017-10-11</lastmod>
@@ -21,10 +22,10 @@
       <image:loc>http://emilygph.com/assets/emily.png</image:loc>
       <image:title>Emily Chen Graphic Designer</image:title>
       <image:caption>Graphic designer based in Taiwan. Focus on graphic design, brand identity design, art and cultural performance.</image:caption>
-    </image>
+    </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/high_speed_rail_2013</loc>
+    <loc>http://emilygph.com/projects/high_speed_rail_2013</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -60,7 +61,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/lite_on</loc>
+    <loc>http://emilygph.com/projects/lite_on</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -91,7 +92,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/biennial</loc>
+    <loc>http://emilygph.com/projects/biennial</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -117,7 +118,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/紅樓夢</loc>
+    <loc>http://emilygph.com/projects/紅樓夢</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -138,7 +139,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/sweet_sweet</loc>
+    <loc>http://emilygph.com/projects/sweet_sweet</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -179,7 +180,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/moon</loc>
+    <loc>http://emilygph.com/projects/moon</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -195,7 +196,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/golden_pin</loc>
+    <loc>http://emilygph.com/projects/golden_pin</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -216,7 +217,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/華膳空廚品牌整合</loc>
+    <loc>http://emilygph.com/projects/華膳空廚品牌整合</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -277,7 +278,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/戲曲中心</loc>
+    <loc>http://emilygph.com/projects/戲曲中心</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -333,7 +334,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/yan_yu</loc>
+    <loc>http://emilygph.com/projects/yan_yu</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -354,7 +355,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/Chris&amp;Grace</loc>
+    <loc>http://emilygph.com/projects/Chris&amp;Grace</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -385,7 +386,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/chen_ku</loc>
+    <loc>http://emilygph.com/projects/chen_ku</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -421,7 +422,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/card</loc>
+    <loc>http://emilygph.com/projects/card</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -447,7 +448,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/jade</loc>
+    <loc>http://emilygph.com/projects/jade</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -498,7 +499,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/2013中秋禮盒</loc>
+    <loc>http://emilygph.com/projects/2013中秋禮盒</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -524,7 +525,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/福樺建設賀卡</loc>
+    <loc>http://emilygph.com/projects/福樺建設賀卡</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -560,7 +561,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/upackaging</loc>
+    <loc>http://emilygph.com/projects/upackaging</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -591,7 +592,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/2016文博會</loc>
+    <loc>http://emilygph.com/projects/2016文博會</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -672,7 +673,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/kimono</loc>
+    <loc>http://emilygph.com/projects/kimono</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -703,7 +704,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/taihwa35</loc>
+    <loc>http://emilygph.com/projects/taihwa35</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -729,7 +730,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/artfestival</loc>
+    <loc>http://emilygph.com/projects/artfestival</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -745,7 +746,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/華航新世代客艙計畫</loc>
+    <loc>http://emilygph.com/projects/華航新世代客艙計畫</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -806,7 +807,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/wrenchit</loc>
+    <loc>http://emilygph.com/projects/wrenchit</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -857,7 +858,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://emilygp.com/projects/2014台灣設計展</loc>
+    <loc>http://emilygph.com/projects/2014台灣設計展</loc>
     <lastmod>2017-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

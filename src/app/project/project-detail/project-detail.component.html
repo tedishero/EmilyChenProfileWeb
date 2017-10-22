@@ -3,6 +3,7 @@
     <div fxLayout="column">
       <div class="project-detail-content" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"><b>{{project.chineseName}}</b></div>
       <div class="project-detail-content project-detail-width" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"><b>{{project.englishName}}</b></div>
+      <div class="project-detail-content project-detail-width project-detail-sub-text project-detail-about" *ngIf="!media.isActive('xs')">{{project.about}}</div>
     </div>
     <div fxLayout="column" class="project-detail-sub-text" style="margin-top:15px; margin-bottom:55px">
 
@@ -17,12 +18,11 @@
 
     </div>
     <div fxLayout="column">
-      <!--<div  class="project-detail-content">-->
         <img *ngFor="let projectDetail of project.projectDetails;let i = index;"
           class="project-detail-content"
+          [attr.aria-label]="projectDetail"
           [defaultImage]="compressedDetailImage(i+1)" [lazyLoad]="detailImage(i+1)" (click)="openImagePopUp(i)" [offset]="100"
           [attr.id]="'project-detail-img-' + i" (load)="load(i)" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"/>
-      <!--</div>-->
     <div>
 
   </div>

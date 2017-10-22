@@ -29,12 +29,7 @@ export class ProjectDetailComponent implements OnInit {
     this.metaService.setTitle(`Emily Chen | Graphic Design | ${this.project.englishName} | ${this.project.chineseName}`, true);
 
     // generate some meaningful description
-    let description = `${this.project.englishName} (${this.project.chineseName}).`;
-    for(let i = 0; i < this.project.descriptions.length - 1; i++) {
-      description += this.project.descriptions[i] + ", ";
-    }
-    description += 'and ' + this.project.descriptions[this.project.descriptions.length - 1] + ".";
-    this.metaService.setTag('og:description', description);
+    this.metaService.setTag('og:description', this.project.about);
 
     // sets thumbnail.
     let thumbNailPath = this.detailImage(1);

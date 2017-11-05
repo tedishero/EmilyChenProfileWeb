@@ -32,6 +32,7 @@ export class ProjectThumbnailComponent implements OnInit {
   state = 'offThumb';
   imageSrc: string;
   title: string;
+  indexImage: string;
 
   @Input() project: ProjectLite;
   @Input() showTitle: any;
@@ -43,6 +44,7 @@ export class ProjectThumbnailComponent implements OnInit {
   }
 
   public ngOnInit() {
+    this.indexImage = `./assets/projects/${this.project.name}/index.png`;
   }
 
   public mouseOver() {
@@ -53,11 +55,4 @@ export class ProjectThumbnailComponent implements OnInit {
     this.state = 'offThumb';
   }
 
-  public compressedIndexImage(): string {
-    return `./assets/projects/${this.project.name}/compressed/index.png`;
-  }
-
-  public indexImage(): string {
-    return `./assets/projects/${this.project.name}/index.png`;
-  }
 }

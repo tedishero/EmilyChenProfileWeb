@@ -26,7 +26,7 @@ export class ProjectListComponent implements OnInit, AfterViewChecked {
   public ngOnInit() {
     this.projectsMaster = this.projectService.query();
     this.projects = (this.projectsMaster);
-    this.route.params.subscribe(params => {
+    this.route.queryParams.subscribe(params => {
       let category: number = +params['category'];
       if (category > 0) {
         this.projects = this.projectsMaster.filter(x => x.categories.indexOf(category) >= 0);

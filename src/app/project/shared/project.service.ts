@@ -508,6 +508,32 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
+    chineseName: '十步青山',
+    englishName: 'LanVece',
+    about: `「Lan」是高山的蘭，「Vece」是阿里山原住民眼中神聖、具能量的植物，「LanVece」即是來自於高山，蘊含大自然美好生命力的禮物。`,
+    descriptions: [
+      'Client – 青山蘭花生物科技有限公司 Charm Sun Phalaenopsis Biotech',
+      'Design Agency – 自由落體設計 FREEIMAGE design',
+      'Photographer – 鄭鼎 Cheng Ting  鹿森林 實驗花廊 Deer Forest Flower Gallary',
+      'Responsibility - Logotype',
+    ],
+    link: 'http://www.lanvece.com.tw/',
+    name: 'lanvece',
+    projectDetails: [
+      'LanVece | 十步青山 – Total Treatment Hydrolat For Men',
+      'LanVece | 十步青山 – Luxe Rejuvenation Hydrolat',
+      'LanVece | 十步青山 – Aqua- Plumping Hydrolat',
+      'LanVece | 十步青山 – Whitening Essence',
+      'LanVece | 十步青山 – Cleansing Mousse for Rosacea Skin',
+      'LanVece | 十步青山 – Whitening Cream'
+    ],
+    categories: [
+      Categories.Identity,
+      Categories.Package,
+      Categories.Graphic,
+    ]
+  },
+  {
     chineseName: '2016臺灣文博會',
     englishName: '2016 CREATIVE EXPO TAIWAN',
     about: `品東風 | 華世代的世界品位 | 

@@ -27,7 +27,7 @@ export class NavbarComponent implements OnInit {
       this.activeFilter = category;
       this.router.navigate(['/contact']);
     } else {
-      this.router.navigate(['/projects', { category: category }]);
+      this.router.navigate(['/projects'], { queryParams: { category: category } });
     }
   }
 

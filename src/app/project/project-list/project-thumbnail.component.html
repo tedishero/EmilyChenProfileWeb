@@ -2,7 +2,7 @@
   <div [ngClass]="{'thumb': !media.isActive('xs'), 'thumb-mobile': media.isActive('xs')}" [@thumbTrigger]='state' (mouseover)="mouseOver()"
     (mouseleave)="mouseLeave()" style="outline: none;">
     <div [ngClass]="{'thumb-image': !media.isActive('xs'), 'thumb-image-mobile': media.isActive('xs')}">
-      <img [defaultImage]="compressedIndexImage()" [lazyLoad]="indexImage()" [offset]="100">
+      <img [src]="indexImage" >
     </div>
 
     <div *ngIf="showTitle" class="thumb-title">

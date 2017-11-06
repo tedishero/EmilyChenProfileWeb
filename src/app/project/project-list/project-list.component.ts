@@ -36,5 +36,4 @@ export class ProjectListComponent implements OnInit, AfterViewChecked {
       this.projectFilterService.filter(category);
     });
   }
-
 }

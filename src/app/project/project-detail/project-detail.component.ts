@@ -76,6 +76,14 @@ export class ProjectDetailComponent implements OnInit {
     gallery.init();
   }
 
+  public onDetailImgClicked(projectDetail: string) {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'Project Detail Image',
+      eventAction: 'View',
+      eventLabel: `Project [${this.project.chineseName}] - ${projectDetail} Viewed`
+    });
+  }
 }
 
 interface Document {

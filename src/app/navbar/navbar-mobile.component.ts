@@ -14,6 +14,12 @@ export class NavbarMobileComponent {
   constructor(private router: Router) { }
 
   filter(category: Categories) {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'Navigation - Mobile',
+      eventAction: 'Click',
+      eventLabel: category
+    });
     if (category === Categories.Contact) {
       this.router.navigate(['/contact']);
     } else {

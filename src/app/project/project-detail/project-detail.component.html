@@ -20,6 +20,7 @@
     <div fxLayout="column">
         <img *ngFor="let projectDetail of project.projectDetails;let i = index;"
           class="project-detail-content"
+          (click)='onDetailImgClicked(projectDetail)'
           [attr.aria-label]="projectDetail"
           [defaultImage]="compressedDetailImage(i+1)" [lazyLoad]="detailImage(i+1)" (click)="openImagePopUp(i)" [offset]="100"
           [attr.id]="'project-detail-img-' + i" (load)="load(i)" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"/>

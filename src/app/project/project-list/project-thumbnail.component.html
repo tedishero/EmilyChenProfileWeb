@@ -1,7 +1,7 @@
 <a [routerLink]="'/projects/'+project.name">
   <div [ngClass]="{'thumb': !media.isActive('xs'), 'thumb-mobile': media.isActive('xs')}" [@thumbTrigger]='state' (mouseover)="mouseOver()"
     (mouseleave)="mouseLeave()" style="outline: none;">
-    <div [ngClass]="{'thumb-image': !media.isActive('xs'), 'thumb-image-mobile': media.isActive('xs')}">
+    <div (click)='onProjectImgClicked()' [ngClass]="{'thumb-image': !media.isActive('xs'), 'thumb-image-mobile': media.isActive('xs')}">
       <img [src]="indexImage" >
     </div>
 

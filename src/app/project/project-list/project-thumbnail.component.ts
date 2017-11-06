@@ -55,4 +55,15 @@ export class ProjectThumbnailComponent implements OnInit {
     this.state = 'offThumb';
   }
 
+  
+  public onProjectImgClicked() {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'Project Image',
+      eventAction: 'Select',
+      eventLabel: `Project [${this.project.chineseName}] Selected`
+    });
+  }
+
+
 }

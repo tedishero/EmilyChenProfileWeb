@@ -23,6 +23,12 @@ export class NavbarComponent implements OnInit {
   }
 
   filter(category: Categories) {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'Navigation',
+      eventAction: 'Click',
+      eventLabel: category
+    });
     if (category === Categories.Contact) {
       this.activeFilter = category;
       this.router.navigate(['/contact']);

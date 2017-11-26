@@ -1,4 +1,8 @@
 .project-detail-about {
-    color: gray;
+    margin-top: 30px;
     white-space: pre-wrap;
+}
+
+.project-detail-light-text {
+    color: gray;
 }

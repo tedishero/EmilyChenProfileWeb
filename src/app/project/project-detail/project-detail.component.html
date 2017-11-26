@@ -3,9 +3,9 @@
     <div fxLayout="column">
       <div class="project-detail-content" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"><b>{{project.chineseName}}</b></div>
       <div class="project-detail-content project-detail-width" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"><b>{{project.englishName}}</b></div>
-      <div class="project-detail-content project-detail-width project-detail-sub-text project-detail-about" *ngIf="!media.isActive('xs')">{{project.about}}</div>
+      <div class="project-detail-content project-detail-width project-detail-sub-text project-detail-about project-detail-light-text" *ngIf="!media.isActive('xs')">{{project.about}}</div>
     </div>
-    <div fxLayout="column" class="project-detail-sub-text" style="margin-top:15px; margin-bottom:55px">
+    <div fxLayout="column" class="project-detail-sub-text project-detail-light-text" style="margin-top:30px; margin-bottom:55px">
 
      <div class="project-detail-content project-detail-width"
         *ngFor="let description of project.descriptions"

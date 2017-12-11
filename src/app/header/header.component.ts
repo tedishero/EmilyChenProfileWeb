@@ -4,14 +4,14 @@ import { ObservableMedia } from '@angular/flex-layout';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
   @Output() menuToggled = new EventEmitter<boolean>();
 
   private mobileMenuShown: boolean;
 
-  constructor(public media: ObservableMedia, ) {
+  constructor(public media: ObservableMedia) {
   }
 
 

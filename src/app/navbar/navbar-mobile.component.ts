@@ -23,7 +23,7 @@ export class NavbarMobileComponent {
     if (category === Categories.Contact) {
       this.router.navigate(['/contact']);
     } else {
-      this.router.navigate(['/projects', { category: category }]);
+      this.router.navigate(['/projects'], { queryParams: { category: category } });
     }
 
     this.navItemSelected.emit();

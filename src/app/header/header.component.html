@@ -21,10 +21,10 @@
   </div>-->
 </div>
 
-<md-toolbar class="header" *ngIf="media.isActive('xs')">
-  <button md-button (click)="toggleMenu()"><md-icon>dehaze</md-icon></button>
+<mat-toolbar class="header" *ngIf="media.isActive('xs')">
+  <button mat-button (click)="toggleMenu()"><mat-icon>dehaze</mat-icon></button>
   <span style="flex: 1 1 auto;"></span>
   <a class="toolbar-header-logo-mb" [routerLink]="['/projects']">
     <img src="assets/index_name.png"/>
   </a>
-</md-toolbar>
+</mat-toolbar>

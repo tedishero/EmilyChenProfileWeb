@@ -119,6 +119,7 @@ const Projects: ProjectLite[] = [
     about: `此次展覽以故宮近年新購日本服飾為主軸，包括江戶小袖、武士服飾、近代和服及織品等，規劃「江戶服飾－織染繡的競演」、「和服之美－創新與傳承」兩單元，藉以呈現日本服飾之美。時至今日，日本人依然保留穿著和服的傳統文化，而KIMONO已成為日本服飾的代名詞。 `,
     descriptions: [
       'Client – 國立故宮博物院南院院區 Southern Branch of the National Palace Museum',
+      'Design Agency - 渥得設計 Woodart'
     ],
     link: 'http://south.npm.gov.tw/zh-TW/ExhibitInfo/page/f3a66313-b780-4a43-8b4c-ed95d171c8ba',
     name: 'kimono',
@@ -373,6 +374,7 @@ const Projects: ProjectLite[] = [
     about: '以故宮珍藏伊斯蘭玉器中最精美的蒙兀兒玉器為主，印度非蒙兀兒地區的玉器為輔的142組件作品，邀請民眾欣賞在乾隆皇帝心中「是仙工，也是鬼工」的極致玉雕之美。',
     descriptions: [
       'Client – 國立故宮博物院南院院區Southern Branch of the National Palace Museum',
+      'Design Agency - 渥得設計 Woodart'
     ],
     link: 'http://south.npm.gov.tw/zh-TW/ExhibitInfo/page/7d002fd2-029f-446f-93b3-03c3cc02e4c7',
     name: '南亞美玉特展',
@@ -409,7 +411,6 @@ const Projects: ProjectLite[] = [
       '2013 Moon Festival gift box | 華膳中秋饗月禮盒 – Combo'
     ],
     categories: [
-      Categories.Exhibition,
       Categories.Graphic,
       Categories.Graphic,
       Categories.Package

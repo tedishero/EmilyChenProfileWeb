@@ -2,7 +2,7 @@ import { BrowserModule, } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from '@angular/material';
+import { MatButtonModule, MatListModule, MatSidenavModule, MatToolbarModule, MatIconModule } from '@angular/material';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { AppComponent } from './app.component';
 import { NavbarComponent, NavbarMobileComponent } from './navbar/index';
@@ -36,7 +36,11 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule,
+    MatButtonModule, 
+    MatListModule, 
+    MatSidenavModule, 
+    MatToolbarModule,
+    MatIconModule,
     LazyLoadImageModule,
     FlexLayoutModule,
     MetaModule.forRoot(),

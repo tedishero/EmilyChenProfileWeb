@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: http://emilygph.com/sitemap.xml

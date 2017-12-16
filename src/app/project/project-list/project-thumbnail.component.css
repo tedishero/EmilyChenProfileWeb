@@ -7,26 +7,9 @@ a {
     width: 240px;
 }
 
-.thumb-mobile {
-  width: 120px;
-}
-
-a:active {
-    outline: none;
-}
-
-.thumb-image{
+.thumb-image {
     width: 240px;
     height: 240px;
-}
-
-.thumb-image-mobile {
-    width: 120px;
-    height: 120px;
-}
-
-img {
-    max-width:100%;
 }
 
 .thumb-title {
@@ -37,6 +20,32 @@ img {
     letter-spacing: 0px;
     line-height: 1.4;
     text-rendering: optimizeLegibility;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    .thumb {
+        cursor: pointer;
+        width: 120px;
+    }
+
+    .thumb-image {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .thumb-title {
+        display: none;
+    }
+}
+
+a:active {
+    outline: none;
+}
+
+img {
+    max-width:100%;
 }
 
 .project-chinese-name {

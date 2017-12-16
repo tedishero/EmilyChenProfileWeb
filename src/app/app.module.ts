@@ -1,13 +1,15 @@
-import { BrowserModule, } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { appRoutes, appRoutingProviders } from './app.routes';
+
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatListModule, MatSidenavModule, MatToolbarModule, MatIconModule } from '@angular/material';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { AppComponent } from './app.component';
 import { NavbarComponent, NavbarMobileComponent } from './navbar/index';
-import { MetaModule } from '@ngx-meta/core';
-import { appRoutes, appRoutingProviders } from './app.routes';
 
 import {
   ProjectService,
@@ -21,6 +23,7 @@ import { HeaderComponent } from './header/header.component';
 import { ProjectDetailComponent } from './project/index';
 import { ContactComponent } from './contact/contact.component';
 
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,8 @@ import { ContactComponent } from './contact/contact.component';
     ContactComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'my-app'}),
+    environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : [],
     BrowserAnimationsModule,
     MatButtonModule, 
     MatListModule, 
@@ -43,7 +47,6 @@ import { ContactComponent } from './contact/contact.component';
     MatIconModule,
     LazyLoadImageModule,
     FlexLayoutModule,
-    MetaModule.forRoot(),
     appRoutes
   ],
   providers: [

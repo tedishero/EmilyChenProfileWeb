@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Navigation, Categories } from './project/index';
-import { ObservableMedia } from "@angular/flex-layout";
 import { Router, NavigationEnd } from "@angular/router";
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ export class AppComponent {
 
   public mobileMenuVisible: boolean;
 
-  constructor(public media: ObservableMedia, private router: Router) {
+  constructor(private router: Router) {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         ga('set', 'page', event.urlAfterRedirects);

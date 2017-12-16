@@ -1,4 +1,4 @@
-<div class="header" *ngIf="!media.isActive('xs')">
+<div class="header" id='header-regular'>
   <div fxLayout="row" class="toolbar-container">
     <span fxFlex="8"></span>
     <div fxFlex>
@@ -21,10 +21,12 @@
   </div>-->
 </div>
 
-<mat-toolbar class="header" *ngIf="media.isActive('xs')">
-  <button mat-button (click)="toggleMenu()"><mat-icon>dehaze</mat-icon></button>
-  <span style="flex: 1 1 auto;"></span>
-  <a class="toolbar-header-logo-mb" [routerLink]="['/projects']">
-    <img src="assets/index_name.png"/>
-  </a>
+<mat-toolbar class="header" id='header-tool-bar'>
+  <!-- <button (click)="toggleMenu()"><mat-icon>dehaze</mat-icon></button> -->
+  <div class="hamburger hamburger--slider js-hamburger" (click)="toggleMenu()" [ngClass]="{ 'is-active': mobileMenuShown }"
+    style="margin-top:15px">
+      <div class="hamburger-box">
+        <div class="hamburger-inner"></div>
+      </div>
+  </div>
 </mat-toolbar>

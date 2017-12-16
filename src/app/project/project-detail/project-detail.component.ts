@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ObservableMedia } from '@angular/flex-layout';
-import { MetaService } from '@ngx-meta/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { ProjectLite, ProjectFilterService } from '../index';
 import PhotoSwipe from 'photoswipe';
 
@@ -16,25 +16,39 @@ export class ProjectDetailComponent implements OnInit {
   project: ProjectLite;
   popupImages: any[] = [];
   constructor(
-    public media: ObservableMedia,
     private route: ActivatedRoute,
     private projectFilterService: ProjectFilterService,
-    private metaService: MetaService) {
+    private title: Title,
+    private meta: Meta) {
     this.project = this.route.snapshot.data['project'];
     this.setMetaTags();
   }
 
   private setMetaTags() {
     // sets the title.
-    this.metaService.setTitle(`Emily Chen | Graphic Design | ${this.project.englishName} | ${this.project.chineseName}`, true);
+    this.title.setTitle(`Emily Chen | Graphic Design | ${this.project.englishName} | ${this.project.chineseName}`);
 
     // generate some meaningful description
-    this.metaService.setTag('og:description', this.project.about);
+    this.meta.updateTag({
+      content: this.project.about
+    },
+      "property='og:description'"
+    )
 
     // sets thumbnail.
     let thumbNailPath = this.detailImage(1);
     thumbNailPath = thumbNailPath.substring(2, thumbNailPath.length);
-    this.metaService.setTag('og:image', `http://emilygph.com/${thumbNailPath}`);
+    this.meta.updateTag({
+      content: `http://www.emilygph.com/${thumbNailPath}`
+    },
+      "property='og:image'"
+    )
+
+    this.meta.updateTag({
+      content: `http://www.emilygph.com/${thumbNailPath}`
+    },
+      "property='og:image:url'"
+    )
   }
 
   ngOnInit() {
@@ -150,7 +164,7 @@ let PhotoSwipeUI_Default =
           { id: 'twitter', label: 'Tweet', url: 'https://twitter.com/intent/tweet?text={{text}}&url={{url}}' },
           {
             id: 'pinterest', label: 'Pin it', url: 'http://www.pinterest.com/pin/create/button/' +
-            '?url={{url}}&media={{image_url}}&description={{text}}'
+              '?url={{url}}&media={{image_url}}&description={{text}}'
           },
           { id: 'download', label: 'Download image', url: '{{raw_image_url}}', download: true }
         ],

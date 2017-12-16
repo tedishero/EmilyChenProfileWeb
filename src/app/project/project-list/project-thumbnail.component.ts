@@ -8,7 +8,6 @@ import {
   transition
 } from '@angular/animations';
 import { ProjectLite } from '../index';
-import { ObservableMedia } from '@angular/flex-layout';
 
 @Component({
   selector: 'app-thumbnail',
@@ -35,11 +34,8 @@ export class ProjectThumbnailComponent implements OnInit {
   indexImage: string;
 
   @Input() project: ProjectLite;
-  @Input() showTitle: any;
 
-  constructor(
-    private router: Router,
-    public media: ObservableMedia) {
+  constructor(private router: Router) {
 
   }
 

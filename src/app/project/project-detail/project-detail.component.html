@@ -1,29 +1,27 @@
-<div fxLayout="row" [ngClass]="{'projects-detail-container': !media.isActive('xs'), 'projects-detail-container-mobile': media.isActive('xs')}">
+<div fxLayout="row" class="projects-detail-container">
   <div fxFlex fxLayout="column" style="margin-top: 15px">
     <div fxLayout="column">
-      <div class="project-detail-content" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"><b>{{project.chineseName}}</b></div>
-      <div class="project-detail-content project-detail-width" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"><b>{{project.englishName}}</b></div>
-      <div class="project-detail-content project-detail-width project-detail-sub-text project-detail-about project-detail-light-text" *ngIf="!media.isActive('xs')">{{project.about}}</div>
+      <div class="project-detail-content project-detail-width"><b>{{project.chineseName}}</b></div>
+      <div class="project-detail-content project-detail-width"><b>{{project.englishName}}</b></div>
+      <div class="project-detail-content project-detail-width project-detail-sub-text project-detail-about project-detail-light-text">{{project.about}}</div>
     </div>
     <div fxLayout="column" class="project-detail-sub-text project-detail-light-text" style="margin-top:30px; margin-bottom:55px">
 
      <div class="project-detail-content project-detail-width"
-        *ngFor="let description of project.descriptions"
-        [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}">
+        *ngFor="let description of project.descriptions">
         {{description}}
       </div>
 
-      <a class="project-detail-content project-detail-width" target="_blank"
-        *ngIf="project.link" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}" [href]='project.link'>Official Website</a>
+      <a class="project-detail-content project-detail-width" target="_blank" *ngIf="project.link" [href]='project.link'>Official Website</a>
 
     </div>
     <div fxLayout="column">
         <img *ngFor="let projectDetail of project.projectDetails;let i = index;"
-          class="project-detail-content"
+          class="project-detail-content project-detail-width"
           (click)='onDetailImgClicked(projectDetail)'
           [attr.aria-label]="projectDetail"
           [defaultImage]="compressedDetailImage(i+1)" [lazyLoad]="detailImage(i+1)" (click)="openImagePopUp(i)" [offset]="100"
-          [attr.id]="'project-detail-img-' + i" (load)="load(i)" [ngClass]="{'project-detail-width': !media.isActive('xs'), 'project-detail-mobile-width': media.isActive('xs')}"/>
+          [attr.id]="'project-detail-img-' + i" (load)="load(i)"/>
     <div>
 
   </div>

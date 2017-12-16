@@ -10,39 +10,32 @@ a {
   color: black;
 }
 
-.projects-detail-container {
-    padding-top: 125px;
-    padding-bottom: 25px;
-    margin: 0 auto;
-}
-
-.projects-detail-container-mobile {
-    padding-top: 50px;
-    padding-bottom: 10px;
-    margin: 0 auto;
-}
-
-.project-detail-content {
-  margin-top: 2.5px;
-  margin-bottom: 2.5px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.project-detail-mobile-width {
-    width: 250px;
-}
-
-.project-detail-width {
-    width: 580px;
-}
-
 b {
     font-size: 16px;
 }
 
-.project-detail-sub-text {
-    font-size: 12px;
+
+.projects-detail-container {
+  padding-top: 125px;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+
+.project-detail-width {
+  width: 580px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .projects-detail-container {
+      padding-top: 50px;
+      padding-bottom: 10px;
+      margin: 0 auto;
+  }
+
+  .project-detail-width {
+      width: 250px;
+  }
 }
 
 mat-sidenav {

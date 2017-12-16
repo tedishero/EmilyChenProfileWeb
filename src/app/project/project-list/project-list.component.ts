@@ -14,7 +14,6 @@ export class ProjectListComponent implements OnInit, AfterViewChecked {
   public projectsMaster: ProjectLite[];
 
   constructor(
-    public media: ObservableMedia,
     private projectService: ProjectService,
     private projectFilterService: ProjectFilterService,
     private route: ActivatedRoute) {

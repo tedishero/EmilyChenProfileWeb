@@ -1,8 +1,27 @@
 .project-detail-about {
     margin-top: 30px;
     white-space: pre-wrap;
+    display: block;
 }
 
 .project-detail-light-text {
     color: gray;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .project-detail-about {
+        display: none;
+    }
+}
+    
+.project-detail-content {
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-detail-sub-text {
+  font-size: 12px;
 }

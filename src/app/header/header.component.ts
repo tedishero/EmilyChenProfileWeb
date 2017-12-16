@@ -1,5 +1,4 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { ObservableMedia } from '@angular/flex-layout';
 
 @Component({
   selector: 'app-header',
@@ -9,9 +8,9 @@ import { ObservableMedia } from '@angular/flex-layout';
 export class HeaderComponent implements OnInit {
   @Output() menuToggled = new EventEmitter<boolean>();
 
-  private mobileMenuShown: boolean;
+  public mobileMenuShown: boolean;
 
-  constructor(public media: ObservableMedia) {
+  constructor() {
   }
 
 

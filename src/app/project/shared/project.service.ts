@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Categories, ProjectLite } from '../index';
+import { Categories, ProjectLite } from './model';
 import { Subject } from 'rxjs/Subject';
 import { Observable } from 'rxjs/Observable';
 

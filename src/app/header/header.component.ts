@@ -6,9 +6,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  @Output() menuToggled = new EventEmitter<boolean>();
-
-  public mobileMenuShown: boolean;
+  @Output() menuToggled = new EventEmitter<any>();
 
   constructor() {
   }
@@ -18,7 +16,6 @@ export class HeaderComponent implements OnInit {
   }
 
   toggleMenu() {
-    this.mobileMenuShown = !this.mobileMenuShown;
-    this.menuToggled.emit(this.mobileMenuShown);
+    this.menuToggled.emit();
   }
 }

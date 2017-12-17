@@ -23,6 +23,8 @@ import { HeaderComponent } from './header/header.component';
 import { ProjectDetailComponent } from './project/index';
 import { ContactComponent } from './contact/contact.component';
 
+import { WebpImgDirective } from './shared/directives/webp-img/webp-img.directive';
+
 import { environment } from '../environments/environment';
 
 @NgModule({
@@ -34,7 +36,8 @@ import { environment } from '../environments/environment';
     HeaderComponent,
     ProjectDetailComponent,
     NavbarMobileComponent,
-    ContactComponent
+    ContactComponent,
+    WebpImgDirective
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),

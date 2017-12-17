@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core'
 import { Resolve, ActivatedRouteSnapshot } from '@angular/router'
-import { ProjectService } from '../index'
+import { ProjectService } from './project.service'
 
 @Injectable()
 export class ProjectResolver implements Resolve<any> {

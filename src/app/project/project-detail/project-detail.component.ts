@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ObservableMedia } from '@angular/flex-layout';
 import { Meta, Title } from '@angular/platform-browser';
-import { ProjectLite, ProjectFilterService } from '../index';
+import { ProjectLite } from '../shared/model';
+import { ProjectFilterService } from '../shared/project-filter.service'
 import PhotoSwipe from 'photoswipe';
 
 @Component({
@@ -12,7 +13,7 @@ import PhotoSwipe from 'photoswipe';
 })
 
 export class ProjectDetailComponent implements OnInit {
-
+  supportWebP: boolean;
   project: ProjectLite;
   popupImages: any[] = [];
   constructor(
@@ -52,6 +53,7 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.supportWebP = !window || (<any>window).supportsWebP === true
     this.projectFilterService.filter(NaN);
     for (const projectDetail of this.project.projectDetails) {
       this.popupImages.push({
@@ -64,11 +66,21 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   public compressedDetailImage(index: number): string {
-    return `./assets/projects/${this.project.name}/compressed/detail${index}.png`;
+    if (this.supportWebP) {
+      return `./assets/projects/${this.project.name}/compressed/detail${index}.webp`;
+    }
+    else {
+      return `./assets/projects/${this.project.name}/compressed/detail${index}.png`;
+    }
   }
 
   public detailImage(index: number): string {
-    return `./assets/projects/${this.project.name}/detail${index}.png`;
+    if (this.supportWebP) {
+      return `./assets/projects/${this.project.name}/detail${index}.webp`;
+    }
+    else {
+      return `./assets/projects/${this.project.name}/detail${index}.png`;
+    }
   }
 
   load(index: number) {

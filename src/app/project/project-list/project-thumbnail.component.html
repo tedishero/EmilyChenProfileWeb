@@ -2,7 +2,7 @@
   <div class="thumb" [@thumbTrigger]='state' (mouseover)="mouseOver()"
     (mouseleave)="mouseLeave()" style="outline: none;">
     <div (click)='onProjectImgClicked()' class="thumb-image">
-      <img [src]="indexImage" >
+      <img webpImg [webpSrc]='webPIndexImage' [defaultSrc]='defaultIndexImage' />
     </div>
 
     <div class="thumb-title">

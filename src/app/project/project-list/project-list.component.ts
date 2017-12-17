@@ -1,5 +1,7 @@
 import { Component, OnInit, AfterViewChecked } from '@angular/core';
-import { ProjectLite, Categories, ProjectService, ProjectFilterService } from '../index';
+import { ProjectLite, Categories } from '../shared/model';
+import { ProjectFilterService } from '../shared/project-filter.service';
+import { ProjectService } from '../shared/project.service';
 import { ObservableMedia } from '@angular/flex-layout';
 import { ActivatedRoute } from '@angular/router';
 

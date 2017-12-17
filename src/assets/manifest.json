@@ -1,0 +1,14 @@
+{
+    "short_name": "Emily Chen",
+    "name": "Emily Chen | Graphic Designer",
+    "icons": [
+      {
+        "src": "emilylogo.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      }
+    ],
+    "display": "standalone",
+    "theme_color": "#5E5653",
+    "start_url": "/?utm_source=homescreen"
+  }

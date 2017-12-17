@@ -9,8 +9,8 @@ import { Meta, Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  private ham: HTMLElement;
-  
+  private ham: any;
+
   constructor(private router: Router) {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
@@ -20,16 +20,22 @@ export class AppComponent implements OnInit {
     });
   }
 
-  public ngOnInit (){
-    this.ham = document.querySelector('#hamburger');
+  public ngOnInit() {
+    if (document) {
+      this.ham = document.querySelector('#hamburger');
+    }
   }
 
   public onOpenStart() {
-    this.ham.classList.add('is-active');
+    if (this.ham) {
+      this.ham.classList.add('is-active');
+    }
   }
 
   public onCloseStart() {
-    this.ham.classList.remove('is-active');
+    if (this.ham) {
+      this.ham.classList.remove('is-active');
+    }
   }
 
   navItems: Navigation[] = [

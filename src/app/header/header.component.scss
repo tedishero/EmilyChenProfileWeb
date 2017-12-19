@@ -25,8 +25,12 @@
     background: #F9F9F9;
 }
 
-.example-icon {
-  padding: 0 14px;
+.header-logo-mobile {
+    float: none;
+    position: absolute;
+    left: calc(50% - 85px);
+    height: 45px;
+    margin-top: 3px;
 }
 
 .toolbar-container {

@@ -22,10 +22,12 @@
 </div>
 
 <mat-toolbar class="header" id='header-tool-bar'>
-  <!-- <button (click)="toggleMenu()"><mat-icon>dehaze</mat-icon></button> -->
-  <div class="hamburger hamburger--slider js-hamburger" (click)="toggleMenu()" id='hamburger' style="margin-top:15px">
+  <mat-toolbar-row>
+    <div class="hamburger hamburger--slider js-hamburger" (click)="toggleMenu()" id='hamburger' style="margin-top:15px">
       <div class="hamburger-box">
         <div class="hamburger-inner"></div>
       </div>
-  </div>
+    </div>
+    <img webpImg webpSrc='assets/index_name.webp' defaultSrc='assets/index_name.png' class="header-logo-mobile"/>
+  </mat-toolbar-row>
 </mat-toolbar>

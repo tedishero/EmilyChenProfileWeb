@@ -43,6 +43,29 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
+    chineseName: '2018台灣燈會在嘉義',
+    englishName: '2018 Taiwan Lantern Festival',
+    about: `2018台灣燈會Logo以數字8為主要設計概念。將嘉義縣東西寬闊的地形、北回歸線橫貫其中的特色，及嘉義人寬闊的心胸和溫暖的人情皆融入其中，橘、紅漸層的主色調。
+
+燈會是張燈結綵的歡樂氣氛，為呈現燈會的格局大器，結合質感深厚的中華文化價值，並兼負創造城市風向的使命願景，點亮嘉義新時代及北緯23.5度的光芒，以橙紅色基調代表暖心滿溢的真摯人情味，明年燈會將匯聚科技、文化、藝術等層面，相信將造就精彩奪目的國際視野，光線折射照亮每個角落，代表嘉義將從這裡出發面對全世界，引東方風華與氣度。`,
+    descriptions: [
+      'Client – 嘉義縣政府Chia Yi County Government',
+      'Design Agency –自由落體設計FREEIMAGE design',
+      'Responsibility- LOGO'
+    ],
+    name: '2018 lantern festival',
+    youtube: 'https://www.youtube.com/embed/5pK84TKDNR4?rel=0',
+    projectDetails: [
+      '2018 Taiwan Lantern Festival - Logo Design',
+      '2018 Taiwan Lantern Festival - Cap',
+      '2018 Taiwan Lantern Festival - Cap'
+    ],
+    categories: [
+      Categories.Identity,
+      Categories.Graphic,
+    ]
+  },
+  {
     chineseName: '光寶產品簡介',
     englishName: 'Lite-On Brochure & Flyers',
     about: '光寶以「光電節能、智慧科技最佳夥伴」為願景，聚焦核心光電元件及電子關鍵零組件之發展。該產品簡介共分為繁簡中文及英文三版本，介紹EVO 8000 Series與EVO 6000 Series兩款變頻器。因應科技產品予人專業權威走向，色調選用冷色系，呼應光寶企業標誌。',
@@ -280,29 +303,6 @@ const Projects: ProjectLite[] = [
     ],
     categories: [
       Categories.Editorial,
-      Categories.Identity,
-      Categories.Graphic,
-    ]
-  },
-  {
-    chineseName: '2018台灣燈會在嘉義',
-    englishName: '2018 Taiwan Lantern Festival',
-    about: `2018台灣燈會Logo以數字8為主要設計概念。將嘉義縣東西寬闊的地形、北回歸線橫貫其中的特色，及嘉義人寬闊的心胸和溫暖的人情皆融入其中，橘、紅漸層的主色調。
-
-燈會是張燈結綵的歡樂氣氛，為呈現燈會的格局大器，結合質感深厚的中華文化價值，並兼負創造城市風向的使命願景，點亮嘉義新時代及北緯23.5度的光芒，以橙紅色基調代表暖心滿溢的真摯人情味，明年燈會將匯聚科技、文化、藝術等層面，相信將造就精彩奪目的國際視野，光線折射照亮每個角落，代表嘉義將從這裡出發面對全世界，引東方風華與氣度。`,
-    descriptions: [
-      'Client – 嘉義縣政府Chia Yi County Government',
-      'Design Agency –自由落體設計FREEIMAGE design',
-      'Responsibility- LOGO'
-    ],
-    name: '2018 lantern festival',
-    youtube: 'https://www.youtube.com/embed/5pK84TKDNR4?rel=0',
-    projectDetails: [
-      '2018 Taiwan Lantern Festival - Logo Design',
-      '2018 Taiwan Lantern Festival - Cap',
-      '2018 Taiwan Lantern Festival - Cap'
-    ],
-    categories: [
       Categories.Identity,
       Categories.Graphic,
     ]

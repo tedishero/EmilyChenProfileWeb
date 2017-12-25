@@ -53,7 +53,7 @@ const Projects: ProjectLite[] = [
       'Design Agency –自由落體設計FREEIMAGE design',
       'Responsibility- LOGO'
     ],
-    name: '2018 lantern festival',
+    name: '2018-lantern-festival',
     youtube: 'https://www.youtube.com/embed/5pK84TKDNR4?rel=0',
     projectDetails: [
       '2018 Taiwan Lantern Festival - Logo Design',

@@ -296,6 +296,7 @@ const Projects: ProjectLite[] = [
       'Responsibility- LOGO'
     ],
     name: '2018 lantern festival',
+    youtube: 'https://www.youtube.com/embed/5pK84TKDNR4?rel=0',
     projectDetails: [
       '2018 Taiwan Lantern Festival - Logo Design',
       '2018 Taiwan Lantern Festival - Cap',

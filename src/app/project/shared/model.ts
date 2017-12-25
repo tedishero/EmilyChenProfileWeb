@@ -17,6 +17,7 @@ export interface ProjectLite {
     about: string;
     link?: string;
     name: string;
+    youtube?: string;
     descriptions?: string[];
     projectDetails: string[];
     chineseName: string;

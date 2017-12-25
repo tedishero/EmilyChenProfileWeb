@@ -24,6 +24,7 @@ import { ProjectDetailComponent } from './project/index';
 import { ContactComponent } from './contact/contact.component';
 
 import { WebpImgDirective } from './shared/directives/webp-img/webp-img.directive';
+import { SafeResourceUrl } from './shared/pipes/safeResourceUrl.pipe';
 
 import { environment } from '../environments/environment';
 
@@ -37,7 +38,8 @@ import { environment } from '../environments/environment';
     ProjectDetailComponent,
     NavbarMobileComponent,
     ContactComponent,
-    WebpImgDirective
+    WebpImgDirective,
+    SafeResourceUrl
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),

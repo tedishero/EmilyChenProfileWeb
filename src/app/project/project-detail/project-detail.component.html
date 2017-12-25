@@ -16,6 +16,7 @@
 
     </div>
     <div fxLayout="column">
+        <iframe *ngIf='project.youtube' class="project-detail-content project-detail-width" style="height: 326px" [src]="project.youtube | safeResourceUrl" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
         <img *ngFor="let projectDetail of project.projectDetails;let i = index;"
           class="project-detail-content project-detail-width blur-image"
           (click)='onDetailImgClicked(projectDetail)'

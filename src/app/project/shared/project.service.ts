@@ -174,35 +174,6 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
-    chineseName: '輕地方',
-    englishName: 'WINDSCAPE',
-    about: '',
-    descriptions: [
-      'Client – 輕地方WINDSCAPE',
-      'Design Agency –自由落體設計FREEIMAGE design',
-      'Photographer - 鄭鼎Cheng Dean',
-      'Editorial Design – 鄭又綺 Cheng Yu Chi',
-      'Responsibility- LOGO',
-    ],
-    name: 'Windscape',
-    projectDetails: [
-      'WINDSCAPE - Logo Design',
-      'WINDSCAPE - Logo Design',
-      'WINDSCAPE - Logo Design',
-      'WINDSCAPE - Brochure',
-      'WINDSCAPE - Brochure',
-      'WINDSCAPE - Brochure',
-      'WINDSCAPE - Brochure',
-      'WINDSCAPE - Brochure',
-      'WINDSCAPE - Brochure'
-    ],
-    categories: [
-      Categories.Editorial,
-      Categories.Identity,
-      Categories.Graphic,
-    ]
-  },
-  {
     chineseName: '2015金點概念設計獎',
     englishName: '2015 Golden Pin Concept Design Award',
     about: `自2015年起，金點設計獎品牌之下依專業設計類別分設「金點設計獎」、「金點概念設計獎」及「金點新秀設計獎」等3大獎別，旨在褒揚華人傑出的創新產品與作品。「金點概念設計獎」開放全球各地對創意設計有熱忱、對改變社會有想法的設計菁英與同好參與。
@@ -279,6 +250,38 @@ const Projects: ProjectLite[] = [
       Categories.Graphic,
       Categories.Identity,
       Categories.Package,
+    ]
+  },
+  {
+    chineseName: '輕地方',
+    englishName: 'WINDSCAPE',
+    about: `輕地方的甜點，是為愛為生的甜點心。
+    法式點心是甜的，為了讓所愛的人享用健康美味的甜點心，更甜。
+    
+    甜甜的心，不私藏，創辦人決定在摯愛的新竹市開甜甜的「輕地方」，用最健康、新鮮、頂級的食材，手作法式點心；讓身體無負擔，荷包無壓力，心情無憂煩。創造一個屬於每個人的輕鬆、輕快、輕盈的輕地方，一個重感情的好地方。`,
+    descriptions: [
+      'Client – 輕地方WINDSCAPE',
+      'Design Agency - 自由落體設計FREEIMAGE design',
+      'Photographer - 鄭鼎Cheng Dean',
+      'Editorial Design – 鄭又綺 Cheng Yu Chi',
+      'Responsibility- LOGO',
+    ],
+    name: 'Windscape',
+    projectDetails: [
+      'WINDSCAPE - Logo Design',
+      'WINDSCAPE - Logo Design',
+      'WINDSCAPE - Logo Design',
+      'WINDSCAPE - Brochure',
+      'WINDSCAPE - Brochure',
+      'WINDSCAPE - Brochure',
+      'WINDSCAPE - Brochure',
+      'WINDSCAPE - Brochure',
+      'WINDSCAPE - Brochure'
+    ],
+    categories: [
+      Categories.Editorial,
+      Categories.Identity,
+      Categories.Graphic,
     ]
   },
   {
@@ -602,7 +605,7 @@ const Projects: ProjectLite[] = [
   {
     chineseName: 'MATA家屋 － 臺東縣原住民文化會館',
     englishName: 'Taiwan Indigenous Cultural Resort',
-    about: ``,
+    about: `「MATA」為南島民族語中「眼睛、看見」之意。會館以原住民為主題訴求，藉由會館空間之展示、旅遊活動之推廣，看見臺灣東部原住民族的生活、美學文化；並與每年在此舉辦之南島文化節相結合，訴求台灣與南島民族之連結。`,
     descriptions: [
       'Client - 臺東縣原住民文化會館Taiwan Indigenous Cultural Resort',
       'Design Agency - 自由落體設計FREEIMAGE design',

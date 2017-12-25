@@ -37,7 +37,7 @@ export class ProjectDetailComponent implements OnInit {
     )
 
     // sets thumbnail.
-    let thumbNailPath = this.detailImage(1);
+    let thumbNailPath = `./assets/projects/${this.project.name}/index.png`;
     thumbNailPath = thumbNailPath.substring(2, thumbNailPath.length);
     this.meta.updateTag({
       content: `http://www.emilygph.com/${thumbNailPath}`
@@ -100,6 +100,17 @@ export class ProjectDetailComponent implements OnInit {
     // Initializes and opens PhotoSwipe
     let gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, this.popupImages, options);
     gallery.init();
+  }
+
+  public onlazyImgLoad(index: number) {
+    if (!document) {
+      return;
+    }
+    
+    let img: HTMLElement = document.getElementById(`project-detail-img-${index}`);
+    if (img && img.classList.contains('blur-image')) {
+      img.classList.remove('blur-image');
+    }
   }
 
   public onDetailImgClicked(projectDetail: string) {

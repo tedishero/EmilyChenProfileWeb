@@ -17,11 +17,11 @@
     </div>
     <div fxLayout="column">
         <img *ngFor="let projectDetail of project.projectDetails;let i = index;"
-          class="project-detail-content project-detail-width"
+          class="project-detail-content project-detail-width blur-image"
           (click)='onDetailImgClicked(projectDetail)'
           [attr.aria-label]="projectDetail"
-          [defaultImage]="compressedDetailImage(i+1)" [lazyLoad]="detailImage(i+1)" (click)="openImagePopUp(i)" [offset]="100"
-          [attr.id]="'project-detail-img-' + i" (load)="load(i)"/>
+          [defaultImage]="compressedDetailImage(i+1)" [lazyLoad]="detailImage(i+1)" (click)="openImagePopUp(i)" 
+          [attr.id]="'project-detail-img-' + i" (load)="load(i)" (onLoad)="onlazyImgLoad(i)"/>
     <div>
 
   </div>

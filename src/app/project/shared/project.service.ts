@@ -256,15 +256,15 @@ const Projects: ProjectLite[] = [
     chineseName: '輕地方',
     englishName: 'WINDSCAPE',
     about: `輕地方的甜點，是為愛為生的甜點心。
-    法式點心是甜的，為了讓所愛的人享用健康美味的甜點心，更甜。
+法式點心是甜的，為了讓所愛的人享用健康美味的甜點心，更甜。
     
-    甜甜的心，不私藏，創辦人決定在摯愛的新竹市開甜甜的「輕地方」，用最健康、新鮮、頂級的食材，手作法式點心；讓身體無負擔，荷包無壓力，心情無憂煩。創造一個屬於每個人的輕鬆、輕快、輕盈的輕地方，一個重感情的好地方。`,
+甜甜的心，不私藏，創辦人決定在摯愛的新竹市開甜甜的「輕地方」，用最健康、新鮮、頂級的食材，手作法式點心；讓身體無負擔，荷包無壓力，心情無憂煩。創造一個屬於每個人的輕鬆、輕快、輕盈的輕地方，一個重感情的好地方。`,
     descriptions: [
-      'Client – 輕地方WINDSCAPE',
+      'Client - 輕地方WINDSCAPE',
       'Design Agency - 自由落體設計FREEIMAGE design',
       'Photographer - 鄭鼎Cheng Dean',
-      'Editorial Design – 鄭又綺 Cheng Yu Chi',
-      'Responsibility- LOGO',
+      'Editorial Design - 鄭又綺 Cheng Yu Chi',
+      'Responsibility - LOGO',
     ],
     name: 'Windscape',
     projectDetails: [
@@ -280,6 +280,28 @@ const Projects: ProjectLite[] = [
     ],
     categories: [
       Categories.Editorial,
+      Categories.Identity,
+      Categories.Graphic,
+    ]
+  },
+  {
+    chineseName: '2018台灣燈會在嘉義',
+    englishName: '2018 Taiwan Lantern Festival',
+    about: `2018台灣燈會Logo以數字8為主要設計概念。將嘉義縣東西寬闊的地形、北回歸線橫貫其中的特色，及嘉義人寬闊的心胸和溫暖的人情皆融入其中，橘、紅漸層的主色調。
+
+燈會是張燈結綵的歡樂氣氛，為呈現燈會的格局大器，結合質感深厚的中華文化價值，並兼負創造城市風向的使命願景，點亮嘉義新時代及北緯23.5度的光芒，以橙紅色基調代表暖心滿溢的真摯人情味，明年燈會將匯聚科技、文化、藝術等層面，相信將造就精彩奪目的國際視野，光線折射照亮每個角落，代表嘉義將從這裡出發面對全世界，引東方風華與氣度。`,
+    descriptions: [
+      'Client – 嘉義縣政府Chia Yi County Government',
+      'Design Agency –自由落體設計FREEIMAGE design',
+      'Responsibility- LOGO'
+    ],
+    name: '2018 lantern festival',
+    projectDetails: [
+      '2018 Taiwan Lantern Festival - Logo Design',
+      '2018 Taiwan Lantern Festival - Cap',
+      '2018 Taiwan Lantern Festival - Cap'
+    ],
+    categories: [
       Categories.Identity,
       Categories.Graphic,
     ]

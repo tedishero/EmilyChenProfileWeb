@@ -17,7 +17,18 @@
     
 
 .blur-image {
-    filter: blur(50px);
+    filter: blur(30px);
     /* this is needed so Safari keeps sharp edges */
     transform: scale(1);
   }
+
+.clear-image {
+    filter: blur(0px);
+    animation: fadein linear 0.5s;
+}
+
+@keyframes fadein {
+   0% { filter: opacity(0%) blur(30px);}
+  50% { filter: opacity(100%)  blur(15px);}
+ 100% { filter: opacity(100%) blur(0px);}
+}

@@ -21,16 +21,14 @@
   </div>-->
 </div>
 
-<mat-toolbar class="header" id='header-tool-bar'>
-  <mat-toolbar-row>
-    <div class="hamburger hamburger--slider js-hamburger" (click)="toggleMenu()" id='hamburger' style="margin-top:15px">
-      <div class="hamburger-box">
-        <div class="hamburger-inner"></div>
-      </div>
+<div fxLayout="column" style="height: 60px">
+  <div class="hamburger hamburger--slider js-hamburger" (click)="toggleMenu()" id='hamburger' style="margin-top:15px; margin-left:15px; width:20px">
+    <div class="hamburger-box">
+      <div class="hamburger-inner"></div>
     </div>
+  </div>
 
-    <a [routerLink]="['/projects']" >
-    <img webpImg webpSrc='assets/index_name.webp' defaultSrc='assets/index_name.png' class="header-logo-mobile"/>
-    </a>
-  </mat-toolbar-row>
-</mat-toolbar>
+  <a [routerLink]="['/projects']">
+    <img webpImg webpSrc='assets/index_name.webp' defaultSrc='assets/index_name.png' class="header-logo-mobile" />
+  </a>
+</div>

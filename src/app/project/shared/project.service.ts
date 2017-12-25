@@ -174,6 +174,35 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
+    chineseName: '輕地方',
+    englishName: 'WINDSCAPE',
+    about: '',
+    descriptions: [
+      'Client – 輕地方WINDSCAPE',
+      'Design Agency –自由落體設計FREEIMAGE design',
+      'Photographer - 鄭鼎Cheng Dean',
+      'Editorial Design – 鄭又綺 Cheng Yu Chi',
+      'Responsibility- LOGO',
+    ],
+    name: 'Windscape',
+    projectDetails: [
+      'WINDSCAPE - Logo Design',
+      'WINDSCAPE - Logo Design',
+      'WINDSCAPE - Logo Design',
+      'WINDSCAPE - Brochure',
+      'WINDSCAPE - Brochure',
+      'WINDSCAPE - Brochure',
+      'WINDSCAPE - Brochure',
+      'WINDSCAPE - Brochure',
+      'WINDSCAPE - Brochure'
+    ],
+    categories: [
+      Categories.Editorial,
+      Categories.Identity,
+      Categories.Graphic,
+    ]
+  },
+  {
     chineseName: '2015金點概念設計獎',
     englishName: '2015 Golden Pin Concept Design Award',
     about: `自2015年起，金點設計獎品牌之下依專業設計類別分設「金點設計獎」、「金點概念設計獎」及「金點新秀設計獎」等3大獎別，旨在褒揚華人傑出的創新產品與作品。「金點概念設計獎」開放全球各地對創意設計有熱忱、對改變社會有想法的設計菁英與同好參與。
@@ -568,6 +597,35 @@ const Projects: ProjectLite[] = [
       Categories.Graphic,
       Categories.Editorial,
       Categories.Exhibition
+    ]
+  },
+  {
+    chineseName: 'MATA家屋 － 臺東縣原住民文化會館',
+    englishName: 'Taiwan Indigenous Cultural Resort',
+    about: ``,
+    descriptions: [
+      'Client - 臺東縣原住民文化會館Taiwan Indigenous Cultural Resort',
+      'Design Agency - 自由落體設計FREEIMAGE design',
+      'Photographer - 鄭鼎Cheng Dean',
+      'Responsibility - 品牌設計Branding / 指標系統 Signage Design'
+    ],
+    name: 'MATA',
+    projectDetails: [
+      'MATA - Logo Design',
+      'MATA - Signage Design',
+      'MATA - Brochure',
+      'MATA - Brochure',
+      'MATA - Brochure',
+      'MATA - Sign',
+      'MATA - Logo Design',
+      'MATA - Taiwan Indigenous Cultural Resort',
+      'MATA - Taiwan Indigenous Cultural Resort',
+      'MATA - Taiwan Indigenous Cultural Resort',
+    ],
+    categories: [
+      Categories.Identity,
+      Categories.Graphic,
+      Categories.Editorial,
     ]
   },
   {

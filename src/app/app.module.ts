@@ -6,7 +6,7 @@ import { appRoutes, appRoutingProviders } from './app.routes';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatListModule, MatSidenavModule, MatToolbarModule } from '@angular/material';
+import { MatListModule, MatSidenavModule } from '@angular/material';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { AppComponent } from './app.component';
 import { NavbarComponent, NavbarMobileComponent } from './navbar/index';
@@ -45,7 +45,6 @@ import { environment } from '../environments/environment';
     BrowserAnimationsModule,
     MatListModule, 
     MatSidenavModule, 
-    MatToolbarModule,
     LazyLoadImageModule,
     FlexLayoutModule,
     appRoutes

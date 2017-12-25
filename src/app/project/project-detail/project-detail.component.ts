@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ObservableMedia } from '@angular/flex-layout';
 import { Meta, Title } from '@angular/platform-browser';
 import { ProjectLite } from '../shared/model';
 import { ProjectFilterService } from '../shared/project-filter.service'
@@ -110,6 +109,7 @@ export class ProjectDetailComponent implements OnInit {
     let img: HTMLElement = document.getElementById(`project-detail-img-${index}`);
     if (img && img.classList.contains('blur-image')) {
       img.classList.remove('blur-image');
+      img.classList.add('clear-image');
     }
   }
 

@@ -21,10 +21,11 @@ export class ProjectService {
 
 const Projects: ProjectLite[] = [
   {
+    position: 1,
     chineseName: '高鐵馬年主視覺',
     englishName: 'Taiwan High Speed Rail 2013 New Year',
     about: '台灣高鐵為慶新春，每年發展由生肖發想之主視覺。運用高鐵既有的色彩以及線條特性，勾勒出速度感的奔馳駿馬，一方面搭配該年生肖，另一方面則呼應高速鐵路形象，持續為旅客勇往直前，快速馳騁南北。',
-    name: '高鐵馬年主視覺',
+    name: 'taiwan-speed-rail-2013',
     descriptions: [
       'Client – 台灣高鐵 Taiwan High Speed Rail Corporation', 
       'Design Agency - 自由落體設計 FREEIMAGE design',
@@ -43,6 +44,7 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
+    position: 2,
     chineseName: '2018台灣燈會在嘉義',
     englishName: '2018 Taiwan Lantern Festival',
     about: `2018台灣燈會Logo以數字8為主要設計概念。將嘉義縣東西寬闊的地形、北回歸線橫貫其中的特色，及嘉義人寬闊的心胸和溫暖的人情皆融入其中，橘、紅漸層的主色調。
@@ -53,7 +55,7 @@ const Projects: ProjectLite[] = [
       'Design Agency –自由落體設計FREEIMAGE design',
       'Responsibility- LOGO'
     ],
-    name: '2018-lantern-festival',
+    name: 'lantern-festival-2018',
     youtube: 'https://www.youtube.com/embed/5pK84TKDNR4?rel=0',
     projectDetails: [
       '2018 Taiwan Lantern Festival - Logo Design',
@@ -66,10 +68,11 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
+    position: 3,
     chineseName: '光寶產品簡介',
     englishName: 'Lite-On Brochure & Flyers',
     about: '光寶以「光電節能、智慧科技最佳夥伴」為願景，聚焦核心光電元件及電子關鍵零組件之發展。該產品簡介共分為繁簡中文及英文三版本，介紹EVO 8000 Series與EVO 6000 Series兩款變頻器。因應科技產品予人專業權威走向，色調選用冷色系，呼應光寶企業標誌。',
-    name: '光寶',
+    name: 'lite-on',
     descriptions: [
       'Client – 台灣光寶電子股份有限公司 Lite-On Technology Corporation',
     ],
@@ -87,6 +90,7 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
+    position: 4,
     chineseName: '大台北當代藝術雙年展',
     englishName: 'Greater Taipei Biennial of Contemporary Arts',
     about: `「大臺北當代藝術雙年展」，由國立臺灣藝術大學美術學院，與有章藝術博物館共同規劃執行，邀請法國重量級哲學暨漢學大師朱利安（François Jullien）擔任客座策展人、來自10個國家計30位國際知名藝術家參展。
@@ -97,7 +101,7 @@ const Projects: ProjectLite[] = [
       'Design Agency –自由落體設計 FREEIMAGE design'
     ],
     link: 'https://www.greatertaipeiartsfestival.com/',
-    name: '大台北當代藝術雙年展',
+    name: 'greater-taipei-biennial-of-contemporary-arts',
     projectDetails: [
       '大台北當代藝術雙年展 - Logo Design',
       '大台北當代藝術雙年展 - Poster',
@@ -121,7 +125,7 @@ const Projects: ProjectLite[] = [
       'Author - 黃微芬 Wei-Fen Huang', 
       'Illustration- 徐至宏 Zhi-Hong Hsu'
     ],
-    name: '甜蜜蜜',
+    name: 'tainan-sugar-factory',
     projectDetails: [
       '甜蜜蜜 - Title Typography',
       '甜蜜蜜 - Cover with dust jacket',
@@ -165,7 +169,7 @@ const Projects: ProjectLite[] = [
     descriptions: [
       'Client – 紀州庵文學森林 Kishu An Forest of Literature',
     ],
-    name: '紅樓夢',
+    name: 'dream-of-the-red-chamber',
     projectDetails: [
       'Dream of The Red Chamber | 紅樓夢 – Cover',
       'Dream of The Red Chamber | 紅樓夢 – Flyer',
@@ -186,7 +190,7 @@ const Projects: ProjectLite[] = [
       'Photography – 鄭鼎 Dean Zheng', 
       'Design Agency –自由落體設計 FREEIMAGE design',
     ],
-    name: '2014華膳中秋玉兔拱月禮盒',
+    name: 'moon-festival-gift-box-2014',
     projectDetails: [
       'Moon Festival gift box | 華膳中秋玉兔拱月禮盒 – Packaging Design',
       'Moon Festival gift box | 華膳中秋玉兔拱月禮盒 – Packaging Design',
@@ -202,7 +206,7 @@ const Projects: ProjectLite[] = [
     about: `自2015年起，金點設計獎品牌之下依專業設計類別分設「金點設計獎」、「金點概念設計獎」及「金點新秀設計獎」等3大獎別，旨在褒揚華人傑出的創新產品與作品。「金點概念設計獎」開放全球各地對創意設計有熱忱、對改變社會有想法的設計菁英與同好參與。
 
 此屆主題為「中觀」，即來自於華人文化、生活方式、華人哲學、思想、原則並提出可充分傳達華人特色，或解決華人地區面臨問題之作品。`,
-    name: '2015金點概念設計獎',
+    name: 'gold-pin-concept-design-award-2015',
     descriptions: [
       'Client - Taiwan Design Center',
       'Design Agency - FREEIMAGE design',
@@ -222,7 +226,7 @@ const Projects: ProjectLite[] = [
     chineseName: '星級旅館',
     englishName: 'Star Hotel',
     about: '旅宿網由交通部觀光局官方公布台灣經評鑑通過合法安全品質價格優良旅宿，同國際AAA鑽石制度及富比世(Forbes)星級旅館指南嚴謹評鑑標準，以一至五顆星來評鑑台灣旅館等級。',
-    name: '星級旅館',
+    name: 'star-hotel',
     descriptions: [
       'Client – 台灣觀光局 Tourism Bureau, Rep. of China(Taiwan)', 
       'Design Agency –自由落體設計 FREEIMAGE design', 
@@ -246,7 +250,7 @@ const Projects: ProjectLite[] = [
     about: `華膳空廚係由中華航空與太古集團共同投資成立，旨在提升由桃園出發航運的空中餐點品質。 
     
 本商標用於華膳出品所有食品包裝、文宣，以董陽孜女士所提「華膳」二字延伸視覺系統，展現東方美食的博大精深。`,
-    name: '華膳空廚品牌整合',
+    name: 'china-pacific-catering-service',
     descriptions: [
       'Client –華膳空廚公司 China Pacific Catering Service',
       'Design Agency –自由落體設計 FREEIMAGE design', 
@@ -289,7 +293,7 @@ const Projects: ProjectLite[] = [
       'Editorial Design - 鄭又綺 Cheng Yu Chi',
       'Responsibility - LOGO',
     ],
-    name: 'Windscape',
+    name: 'windscape',
     projectDetails: [
       'WINDSCAPE - Logo Design',
       'WINDSCAPE - Logo Design',
@@ -317,7 +321,7 @@ const Projects: ProjectLite[] = [
       'Responsibility - LOGO / Branding'
     ],
     link: 'http://xiqucenter.culture.tw/Xiqu/index.aspx',
-    name: '戲曲中心',
+    name: 'taiwan-traditional-theatre-center',
     projectDetails: [
       'Taiwan Traditional Theatre Center | 臺灣戲曲中心 - Logo Design',
       'Taiwan Traditional Theatre Center | 臺灣戲曲中心 - Logo Design',
@@ -340,7 +344,7 @@ const Projects: ProjectLite[] = [
     chineseName: '郭林喜帖',
     englishName: 'Yan&Yu Wedding Invitation',
     about: '新人為虔誠基督教教友，圖案結合新人英文名與教堂，牡丹花與喜鵲點綴更添東方味，中西合併的喜卡。',
-    name: '郭林喜帖',
+    name: 'yan-yu-wedding-invitation',
     descriptions: [
       'Client - Yan&Yu',
       'Press Agency - www.upackaging.com.tw',
@@ -363,7 +367,7 @@ const Projects: ProjectLite[] = [
       'Client – Chris Su & Grace Wu',
       'Press Agency - www.upackaging.com.tw',
     ],
-    name: '蘇吳喜帖',
+    name: 'chris-grace-wedding-initation',
     projectDetails: [
       'Chris & Grace Wedding Invitation | 蘇吳喜帖 - Front',
       'Chris & Grace Wedding Invitation | 蘇吳喜帖 - Hot Stamping details',
@@ -380,7 +384,7 @@ const Projects: ProjectLite[] = [
     chineseName: '陳郭喜帖',
     englishName: 'Mo&Wei Wedding Invitation',
     about: '童話般的愛情故事才正要展開！邀請大家進入歡樂王國坐上旋轉木馬，歡慶甜蜜幸福時光！內層小卡依照結婚、文定資訊不同替換，隨風轉動增添動感。',
-    name: '陳郭喜帖',
+    name: 'mo-wei-wedding-invitation',
     descriptions: [
       'Client - Mo&Wei',
       'Press Agency - www.upackaging.com.tw'
@@ -412,7 +416,7 @@ const Projects: ProjectLite[] = [
       'Client – 匯豐銀行 HSBC Group', 
       'Design Agency –自由落體設計 FREEIMAGE design',
     ],
-    name: '華航聯名卡',
+    name: 'china-airline-co-brander-card',
     projectDetails: [
       'China Airline Co-Brander Card | 華航聯名卡 - PLATINUM',
       'China Airline Co-Brander Card | 華航聯名卡 - SIGNATURE',
@@ -432,7 +436,7 @@ const Projects: ProjectLite[] = [
       'Design Agency - 渥得設計 Woodart'
     ],
     link: 'http://south.npm.gov.tw/zh-TW/ExhibitInfo/page/7d002fd2-029f-446f-93b3-03c3cc02e4c7',
-    name: '南亞美玉特展',
+    name: 'heavenly-crafted',
     projectDetails: [
       'Heavenly Crafted | 南亞美玉特展 - Poster',
       'Heavenly Crafted | 南亞美玉特展 - Brochure',
@@ -458,7 +462,7 @@ const Projects: ProjectLite[] = [
       'Photography – 鄭鼎 Dean Zheng', 
       'Design Agency –自由落體設計 FREEIMAGE design'
     ],
-    name: '2013華膳中秋饗月禮盒',
+    name: 'moon-festival-gift-box-2013',
     projectDetails: [
       '2013 Moon Festival gift box | 華膳中秋饗月禮盒 – Chinese Moon Cake',
       '2013 Moon Festival gift box | 華膳中秋饗月禮盒 – Cheese Cake',
@@ -484,7 +488,7 @@ const Projects: ProjectLite[] = [
       'Photographer - 鄭鼎 Cheng Ting', 
       'Responsibility- Event KEY VISION Design' 
     ],
-    name: '2014台灣設計展',
+    name: 'taiwan-design-expo-2014',
     projectDetails: [
       '2014 Taiwan Design Expo | 台灣設計展 – Poster',
       '2014 Taiwan Design Expo | 台灣設計展 – Invitation',
@@ -525,7 +529,7 @@ const Projects: ProjectLite[] = [
       'Design Agency –自由落體設計 FREEIMAGE design', 
       'Calligrapher – 郭博州 Kuo Bor-Jou '
     ],
-    name: '福樺建設賀卡',
+    name: 'fu-hua-construction-greeting-cards',
     projectDetails: [
       'Fu-Hua Construction Greeting Cards | 福樺建設賀卡 - 2015 Greeting Card Design',
       'Fu-Hua Construction Greeting Cards | 福樺建設賀卡 - 2015 Greeting Card Detail',
@@ -600,7 +604,7 @@ const Projects: ProjectLite[] = [
       'Photographer - 鄭鼎 Cheng Ting', 
       'Responsibility- LOGO / Branding / Event KEY VISION Design / APP graphic'
     ],
-    name: '2016文博會',
+    name: 'createive-expo-taiwan-2016',
     projectDetails: [
       '2016 CREATIVE EXPO TAIWAN | 臺灣文博會 – Poster',
       '2016 CREATIVE EXPO TAIWAN | 臺灣文博會 – Bag',
@@ -668,7 +672,7 @@ const Projects: ProjectLite[] = [
       'Photographer - 鄭鼎 Cheng Ting', 
       'Responsibility- Typography'
     ],
-    name: '美食展',
+    name: 'taiwan-culinary-exhibition',
     projectDetails: [
       'Stylish Small Eats Utensils 台灣美食展 - 小吃大器｜惜物時代 - Logo Design',
       'Stylish Small Eats Utensils 台灣美食展 - 小吃大器｜惜物時代 - 2015 Taiwan Culinary Exhibition',
@@ -696,7 +700,7 @@ const Projects: ProjectLite[] = [
       'Design Agency – 自由落體設計 FREEIMAGE design',
       'Responsibility- Logo Design'
     ],
-    name: '臺華窯35週年',
+    name: 'tai-hwa-pottery-35th-anniversary-logo',
     projectDetails: [
       '臺華窯35週年 Tai-Hwa Pottery 35th Anniversary Logo Design',
       '臺華窯35週年 Tai-Hwa Pottery 35th Anniversary Logo -Inspiration',
@@ -717,7 +721,7 @@ const Projects: ProjectLite[] = [
       'Client - 國立臺灣藝術大學 National Taiwan University of Arts', 
       'Design Agency – 自由落體設計 FREEIMAGE design'
     ],
-    name: '大台北藝術節',
+    name: 'greater-taipei-arts-festival',
     projectDetails: [
       '大台北藝術節 - Logo Design',
       '大台北藝術節 - Event Program',
@@ -741,7 +745,7 @@ const Projects: ProjectLite[] = [
       'GUI Index graphic – 鄭鼎 Zheng Dean', 
       'Responsibility- GUI icon revised design / Wi-Fi onboard icon design ',
     ],
-    name: '華航新世代客艙計畫',
+    name: 'china-airlines-nexgen-program',
     projectDetails: [
       'China Airlines NexGen program | 華航新世代客艙計畫 – GUI index',
       'China Airlines NexGen program | 華航新世代客艙計畫 – icon revised suggestion',
@@ -800,7 +804,7 @@ const Projects: ProjectLite[] = [
       'Photographer - 鄭鼎 Cheng Ting', 
       'Responsibility- LOGO/ Packaging Design'
     ],
-    name: '部落行銷',
+    name: 'taiwan-indigenous-culture-createive-center',
     projectDetails: [
       'Taiwan Indigenous Culture & Creative Center | 部落行銷 - Logo Design',
       'Taiwan Indigenous Culture & Creative Center | 部落行銷 – Business Card', 

@@ -14,6 +14,7 @@ export interface Navigation {
 }
 
 export interface ProjectLite {
+    position?: number,
     about: string;
     link?: string;
     name: string;

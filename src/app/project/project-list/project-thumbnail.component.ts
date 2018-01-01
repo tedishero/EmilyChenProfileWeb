@@ -8,6 +8,7 @@ import {
   transition
 } from '@angular/animations';
 import { ProjectLite } from '../index';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-thumbnail',
@@ -41,8 +42,8 @@ export class ProjectThumbnailComponent implements OnInit {
   }
 
   public ngOnInit() {
-    this.defaultIndexImage = `./assets/projects/${this.project.name}/index.png`;
-    this.webPIndexImage = `./assets/projects/${this.project.name}/index.webp`;
+    this.defaultIndexImage = `${environment.assetUrl}/assets/projects/${this.project.name}/index.png`;
+    this.webPIndexImage = `${environment.assetUrl}/assets/projects/${this.project.name}/index.webp`;
   }
 
   public mouseOver() {

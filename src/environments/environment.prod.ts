@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  assetUrl: 'https://emilygph.blob.core.windows.net/'
 };

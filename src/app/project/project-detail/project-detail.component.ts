@@ -5,6 +5,8 @@ import { ProjectLite } from '../shared/model';
 import { ProjectFilterService } from '../shared/project-filter.service'
 import PhotoSwipe from 'photoswipe';
 
+import { environment } from '../../../environments/environment';
+
 @Component({
   selector: 'app-project-detail',
   templateUrl: './project-detail.component.html',
@@ -36,16 +38,16 @@ export class ProjectDetailComponent implements OnInit {
     )
 
     // sets thumbnail.
-    let thumbNailPath = `./assets/projects/${this.project.name}/index.png`;
+    let thumbNailPath = `${environment.assetUrl}/assets/projects/${this.project.name}/index.png`;
     thumbNailPath = thumbNailPath.substring(2, thumbNailPath.length);
     this.meta.updateTag({
-      content: `http://www.emilygph.com/${thumbNailPath}`
+      content: thumbNailPath
     },
       "property='og:image'"
     )
 
     this.meta.updateTag({
-      content: `http://www.emilygph.com/${thumbNailPath}`
+      content: thumbNailPath
     },
       "property='og:image:url'"
     )
@@ -66,19 +68,19 @@ export class ProjectDetailComponent implements OnInit {
 
   public compressedDetailImage(index: number): string {
     if (this.supportWebP) {
-      return `./assets/projects/${this.project.name}/compressed/detail${index}.webp`;
+      return `${environment.assetUrl}/assets/projects/${this.project.name}/compressed/detail${index}.webp`;
     }
     else {
-      return `./assets/projects/${this.project.name}/compressed/detail${index}.png`;
+      return `${environment.assetUrl}/assets/projects/${this.project.name}/compressed/detail${index}.png`;
     }
   }
 
   public detailImage(index: number): string {
     if (this.supportWebP) {
-      return `./assets/projects/${this.project.name}/detail${index}.webp`;
+      return `${environment.assetUrl}/assets/projects/${this.project.name}/detail${index}.webp`;
     }
     else {
-      return `./assets/projects/${this.project.name}/detail${index}.png`;
+      return `${environment.assetUrl}/assets/projects/${this.project.name}/detail${index}.png`;
     }
   }
 

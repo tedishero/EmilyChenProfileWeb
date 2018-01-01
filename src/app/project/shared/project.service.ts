@@ -544,6 +544,40 @@ const Projects: ProjectLite[] = [
     ]
   },
   {
+    chineseName: '2017 FORMOSA 雕塑雙年展',
+    englishName: 'M Space- 2017 FORMOSA Sculpture Biennial',
+    about: `2017 FORMOSA雕塑雙年展，呼應空間的跨領域探索，轉借來自物理學界而召喚新空間視野與世界想像的「M理論」（M-theory），以「M 空間」作為命題。
+
+「M空間」可謂是重新「創造空間」（making space）— 不論是就具體物質上或就抽象概念來說。人、事、物的關係，在其間被拆解、轉換與重組，生成新的空間。現實中不可得見的這些異境維度，構成了讓人領受感性體驗和精神歷險的獨特場域：或與「空間化」而得以敞開的隱匿世界相遇 — 自然、歷史、政治、社會、文化、性別、心理的……；抑或者，深刻意識到在現實的縫隙、未知的彼處，總存有莫名的折疊空間、難解的黑洞世界。
+
+|參展藝術家|
+鄧肯‧蒙弗特Duncan MOUNTFORD、劉柏村Po-Chun LIU、楊子強Chee-Kiong YEO、裘安‧蒲梅爾Joan POMERO、水谷篤司 Mizutani ATSUSHI、鄭勝Seung JUNG、陳奕彰Yi-Chang CHEN、劉文瑄Wen-Hsuan LIU、黃致傑Chih-Chieh HUANG、林書楷Shu-Kai LIN、邱承宏Chen-Hung CHIU、郭俞平Yu-Ping KUO、李承亮Cheng–Liang LI、「太認真」雙人組 (郭柏俞Po-Yu KUO、佘文瑛Wen-Ying SHE) 、廖昭豪Chao-Hao LIAO`,
+    descriptions: [
+      'Client – 駁二藝術特區 The Pier-2 Art Center',
+      'Curator – 劉俊蘭 Chun-Lan LIU',
+      'Responsibility - Event KEY VISION Design'
+    ],
+    name: 'm-space',
+    projectDetails: [
+      '2017 FORMOSA Sculpture Biennial - Poster',
+      '2017 FORMOSA Sculpture Biennial - Cool Card',
+      '2017 FORMOSA Sculpture Biennial - Cool Card',
+      '2017 FORMOSA Sculpture Biennial - Brochure& Cool Card',
+      '2017 FORMOSA Sculpture Biennial - Banner',
+      '2017 FORMOSA Sculpture Biennial - Exhibition', 
+      '2017 FORMOSA Sculpture Biennial - Exhibition Entrance',
+      '2017 FORMOSA Sculpture Biennial - Exhibition Entrance',
+      '2017 FORMOSA Sculpture Biennial –Exhibition',
+      '2017 FORMOSA Sculpture Biennial -Exhibition'
+    ],
+    categories: [
+      Categories.Identity,
+      Categories.Editorial,
+      Categories.Graphic,
+      Categories.Exhibition
+    ]
+  },
+  {
     chineseName: 'UPackaging 彩盒印刷',
     englishName: 'UPackaging',
     about: `UPackaging提供客製化訂做瓦愣紙盒服務，從網站上了解各步驟可加工方式進而選擇適合自己所需。UPackaging 結合「UP」與「U (your)」的命名，追求更好上等品質與自己的（your）紙盒，在商標設計方面以向上箭頭與紙盒立體剪影六面形結合，在負空間形成U字。名片利用該公司特色瓦愣紙製作，一眼即識產業方向。`,
@@ -762,6 +796,42 @@ const Projects: ProjectLite[] = [
     categories: [
       Categories.Identity,
       Categories.Graphic,
+    ]
+  },
+  {
+    chineseName: '厭世青',
+    englishName: 'World Weariness - Living in Vain ',
+    about: `是什麼原因讓「厭世」一詞成為近年來年輕族群的網路流行語?甚至在時尚界衍生出「厭世臉」的流行妝容與表情。就研究數據指出，過去20年的薪資漲幅遠遠不及房價與物價的漲幅，面對生活的大不易，有感社會黑白不分、資源分配不公的現況，種種與現實困境糾結的無力感如同一個巨大的牢籠籠罩著年輕世代，「#活在鬼島」成了年輕人的共同心聲，「#魯蛇Loser(譯:失敗者)」也成了年輕人自我認同的代名詞。
+
+展覽「厭世青-我盡全力放棄」呼應厭世議題，邀請6位青年藝術家及3位網路圖文創作者參展，各自以灰暗的、黑色幽默的、嘲諷的手法創作，表達厭世代內心的抑鬱，揭露各種被輕視忽略的奇觀景象及社會荒謬劇。
+
+|參展藝術家|
+某人日常、畫龜畫(小學生課本的逆襲)、倪瑞宏、賴威宇、夏仙、陳彥智、單凱悌、厭世書寫、吳鎮宇`,
+    descriptions: [
+      'Client – 駁二藝術特區 The Pier-2 Art Center',
+      'Curator – 吳梅希 Mei- hsi Wu',
+      'Co-Curator – 張珮瑜 Pei- yu Chang',
+      'Calligrapher – 厭世書寫 Misanthropy penmanship',
+      'Illustration - 盧怡薰 Yi- Hsin Lu',
+      'Responsibility - Event KEY VISION Design',
+    ],
+    name: 'world-weariness',
+    projectDetails: [
+      'World Weariness - Poster',
+      'World Weariness – Brochure& Cool Card',
+      'World Weariness - Cool Card',
+      'World Weariness – Banner',
+      'World Weariness – LED Screen Advertisement',
+      'World Weariness – Bus Stop Advertisement',
+      'World Weariness - Bus Stop Advertisement',
+      'World Weariness – Exhibition Entrance',
+      'World Weariness – Exhibition'
+    ],
+    categories: [
+      Categories.Identity,
+      Categories.Graphic,
+      Categories.Editorial,
+      Categories.Exhibition
     ]
   },
   {

@@ -39,7 +39,6 @@ export class ProjectDetailComponent implements OnInit {
 
     // sets thumbnail.
     let thumbNailPath = `${environment.assetUrl}/assets/projects/${this.project.name}/index.png`;
-    thumbNailPath = thumbNailPath.substring(2, thumbNailPath.length);
     this.meta.updateTag({
       content: thumbNailPath
     },

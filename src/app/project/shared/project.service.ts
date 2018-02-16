@@ -229,8 +229,8 @@ const Projects: ProjectLite[] = [
     name: 'star-hotel',
     descriptions: [
       'Client – 台灣觀光局 Tourism Bureau, Rep. of China(Taiwan)', 
-      'Design Agency –自由落體設計 FREEIMAGE design', 
-      'Responsibility- LOGO ',
+      'Design Agency – 自由落體設計 FREEIMAGE design', 
+      'Responsibility - LOGO ',
     ],
     link: 'http://taiwanstay.net.tw',
     projectDetails: [
@@ -238,6 +238,28 @@ const Projects: ProjectLite[] = [
       'Star Hotel | 星級旅館 – logo',
       'Star Hotel | 星級旅館 – website',
       'Star Hotel | 星級旅館 – website',
+    ],
+    categories: [
+      Categories.Graphic,
+      Categories.Identity
+    ]
+  },
+  {
+    chineseName: '行政院2018新年賀卡',
+    englishName: `2018 Executive Yuan New Year's Card`,
+    about: '2018「土豐民樂」，以七巧板拼湊出台灣土狗，希冀新的一年士農工商一起打拼，讓台灣成為更幸福國家。',
+    name: 'taiwan-executive-yuan-new-year-card-2018',
+    descriptions: [
+      'Client – 中華民國行政院 Executive Yuan, Taiwan', 
+      'Design Agency – 自由落體設計 FREEIMAGE design', 
+    ],
+    projectDetails: [
+      `2018 Executive Yuan New Year's Card`,
+      `2018 Executive Yuan New Year's Card`,
+      `2018 Executive Yuan New Year's Card`,
+      `2018 Executive Yuan New Year's Card`,
+      `2018 Executive Yuan New Year's Card`,
+      `2018 Executive Yuan New Year's Card`
     ],
     categories: [
       Categories.Graphic,
@@ -486,7 +508,7 @@ const Projects: ProjectLite[] = [
       'Client – 台灣創意中心 Taiwan Design Center',
       'Design Agency – 自由落體設計 FREEIMAGE design', 
       'Photographer - 鄭鼎 Cheng Ting', 
-      'Responsibility- Event KEY VISION Design' 
+      'Responsibility - 主視覺設計 Event KEY VISION Design' 
     ],
     name: 'taiwan-design-expo-2014',
     projectDetails: [
@@ -555,7 +577,7 @@ const Projects: ProjectLite[] = [
     descriptions: [
       'Client – 駁二藝術特區 The Pier-2 Art Center',
       'Curator – 劉俊蘭 Chun-Lan LIU',
-      'Responsibility - Event KEY VISION Design'
+      'Responsibility - 主視覺設計 Event KEY VISION Design'
     ],
     name: 'm-space',
     projectDetails: [
@@ -593,6 +615,30 @@ const Projects: ProjectLite[] = [
       'UPackaging 彩盒印刷 - Website',
       'UPackaging 彩盒印刷 - Bussiness Card',
       'UPackaging 彩盒印刷 - Bussiness Card',
+    ],
+    categories: [
+      Categories.Identity,
+      Categories.Editorial,
+      Categories.Graphic,
+    ]
+  },
+  {
+    chineseName: '康健20週年',
+    englishName: 'Common Health 20th Anniversary',
+    about: `康健20，現在開始實踐，讓未來發生的都是禮物！ 2以開啟禮物意象與0的橘色暖陽，康健雜誌與您一起走向下個20年。`,
+    descriptions: [
+      'Client – 康健雜誌 Common Health',
+      'Design Agency – 自由落體設計 FREEIMAGE design',
+      'Responsibility - Logotype'
+    ],
+    name: 'common-health',
+    projectDetails: [
+      'Common Health 20th Anniversary - LOGO',
+      'Common Health 20th Anniversary - Slogan',
+      'Common Health 20th Anniversary - Advertisement',
+      'Common Health 20th Anniversary - Bag',
+      'Common Health 20th Anniversary - Bag',
+      'Common Health 20th Anniversary – Official Website'
     ],
     categories: [
       Categories.Identity,
@@ -813,7 +859,7 @@ const Projects: ProjectLite[] = [
       'Co-Curator – 張珮瑜 Pei- yu Chang',
       'Calligrapher – 厭世書寫 Misanthropy penmanship',
       'Illustration - 盧怡薰 Yi- Hsin Lu',
-      'Responsibility - Event KEY VISION Design',
+      'Responsibility - 主視覺設計 Event KEY VISION Design',
     ],
     name: 'world-weariness',
     projectDetails: [

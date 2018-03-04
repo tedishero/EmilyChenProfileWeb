@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
 
   constructor(private router: Router) {
     this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
+      if (event instanceof NavigationEnd && ga) {
         ga('set', 'page', event.urlAfterRedirects);
         ga('send', 'pageview');
       }

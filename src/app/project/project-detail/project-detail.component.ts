@@ -29,39 +29,19 @@ export class ProjectDetailComponent implements OnInit {
     this.title.setTitle(`Emily Chen | Graphic Design | ${this.project.englishName} | ${this.project.chineseName}`);
 
     // generate some meaningful description
-    this.meta.updateTag({
-      content: this.project.about
-    },
-      "property='og:description'"
-    )
+    this.meta.updateTag({property: 'og:description', content: this.project.about});
 
     // sets thumbnail.
-    this.meta.updateTag({
-      content: this.project.images[0].url
-    },
-      "property='og:image'"
-    )
+    this.meta.updateTag({property: 'og:image', content: this.project.images[0].url});
+    this.meta.updateTag({property: 'og:image:url', content: this.project.images[0].url});
+    this.meta.updateTag({property: 'og:image:height', content: this.project.images[0].height.toString()});
+    this.meta.updateTag({property: 'og:image:width', content: this.project.images[0].width.toString()});
 
-    this.meta.updateTag({
-      content: this.project.images[0].url
-    },
-      "property='og:image:url'"
-    )
-
-    this.meta.updateTag({content: this.project.images[0].height.toString()},
-      "property='og:image:height'"
-    )
-
-    this.meta.updateTag({content: this.project.images[0].width.toString()},
-      "property='og:image:width'"
-    )
-    
+    this.meta.updateTag({name: 'twitter:image', content: this.project.images[0].url});
+    this.meta.updateTag({name: 'twitter:card', content: 'summary_large_image'});
   }
 
   ngOnInit() {
-    this.supportWebP = !window || (<any>window).supportsWebP === true
-    this.projectFilterService.filter(NaN);
-
     let pageData: ProjectDetailPageData = this.route.snapshot.data['pageData'];
     this.project = {
       about: pageData.data.fields.about["en-US"],
@@ -101,6 +81,9 @@ export class ProjectDetailComponent implements OnInit {
     }
 
     this.setMetaTags();
+
+    this.supportWebP = !window || (<any>window).supportsWebP === true
+    this.projectFilterService.filter(NaN);
   }
 
   public compressedDetailImage(projectImg: ProjectImage): string {
@@ -124,6 +107,9 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   openImagePopUp(imgIndex: number) {
+    if(!window) {
+      return;
+    }
     let pswpElement = document.querySelectorAll('.pswp')[0];
 
     // define options (if needed)
@@ -149,12 +135,14 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   public onDetailImgClicked(projectDetail: string) {
-    ga('send', {
-      hitType: 'event',
-      eventCategory: 'Project Detail Image',
-      eventAction: 'View',
-      eventLabel: `Project [${this.project.chineseName}] - ${projectDetail} Viewed`
-    });
+    if (ga) {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Project Detail Image',
+        eventAction: 'View',
+        eventLabel: `Project [${this.project.chineseName}] - ${projectDetail} Viewed`
+      });
+    }
   }
 }
 

@@ -7,7 +7,7 @@ import {
   animate,
   transition
 } from '@angular/animations';
-import { ProjectLite } from '../index';
+import { ProjectLite } from '../shared/model';
 import { environment } from '../../../environments/environment';
 
 @Component({

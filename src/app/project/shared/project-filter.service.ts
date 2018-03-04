@@ -1,7 +1,7 @@
 import { Injectable, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
-import { Categories } from '../index';
+import { Categories } from '../shared/model';
 
 @Injectable()
 export class ProjectFilterService {

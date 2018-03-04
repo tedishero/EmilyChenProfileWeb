@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Categories, Navigation } from '../project/index';
+import { Categories, Navigation } from '../project/shared/model';
 import { Router } from '@angular/router';
 
 @Component({

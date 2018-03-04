@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Meta, Title } from '@angular/platform-browser';
-import { ProjectLite } from '../shared/model';
+import { ProjectLite, Categories, ProjectImage } from '../shared/model';
 import { ProjectFilterService } from '../shared/project-filter.service'
 import PhotoSwipe from 'photoswipe';
-
+import { ProjectDetailPageData } from './project-detail-page.data';
 import { environment } from '../../../environments/environment';
 
 @Component({
@@ -22,8 +22,6 @@ export class ProjectDetailComponent implements OnInit {
     private projectFilterService: ProjectFilterService,
     private title: Title,
     private meta: Meta) {
-    this.project = this.route.snapshot.data['project'];
-    this.setMetaTags();
   }
 
   private setMetaTags() {
@@ -38,55 +36,91 @@ export class ProjectDetailComponent implements OnInit {
     )
 
     // sets thumbnail.
-    let thumbNailPath = `${environment.assetUrl}/assets/projects/${this.project.name}/index.png`;
     this.meta.updateTag({
-      content: thumbNailPath
+      content: this.project.images[0].url
     },
       "property='og:image'"
     )
 
     this.meta.updateTag({
-      content: thumbNailPath
+      content: this.project.images[0].url
     },
       "property='og:image:url'"
     )
+
+    this.meta.updateTag({content: this.project.images[0].height.toString()},
+      "property='og:image:height'"
+    )
+
+    this.meta.updateTag({content: this.project.images[0].width.toString()},
+      "property='og:image:width'"
+    )
+    
   }
 
   ngOnInit() {
     this.supportWebP = !window || (<any>window).supportsWebP === true
     this.projectFilterService.filter(NaN);
-    for (const projectDetail of this.project.projectDetails) {
+
+    let pageData: ProjectDetailPageData = this.route.snapshot.data['pageData'];
+    this.project = {
+      about: pageData.data.fields.about["en-US"],
+      name: pageData.data.fields.folderName["en-US"],
+      descriptions: pageData.data.fields.partners["en-US"],
+      chineseName: pageData.data.fields.name["zh"],
+      englishName: pageData.data.fields.name["en-US"],
+      categories: pageData.data.fields.categories["en-US"].map(category => {
+        return Categories[category.fields.name["en-US"]];
+      }),
+      images: pageData.data.fields.images["en-US"].map(img => {
+        return {
+          url: img.fields.file["en-US"].url,
+          width: img.fields.file["en-US"].details.image.width,
+          height: img.fields.file["en-US"].details.image.height,
+          title: img.fields.title["en-US"],
+          fileName: img.fields.file["en-US"].fileName
+        }
+      })
+    }
+
+    if (pageData.data.fields.youtube) {
+      this.project.youtube = pageData.data.fields.youtube["en-US"];
+    }
+
+    if (pageData.data.fields.websiteUrl) {
+      this.project.link = pageData.data.fields.websiteUrl["en-US"];
+    }
+    
+    for (const img of this.project.images) {
       this.popupImages.push({
-        src: this.detailImage(this.popupImages.length + 1),
-        w: 1024,
-        h: 768,
-        title: projectDetail
+        src: this.detailImage(img),
+        w: img.width,
+        h: img.height,
+        title: img.title
       });
     }
+
+    this.setMetaTags();
   }
 
-  public compressedDetailImage(index: number): string {
+  public compressedDetailImage(projectImg: ProjectImage): string {
+    let fileNamePrefix = projectImg.fileName.split('.')[0];
     if (this.supportWebP) {
-      return `${environment.assetUrl}/assets/projects/${this.project.name}/compressed/detail${index}.webp`;
+      return `${environment.assetUrl}/assets/projects/${this.project.name}/compressed/${fileNamePrefix}.webp`;
     }
     else {
-      return `${environment.assetUrl}/assets/projects/${this.project.name}/compressed/detail${index}.png`;
+      return `${environment.assetUrl}/assets/projects/${this.project.name}/compressed/${fileNamePrefix}.png`;
     }
   }
 
-  public detailImage(index: number): string {
+  public detailImage(projectImg: ProjectImage): string {
     if (this.supportWebP) {
-      return `${environment.assetUrl}/assets/projects/${this.project.name}/detail${index}.webp`;
+      let fileNamePrefix = projectImg.fileName.split('.')[0];
+      return `${environment.assetUrl}/assets/projects/${this.project.name}/${fileNamePrefix}.webp`;
     }
     else {
-      return `${environment.assetUrl}/assets/projects/${this.project.name}/detail${index}.png`;
+      return projectImg.url;
     }
-  }
-
-  load(index: number) {
-    let img: any = document.getElementById(`project-detail-img-${index}`);
-    this.popupImages[index].w = img.naturalWidth;
-    this.popupImages[index].h = img.naturalHeight;
   }
 
   openImagePopUp(imgIndex: number) {

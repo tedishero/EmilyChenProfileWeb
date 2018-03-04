@@ -1,7 +1,0 @@
-export * from './shared/model'
-export * from './shared/project.service'
-export * from './shared/project-filter.service'
-export * from './shared/project-resolver.service'
-export * from './project-detail/project-detail.component'
-export * from './project-list/project-list.component'
-export * from './project-list/project-thumbnail.component'

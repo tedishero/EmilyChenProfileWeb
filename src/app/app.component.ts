@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Navigation, Categories } from './project/index';
+import { Navigation, Categories } from './project/shared/model';
 import { Router, NavigationEnd } from "@angular/router";
 import { Meta, Title } from '@angular/platform-browser';
 

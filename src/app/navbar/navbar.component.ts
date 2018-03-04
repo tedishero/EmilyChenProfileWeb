@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Categories, Navigation, ProjectFilterService } from '../project/index';
+import { Categories, Navigation } from '../project/shared/model';
+import { ProjectFilterService } from '../project/shared/project-filter.service'
 import { Router } from '@angular/router';
 
 @Component({

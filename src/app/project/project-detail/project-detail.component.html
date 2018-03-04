@@ -17,12 +17,12 @@
     </div>
     <div fxLayout="column">
         <iframe *ngIf='project.youtube' class="project-detail-content project-detail-width" style="height: 326px" [src]="project.youtube | safeResourceUrl" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-        <img *ngFor="let projectDetail of project.projectDetails;let i = index;"
+        <img *ngFor="let projectImg of project.images; let i = index"
           class="project-detail-content project-detail-width blur-image"
-          (click)='onDetailImgClicked(projectDetail)'
-          [attr.aria-label]="projectDetail"
-          [defaultImage]="compressedDetailImage(i+1)" [lazyLoad]="detailImage(i+1)" (click)="openImagePopUp(i)" 
-          [attr.id]="'project-detail-img-' + i" (load)="load(i)" (onLoad)="onlazyImgLoad(i)"/>
+          (click)='onDetailImgClicked(projectImg.title)'
+          [attr.aria-label]="projectImg.title"
+          [defaultImage]="compressedDetailImage(projectImg)" [lazyLoad]="detailImage(projectImg)" (click)="openImagePopUp(i)" 
+          [attr.id]="'project-detail-img-' + i" (onLoad)="onlazyImgLoad(i)"/>
     <div>
 
   </div>

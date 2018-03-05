@@ -42,7 +42,7 @@ export class ProjectThumbnailComponent implements OnInit {
   }
 
   public ngOnInit() {
-    this.defaultIndexImage = `${environment.assetUrl}/assets/projects/${this.project.name}/index.png`;
+    this.defaultIndexImage = `https:${this.project.image.url}`;
     this.webPIndexImage = `${environment.assetUrl}/assets/projects/${this.project.name}/index.webp`;
   }
 

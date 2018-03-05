@@ -28,7 +28,8 @@ export interface ProjectLite {
     name: string;
     youtube?: string;
     descriptions?: string[];
-    images?: ProjectImage[];
+    image: ProjectImage;
+    images: ProjectImage[];
     chineseName: string;
     englishName: string;
     categories: Categories[];

@@ -36,7 +36,23 @@ export class ProjectListComponent implements OnInit {
         englishName: c.fields.name["en-US"],
         categories: c.fields.categories["en-US"].map(category => {
           return Categories[category.fields.name["en-US"]];
-        })
+        }),
+        images: c.fields.images["en-US"].map(img => {
+          return {
+            url: img.fields.file["en-US"].url,
+            width: img.fields.file["en-US"].details.image.width,
+            height: img.fields.file["en-US"].details.image.height,
+            title: img.fields.title["en-US"],
+            fileName: img.fields.file["en-US"].fileName
+          }
+        }),
+        image: {
+          url: c.fields.image["en-US"].fields.file["en-US"].url,
+          width:  c.fields.image["en-US"].fields.file["en-US"].details.image.width,
+          height: c.fields.image["en-US"].fields.file["en-US"].details.image.height,
+          title: c.fields.image["en-US"].fields.title["en-US"],
+          fileName: c.fields.image["en-US"].fields.file["en-US"].fileName,
+        }
       }
 
       if (c.fields.youtube) {

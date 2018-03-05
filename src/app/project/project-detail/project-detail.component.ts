@@ -32,12 +32,12 @@ export class ProjectDetailComponent implements OnInit {
     this.meta.updateTag({property: 'og:description', content: this.project.about});
 
     // sets thumbnail.
-    this.meta.updateTag({property: 'og:image', content: this.project.images[0].url});
-    this.meta.updateTag({property: 'og:image:url', content: this.project.images[0].url});
+    this.meta.updateTag({property: 'og:image', content: `https:${this.project.images[0].url}`});
+    this.meta.updateTag({property: 'og:image:url', content: `https:${this.project.images[0].url}`});
     this.meta.updateTag({property: 'og:image:height', content: this.project.images[0].height.toString()});
     this.meta.updateTag({property: 'og:image:width', content: this.project.images[0].width.toString()});
 
-    this.meta.updateTag({name: 'twitter:image', content: this.project.images[0].url});
+    this.meta.updateTag({name: 'twitter:image', content: `https:${this.project.images[0].url}` });
     this.meta.updateTag({name: 'twitter:card', content: 'summary_large_image'});
   }
 
@@ -60,7 +60,14 @@ export class ProjectDetailComponent implements OnInit {
           title: img.fields.title["en-US"],
           fileName: img.fields.file["en-US"].fileName
         }
-      })
+      }),
+      image: {
+        url: pageData.data.fields.image["en-US"].fields.file["en-US"].url,
+        width:  pageData.data.fields.image["en-US"].fields.file["en-US"].details.image.width,
+        height: pageData.data.fields.image["en-US"].fields.file["en-US"].details.image.height,
+        title: pageData.data.fields.image["en-US"].fields.title["en-US"],
+        fileName: pageData.data.fields.image["en-US"].fields.file["en-US"].fileName,
+      }
     }
 
     if (pageData.data.fields.youtube) {
@@ -102,7 +109,7 @@ export class ProjectDetailComponent implements OnInit {
       return `${environment.assetUrl}/assets/projects/${this.project.name}/${fileNamePrefix}.webp`;
     }
     else {
-      return projectImg.url;
+      return `https:${projectImg.url}`;
     }
   }
 

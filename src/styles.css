@@ -11,7 +11,7 @@ a {
 }
 
 b {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
@@ -25,6 +25,10 @@ b {
   width: 580px;
 }
 
+.project-detail-sub-text {
+  font-size: 15px;
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .projects-detail-container {
@@ -36,6 +40,10 @@ b {
   .project-detail-width {
       width: 250px;
   }
+
+  .project-detail-sub-text {
+    font-size: 12px;
+  }
 }
 
 .project-detail-content {
@@ -43,10 +51,6 @@ b {
   margin-bottom: 2.5px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.project-detail-sub-text {
-  font-size: 12px;
 }
 
 mat-sidenav {

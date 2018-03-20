@@ -41,13 +41,23 @@ app.set('views', join(DIST_FOLDER, 'browser'));
 /* - Example Express Rest API endpoints -
   app.get('/api/**', (req, res) => { });
 */
+/* Redirect http to https */
+app.get('*', function(req,res,next) {
+  if(req.headers['x-forwarded-proto'] != 'https')
+  {
+    res.redirect('https://'+req.hostname+req.url)
+  } else
+    next() /* Continue to other routes if we're not redirecting */
+});
+
+
 // Server static files from /browser
 app.get('*.*', express.static(join(DIST_FOLDER, 'browser'), {
   maxAge: '1y'
 }));
 
 // ALl regular routes use the Universal engine
-app.get('*', (req, res) => {
+app.get('*', (req, res, next) => {
   res.render('index', { req });
 });
 

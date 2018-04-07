@@ -10,8 +10,8 @@ export class WebpImgDirective implements OnInit {
   constructor(private el: ElementRef) { }
 
   public ngOnInit() {
-    // if code is at server level, the window obj will be null and default to supportWebP.
-    let supportWebP = !window || (<any>window).supportsWebP === true
+    // if code is at server level, set supportWebP to false
+    let supportWebP = typeof(window) !== "undefined" && (<any>window).supportsWebP;
     if (supportWebP) {
       this.el.nativeElement.setAttribute('src', this.webpSrc);
     }

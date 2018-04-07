@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
 
   constructor(private router: Router) {
     this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd && ga) {
+      if (event instanceof NavigationEnd && typeof(ga) !== "undefined") {
         ga('set', 'page', event.urlAfterRedirects);
         ga('send', 'pageview');
       }
@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   }
 
   public ngOnInit() {
-    if (document) {
+    if (typeof(document) !== "undefined") {
       this.ham = document.querySelector('#hamburger');
     }
   }

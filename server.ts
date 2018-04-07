@@ -3,6 +3,7 @@ import 'reflect-metadata';
 import { renderModuleFactory } from '@angular/platform-server';
 import { enableProdMode } from '@angular/core';
 
+import * as compression from 'compression';
 import * as express from 'express';
 import { join } from 'path';
 import { readFileSync } from 'fs';
@@ -50,6 +51,8 @@ app.get('*', function(req,res,next) {
     next() /* Continue to other routes if we're not redirecting */
 });
 
+// Gzip
+app.use(compression());
 
 // Server static files from /browser
 app.get('*.*', express.static(join(DIST_FOLDER, 'browser'), {

@@ -2,7 +2,7 @@
   <div class="thumb" [@thumbTrigger]='state' (mouseover)="mouseOver()"
     (mouseleave)="mouseLeave()" style="outline: none;">
     <div (click)='onProjectImgClicked()' class="thumb-image">
-        <img [src]='defaultIndexImage' [attr.aria-label]="project.englishName + ' | ' + project.chineseName"/>
+        <img [src]='imageSrc' [attr.aria-label]="project.englishName + ' | ' + project.chineseName"/>
     </div>
 
     <div class="thumb-title">

@@ -42,8 +42,12 @@ export class ProjectThumbnailComponent implements OnInit {
   }
 
   public ngOnInit() {
-    this.defaultIndexImage = `https:${this.project.image.url}`;
-    this.webPIndexImage = `${environment.assetUrl}/assets/projects/${this.project.name}/index.webp`;
+    let supportWebP = typeof(window) === "undefined" || (<any>window).supportsWebP;
+    if (supportWebP) {
+      this.imageSrc = `${environment.assetUrl}/assets/projects/${this.project.name}/index.webp`;
+    } else {
+      this.imageSrc = `https:${this.project.image.url}`;
+    }
   }
 
   public mouseOver() {

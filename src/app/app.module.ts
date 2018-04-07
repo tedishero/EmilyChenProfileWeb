@@ -10,7 +10,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatListModule, MatSidenavModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { NavbarComponent, NavbarMobileComponent } from './navbar/index';
-import { WebPImgModule } from './shared/directives/webp-img/webp-img.module';
 import { ProjectFilterService } from './project/shared/project-filter.service';
 import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact/contact.component';
@@ -34,7 +33,6 @@ import { environment } from '../environments/environment';
     HttpClientModule,
     FlexLayoutModule,
     appRoutes,
-    WebPImgModule
   ],
   providers: [
     ProjectFilterService

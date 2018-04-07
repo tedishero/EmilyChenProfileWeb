@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { LazyLoadImageModule } from 'ng-lazyload-image';
-import { WebPImgModule } from '../shared/directives/webp-img/webp-img.module';
 
 import { ProjectListComponent } from './project-list/project-list.component';
 import { ProjectThumbnailComponent } from './project-list/project-thumbnail.component';
@@ -25,7 +24,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
         ProjectRouterModule,
         LazyLoadImageModule,
         FlexLayoutModule,
-        WebPImgModule
     ],
     declarations: [
         ProjectListComponent,

@@ -14,7 +14,6 @@ import { environment } from '../../../environments/environment';
 })
 
 export class ProjectDetailComponent implements OnInit {
-  supportWebP: boolean;
   project: ProjectLite;
   popupImages: any[] = [];
   constructor(
@@ -89,13 +88,14 @@ export class ProjectDetailComponent implements OnInit {
 
     this.setMetaTags();
 
-    this.supportWebP = !window || (<any>window).supportsWebP === true
     this.projectFilterService.filter(NaN);
   }
 
   public compressedDetailImage(projectImg: ProjectImage): string {
     let fileNamePrefix = projectImg.fileName.split('.')[0];
-    if (this.supportWebP) {
+
+    let supportWebP = typeof(window) === "undefined" || (<any>window).supportsWebP;
+    if (supportWebP) {
       return `${environment.assetUrl}/assets/projects/${this.project.name}/compressed/${fileNamePrefix}.webp`;
     }
     else {
@@ -104,7 +104,8 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   public detailImage(projectImg: ProjectImage): string {
-    if (this.supportWebP) {
+    let supportWebP = typeof(window) === "undefined" || (<any>window).supportsWebP;
+    if (supportWebP) {
       let fileNamePrefix = projectImg.fileName.split('.')[0];
       return `${environment.assetUrl}/assets/projects/${this.project.name}/${fileNamePrefix}.webp`;
     }

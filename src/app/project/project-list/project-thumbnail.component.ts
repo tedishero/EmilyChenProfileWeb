@@ -54,7 +54,6 @@ export class ProjectThumbnailComponent implements OnInit {
     this.state = 'offThumb';
   }
 
-
   public onProjectImgClicked() {
     if (ga) {
 

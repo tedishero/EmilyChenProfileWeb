@@ -32,11 +32,9 @@ export class ProjectService {
     let res: Observable<any[]>;
 
     if (this.tstate.hasKey(resultKey)) {
-      console.log('fetching data from state store');
       res = Observable.of(this.tstate.get<any[]>(resultKey, null));
 
     } else if (this.isServer) {
-      console.log('fetching data on server side');
       this.tstate.onSerialize(resultKey, () => this.result);
       let contentfulPromise: Promise<EntryCollection<any>> = this.client.getEntries({
         content_type: 'collage',
@@ -46,7 +44,16 @@ export class ProjectService {
       });
   
       res = Observable.fromPromise(contentfulPromise).map(data => data.items).do(result => this.result = result).share();
-    } 
+    } else {
+      let contentfulPromise: Promise<EntryCollection<any>> = this.client.getEntries({
+        content_type: 'collage',
+        select: 'fields.collage',
+        include: 3,
+        locale: '*'
+      });
+  
+      res = Observable.fromPromise(contentfulPromise).map(data => data.items).do(result => this.result = result).share();
+    }
 
     res.subscribe(data => {
       this.collages = data;

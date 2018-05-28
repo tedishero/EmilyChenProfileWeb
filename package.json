@@ -43,20 +43,21 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "request": "^2.81.0",
-    "tape": "^4.7.0",
     "@angular/cli": "^1.5.0",
     "@angular/compiler-cli": "5.1.1",
     "@angular/language-service": "5.1.1",
-    "@types/node": "^8.0.30",
+    "@types/google.analytics": "0.0.35",
     "@types/jasmine": "^2.5.46",
     "@types/jasminewd2": "~2.0.2",
-    "@types/google.analytics": "0.0.35",
+    "@types/node": "^8.0.30",
     "cpy-cli": "^1.0.1",
     "express": "^4.15.2",
     "http-server": "^0.10.0",
     "reflect-metadata": "^0.1.10",
+    "request": "^2.81.0",
+    "tape": "^4.7.0",
     "ts-loader": "^2.3.7",
+    "tslint": "^5.10.0",
     "typescript": "~2.4.2"
   },
   "repository": {

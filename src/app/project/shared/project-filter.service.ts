@@ -1,13 +1,15 @@
-import { Injectable, EventEmitter } from '@angular/core';
-import { Router } from '@angular/router';
-import { Observable } from 'rxjs/Observable';
-import { Categories } from '../shared/model';
+import { Injectable, EventEmitter } from "@angular/core";
+import { Router } from "@angular/router";
+import { Observable } from "rxjs";
+import { Categories } from "../shared/model";
 
 @Injectable()
 export class ProjectFilterService {
-  private onFilterChanged: EventEmitter<Categories> = new EventEmitter<Categories>();
-  constructor(
-    private router: Router) { }
+  private onFilterChanged: EventEmitter<Categories> = new EventEmitter<
+    Categories
+  >();
+
+  constructor(private router: Router) {}
 
   filter(category: Categories) {
     this.onFilterChanged.emit(category);
@@ -16,5 +18,4 @@ export class ProjectFilterService {
   filterChanged(): Observable<Categories> {
     return this.onFilterChanged.asObservable();
   }
-
 }

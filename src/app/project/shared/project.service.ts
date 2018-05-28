@@ -1,14 +1,17 @@
-import { Injectable, PLATFORM_ID, Inject } from '@angular/core';
-import { TransferState, makeStateKey } from '@angular/platform-browser';
-import { isPlatformServer } from '@angular/common';
+import { Injectable, PLATFORM_ID, Inject } from "@angular/core";
+import { TransferState, makeStateKey } from "@angular/platform-browser";
+import { isPlatformServer } from "@angular/common";
 
-import { Categories, ProjectLite, ContentfulCollageResponse, ContentfulProjectResponse } from './model';
-import { createClient, ContentfulClientApi, EntryCollection } from 'contentful';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/fromPromise';
-import 'rxjs/add/operator/share';
-import 'rxjs/add/operator/map';
-import { environment } from '../../../environments/environment';
+import {
+  Categories,
+  ProjectLite,
+  ContentfulCollageResponse,
+  ContentfulProjectResponse
+} from "./model";
+import { createClient, ContentfulClientApi, EntryCollection } from "contentful";
+import { Observable, from, of } from "rxjs";
+import { share, map, tap } from "rxjs/operators";
+import { environment } from "../../../environments/environment";
 
 @Injectable()
 export class ProjectService {
@@ -28,31 +31,42 @@ export class ProjectService {
   }
 
   public init(): Observable<any> {
-    let resultKey = makeStateKey<string>('all-projects');
+    let resultKey = makeStateKey<string>("all-projects");
     let res: Observable<any[]>;
 
     if (this.tstate.hasKey(resultKey)) {
-      res = Observable.of(this.tstate.get<any[]>(resultKey, null));
-
+      res = of(this.tstate.get<any[]>(resultKey, null));
     } else if (this.isServer) {
       this.tstate.onSerialize(resultKey, () => this.result);
-      let contentfulPromise: Promise<EntryCollection<any>> = this.client.getEntries({
-        content_type: 'collage',
-        select: 'fields.collage',
+      let contentfulPromise: Promise<
+        EntryCollection<any>
+      > = this.client.getEntries({
+        content_type: "collage",
+        select: "fields.collage",
         include: 3,
-        locale: '*'
+        locale: "*"
       });
-  
-      res = Observable.fromPromise(contentfulPromise).map(data => data.items).do(result => this.result = result).share();
+
+      res = from(contentfulPromise).pipe(
+        map(data => data.items),
+        tap(result => (this.result = result)),
+        share()
+      );
     } else {
-      let contentfulPromise: Promise<EntryCollection<any>> = this.client.getEntries({
-        content_type: 'collage',
-        select: 'fields.collage',
+      let contentfulPromise: Promise<
+        EntryCollection<any>
+      > = this.client.getEntries({
+        content_type: "collage",
+        select: "fields.collage",
         include: 3,
-        locale: '*'
+        locale: "*"
       });
-  
-      res = Observable.fromPromise(contentfulPromise).map(data => data.items).do(result => this.result = result).share();
+
+      res = from(contentfulPromise).pipe(
+        map(data => data.items),
+        tap(result => (this.result = result)),
+        share()
+      );
     }
 
     res.subscribe(data => {
@@ -64,7 +78,8 @@ export class ProjectService {
 
   get(name: string): Observable<any> {
     if (this.collages) {
-      let projects: ContentfulProjectResponse[] = this.collages[0].fields.collage["en-US"];
+      let projects: ContentfulProjectResponse[] = this.collages[0].fields
+        .collage["en-US"];
       let result = undefined;
       for (var j = 0; j < projects.length; j++) {
         if (projects[j].fields.folderName["en-US"] === name) {
@@ -72,11 +87,11 @@ export class ProjectService {
           break;
         }
       }
-      return Observable.of(result);
+      return of(result);
     }
   }
 
   query(): Observable<any> {
-    return Observable.of(this.collages);
+    return of(this.collages);
   }
 }

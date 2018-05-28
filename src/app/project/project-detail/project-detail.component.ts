@@ -47,7 +47,11 @@ const PhotoSwipeUI_Default = function(pswp, framework) {
       {
         id: 'facebook',
         label: 'Share on Facebook',
-        url: 'https://www.facebook.com/sharer/sharer.php?u={{url}}'
+        url: `https://www.facebook.com/dialog/feed?
+          app_id=145634995501895
+          &display=popup&amp;caption={{text}} 
+          &link={{url}}
+          &redirect_uri=https://developers.facebook.com/tools/explorer`
       },
       {
         id: 'twitter',

@@ -16,27 +16,19 @@ import { ContactComponent } from './contact/contact.component';
 import { environment } from '../environments/environment';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    HeaderComponent,
-    NavbarMobileComponent,
-    ContactComponent,
-  ],
+  declarations: [AppComponent, NavbarComponent, HeaderComponent, NavbarMobileComponent, ContactComponent],
   imports: [
-    BrowserModule.withServerTransition({appId: 'my-app'}),
+    BrowserModule.withServerTransition({ appId: 'my-app' }),
     BrowserTransferStateModule,
-    environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : [],
+    // environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : [],
     BrowserAnimationsModule,
-    MatListModule, 
-    MatSidenavModule, 
+    MatListModule,
+    MatSidenavModule,
     HttpClientModule,
     FlexLayoutModule,
-    appRoutes,
+    appRoutes
   ],
-  providers: [
-    ProjectFilterService
-  ],
+  providers: [ProjectFilterService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

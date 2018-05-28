@@ -1,70 +1,70 @@
-import { Component, OnInit } from "@angular/core";
-import { Navigation, Categories } from "./project/shared/model";
-import { Router, NavigationEnd } from "@angular/router";
-import { Meta, Title } from "@angular/platform-browser";
+import { Component, OnInit } from '@angular/core';
+import { Navigation, Categories } from './project/shared/model';
+import { Router, NavigationEnd } from '@angular/router';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
-  selector: "app-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
   private ham: any;
 
   constructor(private router: Router) {
     this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd && typeof ga !== "undefined") {
-        ga("set", "page", event.urlAfterRedirects);
-        ga("send", "pageview");
+      if (event instanceof NavigationEnd && typeof ga !== 'undefined') {
+        ga('set', 'page', event.urlAfterRedirects);
+        ga('send', 'pageview');
       }
     });
   }
 
   public ngOnInit() {
-    if (typeof document !== "undefined") {
-      this.ham = document.querySelector("#hamburger");
+    if (typeof document !== 'undefined') {
+      this.ham = document.querySelector('#hamburger');
     }
   }
 
   public onOpenStart() {
     if (this.ham) {
-      this.ham.classList.add("is-active");
+      this.ham.classList.add('is-active');
     }
   }
 
   public onCloseStart() {
     if (this.ham) {
-      this.ham.classList.remove("is-active");
+      this.ham.classList.remove('is-active');
     }
   }
 
   navItems: Navigation[] = [
     {
-      name: "All",
+      name: 'All',
       filter: Categories.All
     },
     {
-      name: "Editorial",
+      name: 'Editorial',
       filter: Categories.Editorial
     },
     {
-      name: "Exhibition",
+      name: 'Exhibition',
       filter: Categories.Exhibition
     },
     {
-      name: "Graphic",
+      name: 'Graphic',
       filter: Categories.Graphic
     },
     {
-      name: "Identity",
+      name: 'Identity',
       filter: Categories.Identity
     },
     {
-      name: "Package",
+      name: 'Package',
       filter: Categories.Package
     },
     {
-      name: "Contact",
+      name: 'Contact',
       filter: Categories.Contact
     }
   ];

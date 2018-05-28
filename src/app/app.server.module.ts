@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   imports: [
+    // Flex layout server module helps keep styles the same between server & client
     FlexLayoutServerModule,
     // The AppServerModule should import your AppModule followed
     // by the ServerModule from @angular/platform-server.

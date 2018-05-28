@@ -44,9 +44,9 @@ app.set('views', join(DIST_FOLDER, 'browser'));
   app.get('/api/**', (req, res) => { });
 */
 /* Redirect http to https */
-if (PORT !== 4000) {
+if (process.env.PORT) {
   app.get('*', function(req, res, next) {
-    if (req.headers['x-forwarded-proto'] != 'https') {
+    if (req.headers['x-forwarded-proto'] !== 'https') {
       res.redirect('https://' + req.hostname + req.url);
     } else next(); /* Continue to other routes if we're not redirecting */
   });

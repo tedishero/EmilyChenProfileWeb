@@ -10,11 +10,10 @@ export class ProjectListPageDataResolver implements Resolve<ProjectListPageData>
   constructor(private ps: ProjectService) {}
 
   public resolve(route: ActivatedRouteSnapshot): Observable<ProjectListPageData> {
-    let res = zip(this.ps.query(), projects => {
+    return zip(this.ps.query(), projects => {
       return {
         data: projects[0]
       };
     });
-    return res;
   }
 }

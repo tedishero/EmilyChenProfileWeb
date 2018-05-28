@@ -9,13 +9,11 @@ export class ProjectDetailPageDataResolver implements Resolve<ProjectDetailPageD
   constructor(private ps: ProjectService) {}
 
   public resolve(route: ActivatedRouteSnapshot): Observable<ProjectDetailPageData> {
-    var projectName = route.params['name'];
-    let res: Observable<ProjectDetailPageData> = zip(this.ps.get(projectName), (projects: any) => {
+    const projectName = route.params['name'];
+    return zip(this.ps.get(projectName), (projects: any) => {
       return {
         data: projects
       };
     });
-
-    return res;
   }
 }

@@ -9,35 +9,6 @@ import { Meta, Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  private ham: any;
-
-  constructor(private router: Router) {
-    this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd && typeof ga !== 'undefined') {
-        ga('set', 'page', event.urlAfterRedirects);
-        ga('send', 'pageview');
-      }
-    });
-  }
-
-  public ngOnInit() {
-    if (typeof document !== 'undefined') {
-      this.ham = document.querySelector('#hamburger');
-    }
-  }
-
-  public onOpenStart() {
-    if (this.ham) {
-      this.ham.classList.add('is-active');
-    }
-  }
-
-  public onCloseStart() {
-    if (this.ham) {
-      this.ham.classList.remove('is-active');
-    }
-  }
-
   navItems: Navigation[] = [
     {
       name: 'All',
@@ -68,4 +39,32 @@ export class AppComponent implements OnInit {
       filter: Categories.Contact
     }
   ];
+  private ham: any;
+
+  constructor(private router: Router) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd && typeof ga !== 'undefined') {
+        ga('set', 'page', event.urlAfterRedirects);
+        ga('send', 'pageview');
+      }
+    });
+  }
+
+  public ngOnInit() {
+    if (typeof document !== 'undefined') {
+      this.ham = document.querySelector('#hamburger');
+    }
+  }
+
+  public onOpenStart() {
+    if (this.ham) {
+      this.ham.classList.add('is-active');
+    }
+  }
+
+  public onCloseStart() {
+    if (this.ham) {
+      this.ham.classList.remove('is-active');
+    }
+  }
 }

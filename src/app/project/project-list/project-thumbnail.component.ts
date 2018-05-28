@@ -1,12 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import {
-  trigger,
-  state,
-  style,
-  animate,
-  transition
-} from '@angular/animations';
+import { trigger, state, style, animate, transition } from '@angular/animations';
 import { ProjectLite } from '../shared/model';
 import { environment } from '../../../environments/environment';
 
@@ -16,18 +10,22 @@ import { environment } from '../../../environments/environment';
   styleUrls: ['./project-thumbnail.component.css'],
   animations: [
     trigger('thumbTrigger', [
-      state('onThumb', style({
-        opacity: '0.33'
-      })),
-      state('offThumb', style({
-        opacity: '1'
-      })),
+      state(
+        'onThumb',
+        style({
+          opacity: '0.33'
+        })
+      ),
+      state(
+        'offThumb',
+        style({
+          opacity: '1'
+        })
+      ),
       transition('offThumb <=> onThumb', animate('500ms 0s ease-out'))
-
     ])
   ]
 })
-
 export class ProjectThumbnailComponent implements OnInit {
   state = 'offThumb';
   imageSrc: string;
@@ -37,12 +35,10 @@ export class ProjectThumbnailComponent implements OnInit {
 
   @Input() project: ProjectLite;
 
-  constructor(private router: Router) {
-
-  }
+  constructor(private router: Router) {}
 
   public ngOnInit() {
-    let supportWebP = typeof(window) === "undefined" || (<any>window).supportsWebP;
+    const supportWebP = typeof window === 'undefined' || (<any>window).supportsWebP;
     if (supportWebP) {
       this.imageSrc = `${environment.assetUrl}/assets/projects/${this.project.name}/index.webp`;
     } else {
@@ -60,7 +56,6 @@ export class ProjectThumbnailComponent implements OnInit {
 
   public onProjectImgClicked() {
     if (ga) {
-
       ga('send', {
         hitType: 'event',
         eventCategory: 'Project Image',
@@ -69,6 +64,4 @@ export class ProjectThumbnailComponent implements OnInit {
       });
     }
   }
-
-
 }

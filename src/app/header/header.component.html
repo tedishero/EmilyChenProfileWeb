@@ -1,24 +1,14 @@
-<div class="header" id='header-regular'>
-  <div fxLayout="row" class="toolbar-container">
+<div class="ec-header">
+  <div fxLayout="row">
     <span fxFlex="8"></span>
     <div fxFlex>
-      <a [routerLink]="['/projects']" class="toolbar-header-logo">
-        <img webpImg webpSrc='assets/index_name.webp' defaultSrc='assets/index_name.png' />
+      <a [routerLink]="['/projects']" class="ec-header-logo">
+        <img [src]='logoImgSrc()' />
       </a>
     </div>
     <span fxFlex="8"></span>
   </div>
 
-  <!--TODO: email is going to go to the [contact] page -->
-  <!--<div fxLayout="row" class="toolbar-container" style="margin-top: -5px">
-    <span fxFlex="8"></span>
-    <div fxFlex>
-      <address class="toolbar-text toolbar-email">
-        <a href="mailto:chen.emily8339@gmail.com">chen.emily8339@gmail.com</a>
-      </address>
-    </div>
-    <span fxFlex="8"></span>
-  </div>-->
 </div>
 
 <div fxLayout="column" style="height: 60px">
@@ -29,6 +19,6 @@
   </div>
 
   <a [routerLink]="['/projects']">
-    <img webpImg webpSrc='assets/index_name.webp' defaultSrc='assets/index_name.png' class="header-logo-mobile" />
+    <img [src]='logoImgSrc()' class="ec-header-logo-mobile" />
   </a>
 </div>

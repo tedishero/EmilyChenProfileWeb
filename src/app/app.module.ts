@@ -12,6 +12,7 @@ import { MatSidenavModule } from '@angular/material';
 import { appRoutes } from './app.routes';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 // Componets
 import { AppComponent } from './app.component';
@@ -49,6 +50,11 @@ import { NavigationEffects } from './shared/effects/navigation.effects';
 		appRoutes,
 		StoreModule.forRoot({
 			navigations: navigationReducer
+		}),
+		// Instrumentation must be imported after importing StoreModule (config is optional)
+		StoreDevtoolsModule.instrument({
+			maxAge: 25, // Retains last 25 states
+			logOnly: environment.production // Restrict extension to log-only mode
 		}),
 		EffectsModule.forRoot([NavigationEffects])
 	],

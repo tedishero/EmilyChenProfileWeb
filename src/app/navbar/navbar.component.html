@@ -1,6 +1,6 @@
 <div class="ec-nav-container">
   <span>
-    <div *ngFor="let navItem of navigationItems">
+    <div *ngFor="let navItem of navigations$ | async">
       <a (click)="filter(navItem.filter)" [ngClass]="{'ec-nav-active-link': isActive(navItem.filter)}">{{navItem.name}}</a>
     </div>
   </span>

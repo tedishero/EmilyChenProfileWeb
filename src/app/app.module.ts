@@ -10,6 +10,8 @@ import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatSidenavModule } from '@angular/material';
 import { appRoutes } from './app.routes';
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
 
 // Componets
 import { AppComponent } from './app.component';
@@ -24,6 +26,8 @@ import { ProjectFilterService } from './project/shared/project-filter.service';
 
 // General
 import { environment } from '../environments/environment';
+import { navigationReducer } from './shared/reducers/navigation.reducer';
+import { NavigationEffects } from './shared/effects/navigation.effects';
 
 @NgModule({
 	declarations: [
@@ -42,7 +46,11 @@ import { environment } from '../environments/environment';
 		MatSidenavModule,
 		HttpClientModule,
 		FlexLayoutModule,
-		appRoutes
+		appRoutes,
+		StoreModule.forRoot({
+			navigations: navigationReducer
+		}),
+		EffectsModule.forRoot([NavigationEffects])
 	],
 	providers: [ProjectFilterService],
 	bootstrap: [AppComponent]

@@ -3,29 +3,36 @@ import { Categories, Navigation } from '../project/shared/model';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-navbar-mobile',
-  templateUrl: './navbar-mobile.component.html',
-  styleUrls: ['./navbar-mobile.component.scss']
+	selector: 'app-navbar-mobile',
+	templateUrl: './navbar-mobile.component.html',
+	styleUrls: ['./navbar-mobile.component.scss']
 })
 export class NavbarMobileComponent {
-  @Input() navigationItems: Navigation;
-  @Output() navItemSelected: EventEmitter<any> = new EventEmitter();
+	@Input() navigationItems: Navigation[];
+	@Output() navItemSelected: EventEmitter<any> = new EventEmitter();
 
-  constructor(private router: Router) { }
+	constructor(private router: Router) {}
 
-  filter(category: Categories) {
-    ga('send', {
-      hitType: 'event',
-      eventCategory: 'Navigation - Mobile',
-      eventAction: 'Click',
-      eventLabel: category
-    });
-    if (category === Categories.Contact) {
-      this.router.navigate(['/contact']);
-    } else {
-      this.router.navigate(['/projects'], { queryParams: { category: category } });
-    }
+	filter(category: Categories) {
+		this.logNavigation(category);
+		this.navigateToPage(category);
+		this.navItemSelected.emit();
+	}
 
-    this.navItemSelected.emit();
-  }
+	logNavigation(category: Categories) {
+		ga('send', {
+			hitType: 'event',
+			eventCategory: 'Navigation - Mobile',
+			eventAction: 'Click',
+			eventLabel: category
+		});
+	}
+
+	navigateToPage(category: Categories) {
+		if (category === Categories.Contact) {
+			this.router.navigate(['/contact']);
+		} else {
+			this.router.navigate(['/projects'], { queryParams: { category: category } });
+		}
+	}
 }

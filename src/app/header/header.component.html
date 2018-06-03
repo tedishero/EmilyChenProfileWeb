@@ -3,7 +3,7 @@
     <span fxFlex="8"></span>
     <div fxFlex>
       <a [routerLink]="['/projects']" class="ec-header-logo">
-        <img [src]='logoImgSrc()' />
+        <img webpImage defaultSrc='assets/index_name.png' webpSrc='assets/index_name.webp' />
       </a>
     </div>
     <span fxFlex="8"></span>
@@ -19,6 +19,6 @@
   </div>
 
   <a [routerLink]="['/projects']">
-    <img [src]='logoImgSrc()' class="ec-header-logo-mobile" />
+    <img webpImage defaultSrc='assets/index_name.png' webpSrc='assets/index_name.webp' class="ec-header-logo-mobile" />
   </a>
 </div>

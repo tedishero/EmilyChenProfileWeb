@@ -1,17 +1,10 @@
-<!-- <mat-list>
-  <h3 mat-subheader>Filters</h3>
-  <mat-list-item *ngFor="let navItem of navigationItems">
-    <button mat-button (click)="filter(navItem.filter)">{{navItem.name}}</button>
-  </mat-list-item>
-</mat-list> -->
-
 <div id="full-screen-nav" class="panel">
-    <nav id="nav">
-      <ul>
-        <li *ngFor="let navItem of navigationItems" (click)="filter(navItem.filter)">
-          <a >{{navItem.name}}
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <nav id="nav">
+    <ul>
+      <li *ngFor="let navItem of navigationItems" (click)="filter(navItem.filter)">
+        <a>{{navItem.name}}
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>

@@ -12,3 +12,5 @@ export class LoadProjectsSuccessAction {
 	readonly type = LOAD_PROJECTS_SUCCESS;
 	constructor(public payload: ProjectLite[]) {}
 }
+
+export type Action = LoadProjectsAction | LoadProjectsSuccessAction;

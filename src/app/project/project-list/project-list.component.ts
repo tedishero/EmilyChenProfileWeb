@@ -33,10 +33,11 @@ export class ProjectListComponent implements OnInit {
 				images: c.fields.images['en-US'].map(img => {
 					return {
 						url: img.fields.file['en-US'].url,
-						width: img.fields.file['en-US'].details.image.width,
-						height: img.fields.file['en-US'].details.image.height,
+						width: img.fields.file['en-US'].details.image ? img.fields.file['en-US'].details.image.width : undefined,
+						height: img.fields.file['en-US'].details.image ? img.fields.file['en-US'].details.image.height : undefined,
 						title: img.fields.title['en-US'],
-						fileName: img.fields.file['en-US'].fileName
+						fileName: img.fields.file['en-US'].fileName,
+						contentType: img.fields.file['en-US'].contentType
 					};
 				}),
 				image: {

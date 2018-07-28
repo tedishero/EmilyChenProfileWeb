@@ -9,6 +9,36 @@ import { Meta, Title } from '@angular/platform-browser';
 	styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+	navItems: Navigation[] = [
+		{
+			name: 'All',
+			filter: Categories.All
+		},
+		{
+			name: 'Editorial',
+			filter: Categories.Editorial
+		},
+		{
+			name: 'Exhibition',
+			filter: Categories.Exhibition
+		},
+		{
+			name: 'Graphic',
+			filter: Categories.Graphic
+		},
+		{
+			name: 'Identity',
+			filter: Categories.Identity
+		},
+		{
+			name: 'Package',
+			filter: Categories.Package
+		},
+		{
+			name: 'Contact',
+			filter: Categories.Contact
+		}
+	];
 	private ham: any;
 
 	constructor(private router: Router) {

@@ -1,10 +1,10 @@
 <app-header (menuToggled)="sidenav.toggle()">
 </app-header>
-<app-navbar id='side-nav-desktop'></app-navbar>
+<app-navbar id='side-nav-desktop' [navigationItems]="navItems"></app-navbar>
 
 <mat-sidenav-container [ngClass]="{'app-fixed': sidenav.opened}">
     <mat-sidenav #sidenav mode="side" (openedStart)='onOpenStart()' (closedStart)='onCloseStart()'>
-        <app-navbar-mobile id='side-nav-mobile' (navItemSelected)="sidenav.toggle()"></app-navbar-mobile>
+        <app-navbar-mobile id='side-nav-mobile' [navigationItems]="navItems" (navItemSelected)="sidenav.toggle()"></app-navbar-mobile>
     </mat-sidenav>
     <router-outlet></router-outlet>
 </mat-sidenav-container>

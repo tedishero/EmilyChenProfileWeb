@@ -13,6 +13,7 @@
 			"@environments/*": ["environments/*"],
 			"@shared/*": ["app/shared/*"]
 		},
+		"baseUrl": "src",
 		"lib": ["es2017", "dom"]
 	}
 }

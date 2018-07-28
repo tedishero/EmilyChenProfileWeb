@@ -1,7 +1,5 @@
 // Angular
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule, BrowserTransferStateModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -10,9 +8,6 @@ import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatSidenavModule } from '@angular/material';
 import { appRoutes } from './app.routes';
-import { StoreModule } from '@ngrx/store';
-import { EffectsModule } from '@ngrx/effects';
-import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 // Componets
 import { AppComponent } from './app.component';
@@ -26,11 +21,6 @@ import { WebpImageDirective } from './shared/directives/webp-image.directive';
 import { ProjectFilterService } from './project/shared/project-filter.service';
 
 // General
-import { environment } from '../environments/environment';
-import { navigationReducer } from './shared/reducers/navigation.reducer';
-import { NavigationEffects } from './shared/effects/navigation.effects';
-import { ProjectEffects } from './shared/effects/project.effects';
-import { projectReducer } from './shared/reducers/project.reducer';
 
 @NgModule({
 	declarations: [
@@ -49,17 +39,7 @@ import { projectReducer } from './shared/reducers/project.reducer';
 		MatSidenavModule,
 		HttpClientModule,
 		FlexLayoutModule,
-		appRoutes,
-		StoreModule.forRoot({
-			navigations: navigationReducer,
-			projects: projectReducer
-		}),
-		// Instrumentation must be imported after importing StoreModule (config is optional)
-		StoreDevtoolsModule.instrument({
-			maxAge: 25, // Retains last 25 states
-			logOnly: environment.production // Restrict extension to log-only mode
-		}),
-		EffectsModule.forRoot([NavigationEffects, ProjectEffects])
+		appRoutes
 	],
 	providers: [ProjectFilterService],
 	bootstrap: [AppComponent]

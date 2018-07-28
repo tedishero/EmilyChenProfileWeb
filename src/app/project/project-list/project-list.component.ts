@@ -1,15 +1,9 @@
 import { Component, OnInit, AfterViewChecked } from '@angular/core';
 import { ProjectLite, Categories, ContentfulProjectResponse } from '../shared/model';
 import { ProjectFilterService } from '../shared/project-filter.service';
-import { ProjectService } from '../shared/project.service';
-import { ObservableMedia } from '@angular/flex-layout';
 import { ActivatedRoute } from '@angular/router';
 
 import { ProjectListPageData } from './project-list-page-data';
-import { Store } from '@ngrx/store';
-import { AppState } from '../../shared/models/app-state';
-import { Observable } from 'rxjs';
-import * as projectActions from '../../shared/actions/project.actions';
 
 @Component({
 	selector: 'app-gallery',
@@ -17,27 +11,12 @@ import * as projectActions from '../../shared/actions/project.actions';
 	styleUrls: ['./project-list.component.css']
 })
 export class ProjectListComponent implements OnInit {
-	public projects$: Observable<ProjectLite[]>;
-
 	public projects: ProjectLite[];
 	public projectsMaster: ProjectLite[];
 
-	constructor(
-		private projectService: ProjectService,
-		private projectFilterService: ProjectFilterService,
-		private route: ActivatedRoute,
-		private store: Store<AppState>
-	) {
-		this.projects$ = this.store.select(state => state.projects);
-		this.projects$.subscribe(x => {
-			console.log('projects loaded');
-			console.log(JSON.stringify(x));
-		});
-	}
+	constructor(private projectFilterService: ProjectFilterService, private route: ActivatedRoute) {}
 
 	public ngOnInit() {
-		this.getProjects();
-
 		const pageData: ProjectListPageData = this.route.snapshot.data['pageData'];
 
 		const collage: ContentfulProjectResponse[] = pageData.data.fields.collage['en-US'];
@@ -89,9 +68,5 @@ export class ProjectListComponent implements OnInit {
 			}
 			this.projectFilterService.filter(category);
 		});
-	}
-
-	private getProjects() {
-		this.store.dispatch(new projectActions.LoadProjectsAction());
 	}
 }

@@ -2,11 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Categories, Navigation } from '../project/shared/model';
 import { ProjectFilterService } from '../project/shared/project-filter.service';
 import { Router } from '@angular/router';
-import { Store } from '@ngrx/store';
-import { AppState } from '../shared/models/app-state';
 import { Observable } from 'rxjs';
-
-import * as navigationActions from '../shared/actions/navigation.actions';
 
 @Component({
 	selector: 'app-navbar',
@@ -14,26 +10,15 @@ import * as navigationActions from '../shared/actions/navigation.actions';
 	styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-	public navigations$: Observable<Navigation[]>;
 	private activeFilter: Categories;
+	@Input() navigationItems: Navigation;
 
-	constructor(
-		private router: Router,
-		private projectFilterService: ProjectFilterService,
-		private store: Store<AppState>
-	) {
-		this.navigations$ = this.store.select(state => state.navigations);
-	}
+	constructor(private router: Router, private projectFilterService: ProjectFilterService) {}
 
 	ngOnInit() {
-		this.getNavigations();
 		this.projectFilterService.filterChanged().subscribe((x: Categories) => {
 			this.activeFilter = x;
 		});
-	}
-
-	getNavigations() {
-		this.store.dispatch(new navigationActions.LoadNavigationAction());
 	}
 
 	filter(category: Categories) {

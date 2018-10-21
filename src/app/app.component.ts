@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
 	socialJson = {
 		'@context': 'http://schema.org',
 		'@type': 'Person',
-		name: 'your name',
+		name: 'Emily Chen',
 		url: 'https://www.emilygph.com',
 		sameAs: ['https://www.facebook.com/yiyun.chen2', 'https://www.linkedin.com/in/emily-chen-8a31b6112/']
 	};

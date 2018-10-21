@@ -934,7 +934,20 @@ export class ProjectDetailComponent implements OnInit {
 		this.detailJson.description = this.project.about;
 		this.detailJson.url = `https://www.emilygph.com/projects/${this.project.name}`;
 		this.detailJson.image = `https:${this.project.images[0].url}`;
-		this.detailJson.headlin = this.project.englishName;
+		this.detailJson.headline = this.project.englishName;
+		this.detailJson.datePublished = Date.now.toString();
+		this.detailJson.publisher = {
+			'@type': 'Organization',
+			name: 'Emily Chen Graphic Design',
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://www.emilygph.com/assets/index_name.png'
+			}
+		};
+		this.detailJson.mainEntityOfPage = {
+			'@type': 'WebPage',
+			'@id': `https://www.emilygph.com/projects/${this.project.name}`
+		};
 	}
 
 	public compressedDetailImage(projectImg: ProjectImage): string {

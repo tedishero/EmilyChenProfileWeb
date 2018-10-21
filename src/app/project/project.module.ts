@@ -17,25 +17,11 @@ import { ProjectRouterModule } from './project.routing.module';
 import { SafeResourceUrl } from '../shared/pipes/safeResourceUrl.pipe';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NgxJsonLdModule } from '@ngx-lite/json-ld';
 
 @NgModule({
-    imports: [
-        CommonModule,
-        ProjectRouterModule,
-        LazyLoadImageModule,
-        FlexLayoutModule,
-    ],
-    declarations: [
-        ProjectListComponent,
-        ProjectThumbnailComponent,
-        ProjectDetailComponent,
-        SafeResourceUrl
-    ],
-    providers: [
-        ProjectDetailPageDataResolver,
-        ProjectListPageDataResolver,
-        ProjectService,
-        CanActivateProject
-    ]
+	imports: [CommonModule, ProjectRouterModule, LazyLoadImageModule, FlexLayoutModule, NgxJsonLdModule],
+	declarations: [ProjectListComponent, ProjectThumbnailComponent, ProjectDetailComponent, SafeResourceUrl],
+	providers: [ProjectDetailPageDataResolver, ProjectListPageDataResolver, ProjectService, CanActivateProject]
 })
-export class ProjectModule { }
+export class ProjectModule {}

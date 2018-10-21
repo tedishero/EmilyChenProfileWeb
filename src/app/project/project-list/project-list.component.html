@@ -1,6 +1,7 @@
-<div class="projects-container" fxLayout="row" >
+<ngx-json-ld [json]='summaryJson'></ngx-json-ld>
+<div class="projects-container" fxLayout="row">
   <span fxFlex="8"></span>
-  <div fxFlex >
+  <div fxFlex>
     <ul class="flex-container wrap">
       <!-- <li *ngFor="let project of projects; let i = index;" [ngClass]="{'flex-item': !media.isActive('xs')}"> -->
       <li *ngFor="let project of projects; let i = index;" class="project-list-thumb-nail">

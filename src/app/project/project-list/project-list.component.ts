@@ -11,6 +11,11 @@ import { ProjectListPageData } from './project-list-page-data';
 	styleUrls: ['./project-list.component.css']
 })
 export class ProjectListComponent implements OnInit {
+	summaryJson = {
+		'@context': 'http://schema.org',
+		'@type': 'ItemList',
+		itemListElement: []
+	};
 	public projects: ProjectLite[];
 	public projectsMaster: ProjectLite[];
 
@@ -60,6 +65,7 @@ export class ProjectListComponent implements OnInit {
 			return proj;
 		});
 		this.projects = this.projectsMaster;
+		this.buildSummaryJson();
 		this.route.queryParams.subscribe(params => {
 			const category: number = +params['category'];
 			if (category > 0) {
@@ -69,5 +75,15 @@ export class ProjectListComponent implements OnInit {
 			}
 			this.projectFilterService.filter(category);
 		});
+	}
+
+	private buildSummaryJson() {
+		for (let i = 0; i < this.projectsMaster.length; i++) {
+			this.summaryJson.itemListElement.push({
+				'@type': 'ListItem',
+				position: i + 1,
+				url: `https://www.emilygph.com/projects/${this.projectsMaster[i].name}`
+			});
+		}
 	}
 }

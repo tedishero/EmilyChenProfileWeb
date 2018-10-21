@@ -1,3 +1,4 @@
+<ngx-json-ld [json]='detailJson'></ngx-json-ld>
 <div fxLayout="row" class="ec-page-container">
   <div fxFlex fxLayout="column" style="margin-top: 15px">
     <div fxLayout="column">
@@ -24,8 +25,8 @@
       <div *ngFor="let projectImg of project.images; let i = index" class="ec-page-content">
         <img *ngIf="projectImg.contentType.startsWith('image')" class="blur-image" (click)='onDetailImgClicked(projectImg.title)'
           [attr.aria-label]="projectImg.title" [attr.test-data]='projectImg.contentType' [defaultImage]="compressedDetailImage(projectImg)"
-          [lazyLoad]="detailImage(projectImg)" (click)="openImagePopUp(i)" [attr.id]="'project-detail-img-' + i" (onLoad)="onlazyImgLoad(i)"
-        />
+          [lazyLoad]="detailImage(projectImg)" (click)="openImagePopUp(i)" [attr.id]="'project-detail-img-' + i"
+          (onLoad)="onlazyImgLoad(i)" />
         <video *ngIf="projectImg.contentType.startsWith('video')" controls>
           <source [src]="projectImg.url" type="video/mp4">
         </video>

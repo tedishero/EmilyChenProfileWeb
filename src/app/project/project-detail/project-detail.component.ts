@@ -821,6 +821,10 @@ const PhotoSwipeUI_Default = function(pswp, framework) {
 	styleUrls: ['./project-detail.component.scss']
 })
 export class ProjectDetailComponent implements OnInit {
+	detailJson: any = {
+		'@context': 'http://schema.org',
+		'@type': 'Article'
+	};
 	project: ProjectLite;
 	popupImages: any[] = [];
 	constructor(
@@ -915,9 +919,22 @@ export class ProjectDetailComponent implements OnInit {
 			});
 		}
 
+		this.buildDetailJson();
 		this.setMetaTags();
 
 		this.projectFilterService.filter(NaN);
+	}
+
+	private buildDetailJson() {
+		this.detailJson.name = this.project.englishName;
+		this.detailJson.author = {
+			'@type': 'Person',
+			name: 'Emily Chen'
+		};
+		this.detailJson.description = this.project.about;
+		this.detailJson.url = `https://www.emilygph.com/projects/${this.project.name}`;
+		this.detailJson.image = `https:${this.project.images[0].url}`;
+		this.detailJson.headlin = this.project.englishName;
 	}
 
 	public compressedDetailImage(projectImg: ProjectImage): string {

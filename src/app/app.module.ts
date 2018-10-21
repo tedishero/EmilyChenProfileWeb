@@ -8,6 +8,7 @@ import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatSidenavModule } from '@angular/material';
 import { appRoutes } from './app.routes';
+import { NgxJsonLdModule } from '@ngx-lite/json-ld';
 
 // Componets
 import { AppComponent } from './app.component';
@@ -37,6 +38,7 @@ import { ProjectFilterService } from './project/shared/project-filter.service';
 		// environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : [],
 		BrowserAnimationsModule,
 		MatSidenavModule,
+		NgxJsonLdModule,
 		HttpClientModule,
 		FlexLayoutModule,
 		appRoutes

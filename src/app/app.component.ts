@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Navigation, Categories } from './project/shared/model';
 import { Router, NavigationEnd } from '@angular/router';
-import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
 	selector: 'app-root',
@@ -9,6 +8,24 @@ import { Meta, Title } from '@angular/platform-browser';
 	styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+	breadcrumbJson = {
+		'@context': 'http://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: []
+	};
+	logoJson = {
+		'@context': 'http://schema.org',
+		'@type': 'Organization',
+		url: 'https://www.emilygph.com',
+		logo: 'https://www.emilygph.com/assets/index_name.png'
+	};
+	socialJson = {
+		'@context': 'http://schema.org',
+		'@type': 'Person',
+		name: 'your name',
+		url: 'https://www.emilygph.com',
+		sameAs: ['https://www.facebook.com/yiyun.chen2', 'https://www.linkedin.com/in/emily-chen-8a31b6112/']
+	};
 	navItems: Navigation[] = [
 		{
 			name: 'All',
@@ -51,6 +68,15 @@ export class AppComponent implements OnInit {
 	}
 
 	public ngOnInit() {
+		for (let i = 0; i < this.navItems.length; i++) {
+			this.breadcrumbJson.itemListElement.push({
+				'@type': 'ListItem',
+				position: i + 1,
+				name: this.navItems[i].name,
+				item: 'https://www.emilygph.com/projects?category=' + i
+			});
+		}
+
 		if (typeof document !== 'undefined') {
 			this.ham = document.querySelector('#hamburger');
 		}

@@ -1,6 +1,5 @@
 import 'zone.js/dist/zone-node';
 import 'reflect-metadata';
-import { renderModuleFactory } from '@angular/platform-server';
 import { enableProdMode } from '@angular/core';
 
 import * as compression from 'compression';
@@ -17,11 +16,8 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 const DIST_FOLDER = join(process.cwd(), 'dist');
 
-// Our index.html we'll use as our template
-const template = readFileSync(join(DIST_FOLDER, 'browser', 'index.html')).toString();
-
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
-const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/main');
+const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./server/main');
 
 // Express Engine
 import { ngExpressEngine } from '@nguniversal/express-engine';
@@ -30,11 +26,11 @@ import { provideModuleMap } from '@nguniversal/module-map-ngfactory-loader';
 
 // Our Universal express-engine (found @ https://github.com/angular/universal/tree/master/modules/express-engine)
 app.engine(
-  'html',
-  ngExpressEngine({
-    bootstrap: AppServerModuleNgFactory,
-    providers: [provideModuleMap(LAZY_MODULE_MAP)]
-  })
+	'html',
+	ngExpressEngine({
+		bootstrap: AppServerModuleNgFactory,
+		providers: [provideModuleMap(LAZY_MODULE_MAP)]
+	})
 );
 
 app.set('view engine', 'html');
@@ -45,11 +41,11 @@ app.set('views', join(DIST_FOLDER, 'browser'));
 */
 /* Redirect http to https */
 if (process.env.PORT) {
-  app.get('*', function(req, res, next) {
-    if (req.headers['x-forwarded-proto'] !== 'https') {
-      res.redirect('https://' + req.hostname + req.url);
-    } else next(); /* Continue to other routes if we're not redirecting */
-  });
+	app.get('*', function(req, res, next) {
+		if (req.headers['x-forwarded-proto'] !== 'https') {
+			res.redirect('https://' + req.hostname + req.url);
+		} else next(); /* Continue to other routes if we're not redirecting */
+	});
 }
 
 // Gzip
@@ -57,18 +53,21 @@ app.use(compression());
 
 // Server static files from /browser
 app.get(
-  '*.*',
-  express.static(join(DIST_FOLDER, 'browser'), {
-    maxAge: '1y'
-  })
+	'*.*',
+	express.static(join(DIST_FOLDER, 'browser'), {
+		maxAge: '1y'
+	})
 );
 
 // ALl regular routes use the Universal engine
-app.get('*', (req, res, next) => {
-  res.render('index', { req });
-});
+app.get(
+	'*',
+	express.static(join(DIST_FOLDER, 'browser'), {
+		maxAge: '1y'
+	})
+);
 
 // Start up the Node server
 app.listen(PORT, () => {
-  console.log(`Node Express server listening on http://localhost:${PORT}`);
+	console.log(`Node Express server listening on http://localhost:${PORT}`);
 });

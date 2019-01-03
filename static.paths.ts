@@ -7,6 +7,7 @@ export const ROUTES = [
 	'/projects/taiwan-speed-rail-2013',
 	'/projects/lantern-festival-2018',
 	'/projects/lite-on',
+	'/projects/hot-chili-sauce',
 	'/projects/greater-taipei-biennial-of-contemporary-arts',
 	'/projects/tainan-sugar-factory',
 	'/projects/kimono',

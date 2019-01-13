@@ -4,6 +4,7 @@ export const ROUTES = [
 	'/contact',
 	'/projects/christea',
 	'/projects/reproducing-exquisite-artifacts',
+	'/projects/Kaohsiung-photo-2018',
 	'/projects/taiwan-speed-rail-2013',
 	'/projects/lantern-festival-2018',
 	'/projects/lite-on',
